@@ -1,0 +1,1403 @@
+.my-card {
+  background-image: url('@assets/images/mycard/card.webp') !important;
+  width: 280px;
+  height: 413px;
+  position: relative;
+  display: block;
+}
+
+.content-wrap .container .my-card-container .my-card {
+  background: var(--secondary-background-color);
+  padding: 20px 25px;
+  border-radius: 20px;
+  border: 4px solid var(--primary-background-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 340px !important;
+  height: 460px !important;
+}
+
+.my-card * {
+  line-height: 1.2 !important;
+}
+
+.my-card:hover {
+  transition: 0.2s;
+  transform: scale(1.05) translateZ(0);
+}
+
+.my-card.stroke-active {
+  background-image: url('@assets/images/mycard/card-stroke.webp');
+}
+
+.my-card .background-image {
+  width: 248px;
+  height: 333px;
+  margin-left: 16px;
+  margin-top: 59px;
+  position: absolute;
+  box-shadow: inset 0px -4px 32px rgba(15, 19, 33, 0.7),
+    inset 0px 180px 50px rgba(15, 19, 33, 0.95);
+  clip-path: polygon(50% 0%, 196% 32%, 50% 100%, -79% 40%);
+  background-size: 100% 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.my-card.green {
+  background-image: url('@assets/images/mycard/card-green.webp') !important;
+}
+
+.my-card.green.stroke-active {
+  background-image: url('@assets/images/mycard/card-green-stroke.webp') !important;
+}
+
+.my-card.purple {
+  background-image: url('@assets/images/mycard/card-purple.webp') !important;
+}
+
+.my-card.purple.stroke-active {
+  background-image: url('@assets/images/mycard/card-purple-stroke.webp') !important;
+}
+
+.my-card.gold {
+  background-image: url('@assets/images/mycard/card-gold.webp') !important;
+}
+
+.my-card.gold.stroke-active {
+  background-image: url('@assets/images/mycard/card-gold-stroke.webp') !important;
+}
+
+.my-card.silver {
+  background-image: url('@assets/images/mycard/card-silver.webp') !important;
+}
+
+.my-card.silver.stroke-active {
+  background-image: url('@assets/images/mycard/card-silver-stroke.webp') !important;
+}
+
+.my-card.red {
+  background-image: url('@assets/images/mycard/card-red.webp') !important;
+}
+
+.my-card.red.stroke-active {
+  background-image: url('@assets/images/mycard/card-red-stroke.webp') !important;
+}
+
+.my-card.blue {
+  background-image: url('@assets/images/mycard/card-blue.webp') !important;
+}
+
+.my-card.blue.stroke-active {
+  background-image: url('@assets/images/mycard/card-blue-stroke.webp') !important;
+}
+
+.my-card.turquoise {
+  background-image: url('@assets/images/mycard/card-turquoise.webp') !important;
+}
+
+.my-card.turquoise.stroke-active {
+  background-image: url('@assets/images/mycard/card-turquoise-stroke.webp') !important;
+}
+
+.my-card.orange {
+  background-image: url('@assets/images/mycard/card-orange.webp') !important;
+}
+
+.my-card.orange.stroke-active {
+  background-image: url('@assets/images/mycard/card-orange-stroke.webp') !important;
+}
+
+.my-card .avatar {
+  width: 150px;
+  height: 150px;
+  background-image: url('@assets/images/mycard/avatar.webp');
+  position: absolute;
+  border-radius: 100%;
+}
+
+.my-card .avatar .avatar-decor {
+  background-image: url('@assets/images/mycard/avatar decor-green.webp');
+  position: absolute;
+  width: 70px;
+  height: 49px;
+  top: 113px;
+  left: 68px;
+}
+
+.my-card .avatar.green {
+  background-image: url('@assets/images/mycard/avatar-green.webp');
+}
+
+.my-card .avatar.green .avatar-decor {
+  background-image: url('@assets/images/mycard/avatar decor-green.webp');
+}
+
+.my-card .avatar.purple {
+  background-image: url('@assets/images/mycard/avatar-purple.webp');
+}
+
+.my-card .avatar.purple .avatar-decor {
+  background-image: url('@assets/images/mycard/avatar decor-purple.webp');
+}
+
+.my-card .avatar.gold {
+  background-image: url('@assets/images/mycard/avatar-gold.webp');
+}
+
+.my-card .avatar.gold .avatar-decor {
+  background-image: url('@assets/images/mycard/avatar decor-gold.webp');
+}
+
+.my-card .avatar.silver {
+  background-image: url('@assets/images/mycard/avatar-silver.webp');
+}
+
+.my-card .avatar.silver .avatar-decor {
+  background-image: url('@assets/images/mycard/avatar decor-silver.webp');
+}
+
+.my-card .avatar.red {
+  background-image: url('@assets/images/mycard/avatar-red.webp');
+}
+
+.my-card .avatar.red .avatar-decor {
+  background-image: url('@assets/images/mycard/avatar decor-red.webp');
+}
+
+.my-card .avatar.blue {
+  background-image: url('@assets/images/mycard/avatar-blue.webp');
+}
+
+.my-card .avatar.blue .avatar-decor {
+  background-image: url('@assets/images/mycard/avatar decor-blue.webp');
+}
+
+.my-card .avatar.turquoise {
+  background-image: url('@assets/images/mycard/avatar-turquoise.webp');
+}
+
+.my-card .avatar.turquoise .avatar-decor {
+  background-image: url('@assets/images/mycard/avatar decor-turquoise.webp');
+}
+
+.my-card .avatar.orange {
+  background-image: url('@assets/images/mycard/avatar-orange.webp');
+}
+
+.my-card .avatar.orange .avatar-decor {
+  background-image: url('@assets/images/mycard/avatar decor-orange.webp');
+}
+
+.my-card .avatar.bronze {
+  background-image: url('@assets/images/mycard/avatar-orange.webp');
+}
+
+.my-card .avatar.bronze .avatar-decor {
+  background-image: url('@assets/images/mycard/avatar decor-orange.webp');
+}
+
+:root {
+  --size: 80px;
+  --s: calc(var(--size) / 6);
+  --bor: calc(var(--size) / 30);
+  --boxShadow: calc(var(--size) / 12);
+}
+
+.my-card .avatar.Fire .circle,
+.my-card .avatar.FirePurple .circle,
+.my-card .avatar.FireGold .circle,
+.my-card .avatar.FireSilver .circle,
+.my-card .avatar.FireRed .circle,
+.my-card .avatar.FireBlue .circle,
+.my-card .avatar.FireTurquoise .circle,
+.my-card .avatar.FireOrange .circle {
+  width: 180px;
+  height: 180px;
+  /* filter: url(#wavy) blur(1px); */
+  position: absolute;
+  top: -17px;
+  left: -14px;
+}
+
+.my-card .avatar.Fire .circle:before,
+.my-card .avatar.FirePurple .circle:before,
+.my-card .avatar.FireGold .circle:before,
+.my-card .avatar.FireSilver .circle:before,
+.my-card .avatar.FireRed .circle:before,
+.my-card .avatar.FireBlue .circle:before,
+.my-card .avatar.FireTurquoise .circle:before,
+.my-card .avatar.FireOrange .circle:before,
+.my-card .avatar.Fire .circle:after,
+.my-card .avatar.FirePurple .circle:after,
+.my-card .avatar.FireGold .circle:after,
+.my-card .avatar.FireSilver .circle:after,
+.my-card .avatar.FireRed .circle:after,
+.my-card .avatar.FireBlue .circle:after,
+.my-card .avatar.FireTurquoise .circle:after,
+.my-card .avatar.FireOrange .circle:after {
+  content: '';
+  position: absolute;
+  top: var(--s);
+  left: var(--s);
+  right: var(--s);
+  bottom: var(--s);
+  border-radius: 50%;
+  border: var(--bor) solid #fff;
+}
+
+.my-card .avatar.Fire .circle:before {
+  box-shadow: 0 0 var(--boxShadow) #6bc909, inset 0 0 var(--boxShadow) #6bc909;
+  animation: moveAvatar 5s linear infinite;
+}
+
+@keyframes moveAvatar {
+  0% {
+    box-shadow: 0 0 var(--boxShadow) #6bc909, inset 0 0 var(--boxShadow) #6bc909;
+  }
+  20% {
+    box-shadow: 0 0 20px #6bc909, inset 0 0 20px #6bc909;
+  }
+
+  40% {
+    box-shadow: 0 0 5px #6bc909, inset 0 0 5px #6bc909;
+  }
+  60% {
+    box-shadow: 0 0 15px #6bc909, inset 0 0 15px #6bc909;
+  }
+  80% {
+    box-shadow: 0 0 25px #6bc909, inset 0 0 25px #6bc909;
+  }
+  100% {
+    box-shadow: 0 0 var(--boxShadow) #6bc909, inset 0 0 var(--boxShadow) #6bc909;
+  }
+}
+
+.my-card .avatar.FirePurple .circle:before {
+  box-shadow: 0 0 var(--boxShadow) #e169ff, inset 0 0 var(--boxShadow) #e169ff;
+  animation: moveAvatarPurple 5s linear infinite;
+}
+
+@keyframes moveAvatarPurple {
+  0% {
+    box-shadow: 0 0 var(--boxShadow) #e169ff, inset 0 0 var(--boxShadow) #e169ff;
+  }
+  20% {
+    box-shadow: 0 0 20px #e169ff, inset 0 0 20px #e169ff;
+  }
+
+  40% {
+    box-shadow: 0 0 5px #e169ff, inset 0 0 5px #e169ff;
+  }
+  60% {
+    box-shadow: 0 0 15px #e169ff, inset 0 0 15px #e169ff;
+  }
+  80% {
+    box-shadow: 0 0 25px #e169ff, inset 0 0 25px #e169ff;
+  }
+  100% {
+    box-shadow: 0 0 var(--boxShadow) #e169ff, inset 0 0 var(--boxShadow) #e169ff;
+  }
+}
+
+.my-card .avatar.FireGold .circle:before {
+  box-shadow: 0 0 var(--boxShadow) gold, inset 0 0 var(--boxShadow) gold;
+  animation: moveAvatarGold 5s linear infinite;
+}
+
+@keyframes moveAvatarGold {
+  0% {
+    box-shadow: 0 0 var(--boxShadow) gold, inset 0 0 var(--boxShadow) gold;
+  }
+  20% {
+    box-shadow: 0 0 20px gold, inset 0 0 20px gold;
+  }
+
+  40% {
+    box-shadow: 0 0 5px gold, inset 0 0 5px gold;
+  }
+  60% {
+    box-shadow: 0 0 15px gold, inset 0 0 15px gold;
+  }
+  80% {
+    box-shadow: 0 0 25px gold, inset 0 0 25px gold;
+  }
+  100% {
+    box-shadow: 0 0 var(--boxShadow) gold, inset 0 0 var(--boxShadow) gold;
+  }
+}
+
+.my-card .avatar.FireSilver .circle:before {
+  box-shadow: 0 0 var(--boxShadow) silver, inset 0 0 var(--boxShadow) silver;
+  animation: moveAvatarSilver 5s linear infinite;
+}
+
+@keyframes moveAvatarSilver {
+  0% {
+    box-shadow: 0 0 var(--boxShadow) silver, inset 0 0 var(--boxShadow) silver;
+  }
+  20% {
+    box-shadow: 0 0 20px silver, inset 0 0 20px silver;
+  }
+
+  40% {
+    box-shadow: 0 0 5px silver, inset 0 0 5px silver;
+  }
+  60% {
+    box-shadow: 0 0 15px silver, inset 0 0 15px silver;
+  }
+  80% {
+    box-shadow: 0 0 25px silver, inset 0 0 25px silver;
+  }
+  100% {
+    box-shadow: 0 0 var(--boxShadow) silver, inset 0 0 var(--boxShadow) silver;
+  }
+}
+
+.my-card .avatar.FireRed .circle:before {
+  box-shadow: 0 0 var(--boxShadow) red, inset 0 0 var(--boxShadow) red;
+  animation: moveAvatarRed 5s linear infinite;
+}
+
+@keyframes moveAvatarRed {
+  0% {
+    box-shadow: 0 0 var(--boxShadow) red, inset 0 0 var(--boxShadow) red;
+  }
+  20% {
+    box-shadow: 0 0 20px red, inset 0 0 20px red;
+  }
+
+  40% {
+    box-shadow: 0 0 5px red, inset 0 0 5px red;
+  }
+  60% {
+    box-shadow: 0 0 15px red, inset 0 0 15px red;
+  }
+  80% {
+    box-shadow: 0 0 25px red, inset 0 0 25px red;
+  }
+  100% {
+    box-shadow: 0 0 var(--boxShadow) red, inset 0 0 var(--boxShadow) red;
+  }
+}
+
+.my-card .avatar.FireBlue .circle:before {
+  box-shadow: 0 0 var(--boxShadow) blue, inset 0 0 var(--boxShadow) blue;
+  animation: moveAvatarBlue 5s linear infinite;
+}
+
+@keyframes moveAvatarBlue {
+  0% {
+    box-shadow: 0 0 var(--boxShadow) blue, inset 0 0 var(--boxShadow) blue;
+  }
+  20% {
+    box-shadow: 0 0 20px blue, inset 0 0 20px blue;
+  }
+
+  40% {
+    box-shadow: 0 0 5px blue, inset 0 0 5px blue;
+  }
+  60% {
+    box-shadow: 0 0 15px blue, inset 0 0 15px blue;
+  }
+  80% {
+    box-shadow: 0 0 25px blue, inset 0 0 25px blue;
+  }
+  100% {
+    box-shadow: 0 0 var(--boxShadow) blue, inset 0 0 var(--boxShadow) blue;
+  }
+}
+
+.my-card .avatar.FireTurquoise .circle:before {
+  box-shadow: 0 0 var(--boxShadow) turquoise,
+    inset 0 0 var(--boxShadow) turquoise;
+  animation: moveAvatarTurquoise 5s linear infinite;
+}
+
+@keyframes moveAvatarTurquoise {
+  0% {
+    box-shadow: 0 0 var(--boxShadow) turquoise,
+      inset 0 0 var(--boxShadow) turquoise;
+  }
+  20% {
+    box-shadow: 0 0 20px turquoise, inset 0 0 20px turquoise;
+  }
+
+  40% {
+    box-shadow: 0 0 5px turquoise, inset 0 0 5px turquoise;
+  }
+  60% {
+    box-shadow: 0 0 15px turquoise, inset 0 0 15px turquoise;
+  }
+  80% {
+    box-shadow: 0 0 25px turquoise, inset 0 0 25px turquoise;
+  }
+  100% {
+    box-shadow: 0 0 var(--boxShadow) turquoise,
+      inset 0 0 var(--boxShadow) turquoise;
+  }
+}
+
+.my-card .avatar.FireOrange .circle:before {
+  box-shadow: 0 0 var(--boxShadow) #fca730, inset 0 0 var(--boxShadow) #fca730;
+  animation: moveAvatarOrange 5s linear infinite;
+}
+
+@keyframes moveAvatarOrange {
+  0% {
+    box-shadow: 0 0 var(--boxShadow) #fca730, inset 0 0 var(--boxShadow) #fca730;
+  }
+  20% {
+    box-shadow: 0 0 20px #fca730, inset 0 0 20px #fca730;
+  }
+
+  40% {
+    box-shadow: 0 0 5px #fca730, inset 0 0 5px #fca730;
+  }
+  60% {
+    box-shadow: 0 0 15px #fca730, inset 0 0 15px #fca730;
+  }
+  80% {
+    box-shadow: 0 0 25px #fca730, inset 0 0 25px #fca730;
+  }
+  100% {
+    box-shadow: 0 0 var(--boxShadow) #fca730, inset 0 0 var(--boxShadow) #fca730;
+  }
+}
+
+.my-card .avatar.Fire .circle:after,
+.my-card .avatar.FirePurple .circle:after,
+.my-card .avatar.FireGold .circle:after,
+.my-card .avatar.FireSilver .circle:after,
+.my-card .avatar.FireRed .circle:after,
+.my-card .avatar.FireBlue .circle:after,
+.my-card .avatar.FireTurquoise .circle:after,
+.my-card .avatar.FireOrange .circle:after {
+  box-shadow: 0 0 calc(var(--bor) / 2) #fff, inset 0 0 var(--bor) #fff;
+}
+
+.my-card .avatar.Fire svg.fire-icon,
+.my-card .avatar.FirePurple svg.fire-icon,
+.my-card .avatar.FireGold svg.fire-icon,
+.my-card .avatar.FireSilver svg.fire-icon,
+.my-card .avatar.FireRed svg.fire-icon,
+.my-card .avatar.FireBlue svg.fire-icon,
+.my-card .avatar.FireTurquoise svg.fire-icon,
+.my-card .avatar.FireOrange svg.fire-icon {
+  width: 0;
+  height: 0;
+}
+
+.my-card .player-image {
+  width: 135px;
+  height: 135px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.my-card .player-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'Rocher';
+  src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+@font-palette-values --Purples {
+  font-family: Rocher;
+  base-palette: 1;
+}
+
+.my-card .player-givenname-wrapper {
+  font-family: 'Rajdhani-regular';
+  display: flex;
+  margin-left: 35px;
+  padding-top: 165px;
+  gap: 5px;
+  font-weight: bold;
+  position: relative;
+  /* line-height: 16px; */
+  backface-visibility: hidden;
+  color: white;
+}
+
+.my-card .player-givenname-wrapper .player-givenname {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: gold;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.green {
+  color: #6bc909;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.purple {
+  color: #e169ff;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.gold {
+  color: gold;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.silver {
+  color: silver;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.red {
+  color: red;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.blue {
+  color: blue;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.turquoise {
+  color: turquoise;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.orange {
+  color: #fca730;
+}
+
+.my-card .player-surname-wrapper {
+  display: flex;
+  position: relative;
+  gap: 3px;
+}
+
+.my-card .player-surname-wrapper > img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.my-card .player-surname {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #6bc909;
+  margin-left: 35px;
+  position: relative;
+  text-align: left;
+  backface-visibility: hidden;
+}
+
+.my-card .player-surname.green {
+  color: #6bc909;
+}
+
+.my-card .player-surname.purple {
+  color: #e169ff;
+}
+
+.my-card .player-surname.gold {
+  color: gold;
+}
+
+.my-card .player-surname.silver {
+  color: silver;
+}
+
+.my-card .player-surname.red {
+  color: red;
+}
+
+.my-card .player-surname.blue {
+  color: blue;
+}
+
+.my-card .player-surname.turquoise {
+  color: turquoise;
+}
+
+.my-card .player-surname.orange {
+  color: #fca730;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.NeonGreen {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #6bc909, 0 0 21px #6bc909,
+    0 0 42px #6bc909, 0 0 82px #6bc909, 0 0 92px #6bc909, 0 0 102px #6bc909,
+    0 0 151px #6bc909;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.NeonPurple {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #e169ff, 0 0 21px #e169ff,
+    0 0 42px #e169ff, 0 0 82px #e169ff, 0 0 92px #e169ff, 0 0 102px #e169ff,
+    0 0 151px #e169ff;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.NeonGold {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px gold, 0 0 21px gold, 0 0 42px gold,
+    0 0 82px gold, 0 0 92px gold, 0 0 102px gold, 0 0 151px gold;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.NeonSilver {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px silver, 0 0 21px silver, 0 0 42px silver,
+    0 0 82px silver, 0 0 92px silver, 0 0 102px silver, 0 0 151px silver;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.NeonRed {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px red, 0 0 21px red, 0 0 42px red,
+    0 0 82px red, 0 0 92px red, 0 0 102px red, 0 0 151px red;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.NeonBlue {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px blue, 0 0 21px blue, 0 0 42px blue,
+    0 0 82px blue, 0 0 92px blue, 0 0 102px blue, 0 0 151px blue;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.NeonTurquoise {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px turquoise, 0 0 21px turquoise,
+    0 0 42px turquoise, 0 0 82px turquoise, 0 0 92px turquoise,
+    0 0 102px turquoise, 0 0 151px turquoise;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.NeonOrange {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fca730, 0 0 21px #fca730,
+    0 0 42px #fca730, 0 0 82px #fca730, 0 0 92px #fca730, 0 0 102px #fca730,
+    0 0 151px #fca730;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.Flame {
+  color: rgb(255, 115, 0);
+  text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange,
+    4px -5px 6px yellow, -4px -10px 10px yellow, 0 -10px 30px yellow;
+  animation: 2s Blazing infinite alternate linear;
+}
+
+.my-card .player-givenname-wrapper .player-givenname.Angle {
+  font-family: 'Rocher';
+  font-palette: --Purples;
+}
+
+.my-card .player-surname.NeonGreen {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #6bc909, 0 0 21px #6bc909,
+    0 0 42px #6bc909, 0 0 82px #6bc909;
+}
+
+.my-card .player-surname.NeonPurple {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #e169ff, 0 0 21px #e169ff,
+    0 0 42px #e169ff, 0 0 82px #e169ff;
+}
+
+.my-card .player-surname.NeonGold {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px gold, 0 0 21px gold, 0 0 42px gold,
+    0 0 82px gold;
+}
+
+.my-card .player-surname.NeonSilver {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px silver, 0 0 21px silver, 0 0 42px silver,
+    0 0 82px silver;
+}
+
+.my-card .player-surname.NeonRed {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px red, 0 0 21px red, 0 0 42px red,
+    0 0 82px red;
+}
+
+.my-card .player-surname.NeonBlue {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px blue, 0 0 21px blue, 0 0 42px blue,
+    0 0 82px blue;
+}
+
+.my-card .player-surname.NeonTurquoise {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px turquoise, 0 0 21px turquoise,
+    0 0 42px turquoise, 0 0 82px turquoise;
+}
+
+.my-card .player-surname.NeonOrange {
+  color: white;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fca730, 0 0 21px #fca730,
+    0 0 42px #fca730, 0 0 82px #fca730;
+}
+
+.my-card .player-surname.Flame {
+  color: rgb(255, 115, 0);
+  text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange,
+    4px -5px 6px yellow, -4px -10px 10px yellow, 0 -10px 30px yellow;
+  animation: 2s Blazing infinite alternate linear;
+}
+
+.my-card .player-surname.Angle {
+  font-family: 'Rocher';
+  font-palette: --Purples;
+}
+
+@keyframes Blazing {
+  0% {
+    text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange, 0 0 0 yellow,
+      0 0 5px yellow, -2px -5px 5px yellow, 4px -10px 10px yellow;
+  }
+  25% {
+    text-shadow: 0 3px 20px red, 0 0 30px red, 0 0 20px orange, 0 0 5px yellow,
+      -2px -5px 5px yellow, 3px -10px 10px yellow, -4px -15px 20px yellow;
+  }
+  50% {
+    text-shadow: 0 3px 20px red, 0 0 20px red, 0 -5px 10px orange,
+      -2px -5px 5px yellow, 3px -10px 10px yellow, -4px -15px 20px yellow,
+      2px -20px 30px rgba(255, 255, 0, 0.5);
+  }
+  75% {
+    text-shadow: 0 3px 20px red, 0 0 20px red, 0 -5px 10px orange,
+      3px -5px 5px yellow, -4px -10px 10px yellow,
+      2px -20px 30px rgba(255, 255, 0, 0.5), 0px -25px 40px rgba(255, 255, 0, 0);
+  }
+  100% {
+    text-shadow: 0 3px 20px red, 0 0 20px red, 0 0 10px orange, 0 0 0 yellow,
+      0 0 5px yellow, -2px -5px 5px yellow, 4px -10px 10px yellow;
+  }
+}
+
+.my-card .player-givenname-wrapper .player-birthyear {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.my-card .content-wrapper {
+  background: rgba(18, 19, 27, 0.8);
+  margin: 0 16px;
+  padding: 5px 0;
+  z-index: 100;
+  position: sticky;
+  width: 248px;
+}
+
+.my-card .characteristics {
+  display: flex;
+  font-family: 'Rajdhani-regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  justify-content: space-between;
+  margin: 3px 12px;
+  height: 28px;
+  align-items: center;
+}
+
+.my-card .characteristics .coin-issued {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.my-card .characteristics .coin-issued .coin-issued-symbol {
+  background-image: url('@assets/images/mycard/coin.webp');
+  width: 16px;
+  height: 16px;
+  background-size: contain;
+  margin-top: -2px;
+}
+
+.my-card .characteristics .coin-issued-text {
+  font-size: 18px;  
+  font-weight: 600;
+}
+
+.my-card .characteristics > .coin-issued-text {
+  font-size: 16px;
+  font-style: italic;
+  color: #6bc909;
+}
+
+.my-card .country-ranking {
+  position: absolute;
+  top: 110px;
+  right: 22px;
+}
+
+.my-card-container .my-card .country-ranking {
+  top: 126px;
+  right: 50px;
+}
+
+.my-card .country-ranking .fi {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+}
+
+.my-card .divider {
+  width: 100%;
+  height: 1px;
+  background: #1f222f;
+}
+
+.my-card .market-value-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 12px;
+  height: 65px;
+  align-items: center;
+}
+
+.my-card .comingsoon-text {
+  text-transform: uppercase;
+  color: var(--primary-foreground-color-default);
+  margin: auto;
+  font-size: 26px;
+  margin-top: 0px;
+}
+
+.my-card .countdown-wrapper {
+  margin: auto 12px;
+  height: 100px;
+}
+
+.my-card .countdown-wrapper .countdown-text {
+  padding-top: 27px;
+}
+
+.my-card .market-value-wrapper .market-value {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: white;
+}
+
+.my-card .market-value-wrapper .market-value-label {
+  color: #abacb5;
+}
+
+.my-card .market-value-wrapper .market-value > div {
+  display: flex;
+}
+
+.my-card .market-value-wrapper .price-value {
+  text-align: right;
+}
+
+.my-card .market-value-wrapper .price-value .market-value-label {
+  margin-top: 2px;
+}
+
+.my-card .market-value-wrapper .price-value .changed-price {
+  margin: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.my-card .market-value-wrapper .price-value .changed-price > svg {
+  /* height: 25px; */
+  /* width: 18px; */
+  object-fit: none;
+}
+
+.my-card .purchase-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 7px;
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #12131b;
+  height: 40px;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+
+.my-card .purchase-button-wrapper .buy-button {
+  background-image: url('@assets/images/mycard/buy.webp');
+  width: 128px;
+  height: 32px;
+  padding: 6px 0 0 53px;
+  cursor: pointer;
+  margin-top: -6px;
+  margin-left: 2px;
+  background-size: cover;
+}
+
+.my-card .purchase-button-wrapper .buy-button:after {
+  content: url('@assets/images/mycard/buy_pressed.webp')
+    url('@assets/images/mycard/buy_hover.webp');
+  position: absolute;
+  overflow: hidden;
+  left: -50000px;
+}
+
+.my-card .purchase-button-wrapper .buy-button.purchase-active:hover {
+  background-image: url('@assets/images/mycard/buy_hover.webp');
+  width: 136px;
+  height: 44px;
+  padding: 12px 0 0 53px;
+  margin-top: -6px;
+  margin-right: -4px;
+  margin-left: -2px;
+  color: #6bc909;
+}
+
+.my-card .purchase-button-wrapper .purchase-inactive {
+  color: #abacb5 !important;
+  pointer-events: none !important;
+}
+
+.my-card .purchase-button-wrapper .buy-button.purchase-active:active {
+  background-image: url('@assets/images/mycard/buy_pressed.webp');
+  color: white;
+}
+
+.my-card .purchase-button-wrapper .sell-button {
+  background-image: url('@assets/images/mycard/sell.webp');
+  width: 128px;
+  height: 32px;
+  padding: 6px 40px 0 0;
+  cursor: pointer;
+  margin-top: -6px;
+  margin-left: 4px;
+  background-size: cover;
+}
+
+.my-card .purchase-button-wrapper .sell-button.purchase-active:hover {
+  background-image: url('@assets/images/mycard/sell_hover.webp');
+  width: 136px;
+  height: 45px;
+  padding: 12px 40px 0 0;
+  margin-top: -5px;
+  margin-left: 0px;
+  color: #ff4654;
+}
+
+.my-card .purchase-button-wrapper .sell-button.purchase-active:active {
+  background-image: url('@assets/images/mycard/sell_pressed.webp');
+  color: white;
+}
+
+.my-card .purchase-button-wrapper .sell-button:after {
+  content: url('@assets/images/mycard/sell_pressed.webp')
+    url('@assets/images/mycard/sell_hover.webp');
+  position: absolute;
+  overflow: hidden;
+  left: -50000px;
+}
+
+.my-card .status-symbol-wrapper {
+  width: 28.28px;
+  height: 28.28px;
+  transform: rotate(-45deg);
+  margin-left: 126px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -2px;
+  z-index: 100;
+  position: sticky;
+}
+
+.my-card .status-symbol-wrapper.green {
+  box-shadow: 0px 2px 4px #8eff69, 0px -2px 4px #8eff69,
+    inset 0px -1px 2px #8eff69;
+  background: #12131b;
+}
+
+.my-card .status-symbol-wrapper.purple {
+  box-shadow: 0px 2px 4px #e169ff, 0px -2px 4px #e169ff,
+    inset 0px -1px 2px #e169ff;
+  background: #12131b;
+}
+
+.my-card .status-symbol-wrapper.gold {
+  box-shadow: 0px 2px 4px gold, 0px -2px 4px gold, inset 0px -1px 2px gold;
+  background: #12131b;
+}
+
+.my-card .status-symbol-wrapper .status-symbol {
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+}
+
+/* .my-card .status-symbol-wrapper .status1 {
+  background-image: url('@assets/images/mycard/status1.svg');
+}
+
+.my-card .status-symbol-wrapper .status2 {
+  background-image: url('@assets/images/mycard/status2.svg');
+}
+
+.my-card .achievements {
+  background-image: url('@assets/images/mycard/achivements.webp');
+  width: 80px;
+  height: 102px;
+  position: absolute;
+  top: 85px;
+  left: 170px;
+} */
+
+.my-card .achievements div {
+  width: 16px;
+  height: 16px;
+}
+/* 
+.my-card .achievements .achievements-symbol-1 {
+  background-image: url('@assets/images/mycard/achievement1.webp');
+  position: absolute;
+  top: 6px;
+  left: 4px;
+}
+
+.my-card .achievements .achievements-symbol-2 {
+  background-image: url('@assets/images/mycard/achievement2.webp');
+  position: absolute;
+  top: 36px;
+  left: 4px;
+}
+
+.my-card .achievements .achievements-symbol-3 {
+  background-image: url('@assets/images/mycard/achievement3.webp');
+  margin: 66px 4px;
+}
+
+.my-card .achievements .achievements-symbol-4 {
+  background-image: url('@assets/images/mycard/achievement4.webp');
+  position: absolute;
+  top: 14px;
+  left: 32px;
+}
+
+.my-card .achievements .achievements-symbol-5 {
+  background-image: url('@assets/images/mycard/achievement5.webp');
+  position: absolute;
+  top: 43px;
+  left: 32px;
+}
+
+.my-card .achievements .achievements-symbol-6 {
+  background-image: url('@assets/images/mycard/achievement6.webp');
+  position: absolute;
+  top: 73px;
+  left: 32px;
+}
+
+.my-card .achievements .achievements-symbol-7 {
+  background-image: url('@assets/images/mycard/achievement7.webp');
+  position: absolute;
+  top: 22px;
+  left: 60px;
+}
+
+.my-card .achievements .achievements-symbol-8 {
+  background-image: url('@assets/images/mycard/achievement8.webp');
+  position: absolute;
+  top: 51px;
+  left: 60px;
+}
+
+.my-card .achievements .achievements-symbol-9 {
+  background-image: url('@assets/images/mycard/achievement9.webp');
+  position: absolute;
+  top: 80px;
+  left: 60px;
+} */
+
+.my-card .bottom-decor {
+  background-image: url('@assets/images/mycard/bottom decor-green.webp');
+  width: 280px;
+  height: 413px;
+  position: absolute;
+  top: 3px;
+}
+
+.my-card-container .my-card .bottom-decor {
+  top: 25px;
+}
+
+.my-card .bottom-decor.green {
+  background-image: url('@assets/images/mycard/bottom decor-green.webp');
+}
+
+.my-card .bottom-decor.purple {
+  background-image: url('@assets/images/mycard/bottom decor-purple.webp');
+}
+
+.my-card .bottom-decor.gold {
+  background-image: url('@assets/images/mycard/bottom decor-gold.webp');
+}
+
+.my-card .bottom-decor.silver {
+  background-image: url('@assets/images/mycard/bottom decor-silver.webp');
+}
+
+.my-card .bottom-decor.red {
+  background-image: url('@assets/images/mycard/bottom decor-red.webp');
+}
+
+.my-card .bottom-decor.blue {
+  background-image: url('@assets/images/mycard/bottom decor-blue.webp');
+}
+
+.my-card .bottom-decor.turquoise {
+  background-image: url('@assets/images/mycard/bottom decor-turquoise.webp');
+}
+
+.my-card .bottom-decor.orange {
+  background-image: url('@assets/images/mycard/bottom decor-orange.webp');
+}
+
+.my-card .background1 {
+  background-image: url('@assets/images/mycard/background1.webp') !important;
+}
+
+.my-card .background2 {
+  background-image: url('@assets/images/mycard/background2.webp') !important;
+}
+
+.my-card .background3 {
+  background-image: url('@assets/images/mycard/background3.webp') !important;
+}
+
+.my-card .background4 {
+  background-image: url('@assets/images/mycard/background4.webp') !important;
+}
+
+.my-card .background5 {
+  background-image: url('@assets/images/mycard/background5.webp') !important;
+}
+
+.my-card .background6 {
+  background-image: url('@assets/images/mycard/background6.webp') !important;
+}
+
+.my-card .background7 {
+  background-image: url('@assets/images/mycard/background7.webp') !important;
+}
+
+.my-card .background8 {
+  background-image: url('@assets/images/mycard/background8.webp') !important;
+}
+
+.my-card .background9 {
+  background-image: url('@assets/images/mycard/background9.webp') !important;
+}
+
+.my-card .background10 {
+  background-image: url('@assets/images/mycard/background10.webp') !important;
+}
+
+.my-card .background11 {
+  background-image: url('@assets/images/mycard/background11.webp') !important;
+}
+
+.my-card .background12 {
+  background-image: url('@assets/images/mycard/background12.webp') !important;
+}
+
+.my-card .background13 {
+  background-image: url('@assets/images/mycard/background13.webp') !important;
+}
+
+.my-card .background-sparks {
+  background-image: url('@assets/images/mycard/background-sparks.gif') !important;
+  width: 247px;
+  height: 332px;
+  box-shadow: inset 0px -4px 2px rgb(15 19 33 / 0%),
+    inset 0px 180px 0px rgb(15 19 33 / 5%),
+    inset 0px 320px 50px rgb(15 19 33 / 25%);
+}
+
+.my-card .background0 {
+  background-image: url('@assets/images/mycard/background0.webp') !important;
+  box-shadow: inset 0px -4px 32px rgba(15, 19, 33, 0.7),
+    inset 0px 60px 50px rgba(15, 19, 33, 0.95);
+}
+
+/* Base Card Skeleton */
+.my_card_skeleton {
+  opacity: 0.7;
+  animation: myCardSkeleton-loading 1s linear infinite alternate;
+}
+.player_name_skeleton {
+  width: 80px;
+  height: 16px;
+  margin: 0px 0 2px 0px;
+}
+.player_birth_skeleton {
+  width: 50px;
+  height: 16px;
+  margin: 0px 0 2px 0px;
+}
+.player_surname_skeleton {
+  width: 180px;
+  height: 24px;
+  margin: 4px 0 2px 4px;
+}
+.coin_issued_skeleton {
+  width: 50px;
+  height: 16px;
+  margin: 5px 0 2px 0px;
+}
+.country_skeleton {
+  width: 40px;
+  height: 28px;
+  margin: 0px 0 2px 0px;
+  display: none;
+}
+.my-card .coming_soon_skeleton {
+  width: 160px;
+  height: 28px;
+  margin: auto;
+}
+.bottom_decor_skeleton {
+  background-image: url('@assets/images/mycard/bottom decor-silver.webp');
+}
+@keyframes myCardSkeleton-loading {
+  0% {
+    background-color: hsla(199, 20%, 70%, 0.516);
+  }
+
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+.player_batch {
+  position: absolute;
+  bottom: 15%;
+  left: 35%;
+  display: none !important;
+}
+.batch_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: -20px;
+}
+.batch_icon_size {
+  /* width: 60px;
+  height: 60px; */
+}
+.player_level_none {
+  font-size: 30px;
+}
+
+.player_level_diamond {
+  font-size: 30px;
+  background: linear-gradient(#c879f9, #d0deec);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.player_level_gold {
+  font-size: 30px;
+  background: linear-gradient(#f5b933, #fbe9b3);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.player_level_silver {
+  font-size: 30px;
+  background: linear-gradient(#95979a, #e7e7e8);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.player_level_bronze {
+  font-size: 30px;
+  background: linear-gradient(#c37b47, #feddc4);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.player_level_vanilla {
+  font-size: 30px;
+  background: linear-gradient(#ddec51, #ddf39f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.nft_level_diamond {
+  background: linear-gradient(#c879f9, #c7a6d6);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.nft_level_gold {
+  background: linear-gradient(#f5b933, #fce192);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.nft_level_silver {
+  background: linear-gradient(#95979a, #adadb0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.nft_level_bronze {
+  background: linear-gradient(#c37b47, #f0be97);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.nft_level_vanilla {
+  background: linear-gradient(#ddec51, #ddf39f);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.my-card.reflection-card {
+  position: absolute;
+  transform: scaleY(-1) translateZ(0);
+  top: 460px;
+  opacity: 0.4;
+  mask-image: -webkit-gradient(
+    linear,
+    left 61%,
+    left bottom,
+    from(rgba(0, 0, 0, 0)),
+    to(rgba(0, 0, 0, 1))
+  );
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left 61%,
+    left bottom,
+    from(rgba(0, 0, 0, 0)),
+    to(rgba(0, 0, 0, 1))
+  );
+  bottom: 0;
+  -webkit-box-reflect: unset;
+}
+
+@media (max-width: 420px) {
+  .my-card {
+    transform: scale(0.9) translateZ(0);
+  }
+  .my-card.reflection-card {
+    top: 393px;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  .my-card {
+    width: 277px;
+  }
+}

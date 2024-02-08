@@ -1,0 +1,159 @@
+.invite-prompt {
+    padding: 10px 24px;
+}
+
+.invite-prompt .balance-card {
+    width: 100% !important;
+    height: 150px !important;
+    padding: 10px 30px;
+}
+
+.invite-prompt .input-label {
+    width: inherit;
+    text-align: center;
+}
+
+.invite-prompt svg {
+    top: 8px !important;
+    right: 0px !important;
+}
+
+.invite-prompt form {
+    width: 100%;
+}
+
+.invite-prompt .accordion {
+    /* margin-top: 15px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* min-height: 65px; */
+}
+
+.invite-success {
+    color: #6bc909;
+}
+
+.invite-error {
+    color: red;
+}
+
+.invite-validation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.invite-validation-wrapper .input-feedback {
+    margin: 10px 0;
+}
+
+.code-verification-status {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 0;
+    gap: 4px;
+    font-size: 14px;
+}
+
+.code-verification-status .spinner {
+    height: 25px;
+    width: 25px;
+}
+
+.invite-prompt .button-line {
+    margin-bottom: 20px;
+}
+
+.invite-prompt .accordion > .item {
+    width: 85%;
+    margin-bottom: 0px;
+}
+
+.invite-prompt .accordion > .item > .title {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px 0;
+}
+
+/* .invite-prompt .early-access-title {
+    font-size: 23px;
+} */
+
+.invite-prompt .early-access-container {
+    padding: unset !important;
+    width: 327px;
+}
+
+.invite-prompt .methods-heading {
+    /* padding: 0 10%; */
+    line-height: 1.2;
+}
+
+.invite-prompt .blog-content {
+    width: 100%;
+    padding: 20px 5px;
+    text-align: center !important;
+}
+
+.invite-prompt .submit-btn-box {
+    border-radius: 8px;
+}
+
+.invite-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.invite-prompt #email_address {
+    font-size: 26px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 640px) {
+    .invite-prompt-modal {
+        /* margin-top: 100px !important; */
+        /* height: 95vh; */
+        overflow-y: auto;
+    }
+    .invite-prompt-modal .modal.flex-dialog .modal-content {
+        height: 710px;
+    }
+    .link_success_modal {
+        /* height: unset !important;
+        overflow-y: unset !important; */
+    }
+    .mobile-link-success-wrapper {
+        height: 88vh !important;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .invite-prompt .balance-card {
+        width: 320px !important;
+        height: 150px !important;
+    }
+    .invite-prompt .accordion {
+        width: 320px;
+    }
+    .invite-prompt .early-access-title {
+        font-size: 18px;
+    }
+    .invite-prompt svg {
+        top: 8px !important;
+    } 
+    .invite-prompt .button-box {
+        width: 315px !important;
+    }
+    .invite-prompt .social-icons {
+        height: 32px !important;
+        width: 32px !important;
+    }
+    /* .invite-prompt .methods-heading {
+        padding: 0 10%;
+    }  */
+}

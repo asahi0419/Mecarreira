@@ -1,0 +1,14 @@
+.top-trades-container {
+  max-width: calc(min(1200px, 94%));
+  margin: 120px auto 80px;
+}
+
+.top-trades-container .box-wrapper.section-wrapper {  
+  background-color: var(--secondary-background-color);
+}
+
+@media only screen and (max-width: 700px) {
+  .top-trades-container {
+    margin: calc(60px + 3vw) auto calc(20px + 3vw);
+  }
+}

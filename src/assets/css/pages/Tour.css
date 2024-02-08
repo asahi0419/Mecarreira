@@ -1,0 +1,1077 @@
+/* .tour-button {  
+  position: fixed;
+  left: 100px;
+  width: 240px;
+  padding: 24px;
+  top: calc(100vh - 60px);
+  gap: 2px;
+  font-size: 21px;
+  z-index: 1;
+} */
+
+.tour-header .header {
+  z-index: 10000;
+  background-color: #0a0b10;
+}
+
+.tour-header .header svg,
+.tour-header .header .header-title {
+  color: gray;
+}
+
+.tour-header .header .header-user-image .image-border {
+  opacity: 0.6;
+}
+
+.tour-button {
+  position: fixed;
+  left: 100px;
+  width: 240px;
+  padding: 24px;
+  top: calc(100vh - 50px);
+  gap: 2px;
+  font-size: 21px;
+  z-index: 500;
+  background: linear-gradient(to right, #ffbf00, #ff8000);
+  border: none;
+  color: #fff; /* Text color */
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 0 0 20px 5px rgba(255, 191, 0, 0.7); /* Adjust color and size as needed */
+  animation: shining 1.5s infinite; /* Adjust duration as needed */
+}
+
+@keyframes shining {
+  0% {
+    box-shadow: 0 0 20px 5px rgba(255, 191, 0, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 30px 10px rgba(255, 191, 0, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 20px 5px rgba(255, 191, 0, 0.7);
+  }
+}
+
+.tour-button svg {
+  margin-top: -1px;
+}
+
+.pwa-pop-desktop.welcome-tour-dialog {
+  height: 525px !important;
+}
+
+.welcome-tour-dialog .newsletter-wrapper {
+  padding: 30px;
+}
+
+.welcome-tour-dialog .newsletter-wrapper .blog-title {
+  width: 80%;
+}
+
+.welcome-tour-dialog .newsletter-wrapper .blog-content {
+  text-align: left;
+}
+
+.welcome-tour-dialog .newsletter-wrapper .bottom-caption-wrapper {
+  flex-direction: column;
+}
+
+.welcome-tour-dialog .newsletter-wrapper .installation-msg p {
+  margin: 0;
+}
+
+.welcome-tour-dialog .newsletter-wrapper .installation-msg p > b {
+  color: var(--primary-foreground-color);
+}
+
+.welcome-tour-dialog .newsletter-wrapper .active-btn-launch {
+  height: 80px;
+  font-size: 32px;
+}
+
+.welcome-tour-dialog .newsletter-wrapper .button-box {
+  border-radius: 20px;
+}
+
+.pwa-pop-desktop.overview-tour-dialog {
+  height: 840px !important;
+}
+
+.overview-tour-dialog .newsletter-wrapper {
+  padding: 4px 24px;
+}
+
+.overview-tour-dialog .newsletter-wrapper .overview-tour-wrapper {
+  width: 100%;
+  margin-top: 20px;  
+  background: var(--secondary-background-color);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.overview-tour-dialog .newsletter-wrapper .overview-tour-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.overview-tour-dialog .newsletter-wrapper .overview-tour-row .success-icon {
+  font-size: 30px;
+  color: var(--primary-foreground-color);
+  margin-top: -10px;
+}
+
+.overview-tour-dialog .newsletter-wrapper .overview-tour-row .error-icon {
+  font-size: 30px;
+  color: #eb5757;
+  margin-top: -5px;
+}
+
+.overview-tour-dialog .newsletter-wrapper .overview-tour-row .blog-title {
+  text-align: left;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.overview-tour-dialog .newsletter-wrapper .blog-content {
+  text-align: left;
+}
+
+.overview-tour-dialog .newsletter-wrapper .button-box {
+  width: 100%;
+}
+
+.overview-tour-dialog .newsletter-wrapper .button-box.gold-btn {
+  background: #f3b127;
+  border: 1px solid #f3b127;
+}
+
+.overview-tour-dialog .newsletter-wrapper .button-box {
+  border-radius: 16px;
+  margin-top: 16px;
+  height: 50px;
+}
+
+.overview-tour-dialog .newsletter-wrapper .button-box.button-active {
+  color: var(--primary-background-color);
+}
+
+.overview-tour-dialog .newsletter-wrapper .button-box.button-inactive:hover {
+  background-color: var(--primary-background-color);
+  color: var(--primary-foreground-color);
+  cursor: default;
+}
+
+.deposit-tour-wrapper .footer {
+  animation: none;
+}
+
+.deposit-tour-wrapper .footer-wrapper {
+  background: unset;
+  box-shadow: none;
+}
+
+.deposit-tour-wrapper .footer-wrapper .home-icon,
+.deposit-tour-wrapper .footer-wrapper .footer-nav-item {
+  visibility: hidden;
+}
+
+.deposit-tour-wrapper .footer-wrapper .footer-nav-item#signin {
+  visibility: visible;
+  background-color: var(--primary-background-color);
+}
+
+.deposit-tour-wrapper
+  .wallet-container
+  .purchase-container
+  .bottom-popup-content {
+  padding-top: 0;
+}
+
+.deposit-tour-wrapper
+  .wallet-container
+  .purchase-container
+  .bottom-popup-content
+  .wallet-container.deposit {
+  padding-top: 20px !important;
+}
+
+.deposit-tour-wrapper
+  .wallet-container
+  .purchase-container
+  .bottom-popup-content
+  .wallet-container
+  .address-box.method-card {
+  background-color: var(--primary-background-color);
+}
+
+.trade-tour-wrapper .modal.no-background .modal-content .close {
+  opacity: 0.1;
+}
+
+.user-tour-wrapper .footer {
+  animation: none;
+}
+
+.user-tour-wrapper .footer-wrapper {
+  background: unset;
+  box-shadow: none;
+}
+
+.user-tour-wrapper .footer-wrapper .home-icon,
+.user-tour-wrapper .footer-wrapper .footer-nav-item {
+  visibility: hidden;
+}
+
+.user-tour-wrapper .footer-wrapper .footer-nav-item#items {
+  visibility: visible;
+  background-color: var(--primary-background-color);
+  animation: fadeIn 3s ease;
+}
+
+.scouts-top5-container .bright-area .user-card {
+  border: 4px solid var(--third-background-color);
+}
+
+.staking-tour-wrapper .modal.no-background .modal-content .close {
+  opacity: 0.1;
+}
+
+.player-container .profile-container .staking-tour-wrapper section {
+  background: unset;
+}
+
+.staking-tour-wrapper .staked {
+  background: unset;
+}
+
+.staking-tour-wrapper .button-inactive,
+.staking-tour-wrapper .button-inactive:hover {
+  background: unset;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow-y: hidden;
+  z-index: 9997;
+  border-radius: 20px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.dark-area {
+  opacity: 0.1 !important;
+  pointer-events: none;
+}
+
+.no-pointer-area {
+  pointer-events: none;
+}
+
+.bright-area {
+  z-index: 9998 !important;
+  position: relative;
+}
+
+.bright-rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 30%; */
+  z-index: 9999;
+  animation: fadeOut 0.5s ease, fadeIn 3s ease !important;
+}
+.bright-rectangle .header-user-image {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-background-color) !important;
+}
+.bright-rectangle .wallet-address {
+  height: 59px;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-background-color);
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  animation: none;
+}
+.bright-rectangle .wallet-address .description {
+  background: black;
+  display: flex;
+  padding: 5px 10px;
+  justify-content: center;
+  width: 80%;
+}
+
+.bright-rectangle .continue-btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+  background-color: #f3b127;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 9997;
+}
+
+.bright-rectangle .complete-btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+  background-color: #6bc909;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 20px;
+  position: absolute;
+  z-index: 9997;
+}
+
+.bright-rectangle .wallet-description {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  background-color: black;
+  color: white;
+  top: 80vh;
+  left: calc(50vw - 200px);
+  /* text-transform: lowercase !important; */
+  background: black;
+  padding: 15px 15px;
+  width: 420px;
+  font-size: 22px;
+  border-radius: 20px;
+  /* display: block !important; */
+  text-align: left;
+}
+.bright-rectangle .fade-in {
+  animation: fadeIn 3s ease !important;
+  display: block;
+}
+
+.bright-rectangle.bright-rectangle-deposit-tour-step1 {
+  left: calc(50vw - 200px);
+  animation: none !important;
+  width: 400px;
+}
+
+.bright-rectangle .visit-wallet {
+  top: 60px;
+  left: 0;
+}
+
+.bright-rectangle .visit-wallet-btn {
+  top: calc(60px + 58px + 20px); /* top + height + gap */
+  left: calc(0px + 300px); /* left + gap */
+}
+
+.bright-rectangle .click-wallet {
+  height: 85px;
+}
+
+.bright-rectangle .visit-deposit {
+  top: 380px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .various-deposit {
+  top: 525px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .crypto-deposit {
+  top: 525px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .crypto-deposit-btn {
+  top: calc(525px + 198px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+.bright-rectangle .money-deposit {
+  top: 200px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .money-deposit-btn {
+  top: calc(200px + 198px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+.bright-rectangle .start-trading {
+  top: 990px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .start-trading-long {
+  top: 1195px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .buy-token-input {
+  top: 266px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .click-buy-button {
+  top: 593px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .price-per-player {
+  top: 330px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .price-per-player-btn {
+  top: calc(330px + 310px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+.bright-rectangle .select-payment-method {
+  top: 240px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .select-payment-method-btn {
+  top: calc(240px + 114px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+.bright-rectangle .click-on-polygon {
+  top: 527px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .transaction-sent {
+  top: 440px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .transaction-sent-btn {
+  top: calc(440px + 114px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+.bright-rectangle .awarded-xp {
+  top: 280px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .awarded-xp-btn {
+  top: calc(280px + 141px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+.bright-rectangle .sell-tokens {
+  top: 675px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .sell-tokens-btn {
+  top: calc(675px + 112.5px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+.bright-rectangle .click-on-sells {
+  top: 836px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .click-sell-button {
+  top: 623px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .select-payment-method-sell-btn {
+  top: calc(240px + 112.5px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+.bright-rectangle .click-on-polygon-sell {
+  top: 380px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .awarded-xp-sell-btn {
+  top: calc(280px + 112px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+.bright-rectangle .landing-season {
+  top: 505px;
+}
+
+.bright-rectangle .season-screen-step1 {
+  top: 686px;
+}
+
+.bright-rectangle .season-screen-step1-btn {
+  top: calc(686px + 170px + 20px); /* top + height + gap */
+  left: calc(50vw - 200px + 300px); /* left + gap */
+}
+
+.bright-rectangle .season-screen-step2 {
+  top: 686px;
+}
+
+.bright-rectangle .season-screen-step2-btn {
+  top: calc(686px + 114px + 20px); /* top + height + gap */
+  left: calc(50vw - 200px + 300px); /* left + gap */
+}
+
+.bright-rectangle .season-screen-step3 {
+  top: 900px;
+}
+
+.bright-rectangle .season-screen-step3-btn {
+  top: calc(900px + 198px + 20px); /* top + height + gap */
+  left: calc(50vw - 200px + 300px); /* left + gap */
+}
+
+.bright-rectangle .season-screen-step4 {
+  top: 1305px;
+}
+
+.bright-rectangle .season-screen-step4-btn {
+  top: calc(1305px + 170px + 20px); /* top + height + gap */
+  left: calc(50vw - 200px + 300px); /* left + gap */
+}
+
+.bright-rectangle .season-screen-step5 {
+  top: 1305px;
+}
+
+.bright-rectangle .user-screen-step1 {
+  top: 426px;
+}
+
+.bright-rectangle .user-screen-step1-btn {
+  top: calc(426px + 170px + 20px); /* top + height + gap */
+  left: calc(50vw - 200px + 300px); /* left + gap */
+}
+
+.bright-rectangle .user-screen-step2 {
+  top: 610px;
+}
+
+.bright-rectangle .user-screen-step2-btn {
+  top: calc(610px + 142px + 20px); /* top + height + gap */
+  left: calc(50vw - 200px + 300px); /* left + gap */
+}
+
+.bright-rectangle .user-screen-step3 {
+  top: 790px;
+}
+
+.bright-rectangle .user-screen-step3-btn {
+  top: calc(790px + 114px + 20px); /* top + height + gap */
+  left: calc(50vw - 200px + 300px); /* left + gap */
+}
+
+.bright-rectangle .user-screen-step4 {
+  top: 1052px;
+}
+
+.bright-rectangle .user-screen-step4-btn {
+  top: calc(1052px + 142px + 20px); /* top + height + gap */
+  left: calc(50vw - 200px + 300px); /* left + gap */
+}
+
+.bright-rectangle .user-screen-step5 {
+  top: 1273px;
+}
+
+.bright-rectangle .scout-screen-step1 {
+  top: 387px;
+}
+
+.bright-rectangle .scout-screen-step1-btn {
+  top: calc(387px + 114px + 20px); /* top + height + gap */
+  left: calc(50vw - 200px + 300px); /* left + gap */
+}
+
+.bright-rectangle .scout-screen-step2 {
+  top: 860px;
+}
+
+.bright-rectangle .scout-screen-step2-btn {
+  top: calc(860px + 198px + 20px); /* top + height + gap */
+  left: calc(50vw - 200px + 300px); /* left + gap */
+}
+
+.bright-rectangle .scout-screen-step3 {
+  top: 1833px;
+}
+
+.bright-rectangle .scout-screen-step3-btn {
+  top: calc(1833px + 198px + 20px); /* top + height + gap */
+  left: calc(50vw - 200px + 300px); /* left + gap */
+}
+
+.bright-rectangle .staking-tokens {
+  top: 560px;
+}
+
+.bright-rectangle .staking-tokens-step1 {
+  top: 390px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .staking-tokens-step2 {
+  top: 187px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .staking-tokens-step2-btn {
+  top: calc(187px + 140px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+.bright-rectangle .staking-tokens-step3 {
+  top: 410px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .staking-tokens-step4 {
+  top: 390px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .staking-tokens-step4-btn {
+  top: calc(390px + 278px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+.bright-rectangle .staking-tokens-step5 {
+  top: 565px;
+  left: calc(50vw + 205px);
+}
+
+.bright-rectangle .staking-tokens-step5-btn {
+  top: calc(565px + 167px + 20px); /* top + height + gap */
+  left: calc(50vw + 205px + 300px); /* left + gap */
+}
+
+@media only screen and (max-width: 600px) {
+  .bright-rectangle .continue-btn,
+  .bright-rectangle .complete-btn {
+    font-size: 18px;
+    height: 40px;
+  }
+  .bright-rectangle .wallet-description {
+    width: 300px;
+    font-size: 18px;
+    left: calc(50vw - 150px);
+    line-height: 1.2;
+  }
+
+  .bright-rectangle .visit-wallet {
+    left: 50px;
+  }
+
+  .bright-rectangle .visit-wallet-btn {
+    top: calc(60px + 76px + 10px); /* top + height + gap */
+    left: calc(50px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .click-wallet {
+    height: unset;
+    top: calc(100vh - 240px);
+  }
+
+  .bright-rectangle .visit-deposit {
+    top: 520px;
+  }
+
+  .bright-rectangle .various-deposit {
+    top: 280px;
+  }
+
+  .bright-rectangle .crypto-deposit {
+    top: 115px;
+  }
+
+  .bright-rectangle .crypto-deposit-btn {
+    top: calc(115px + 181px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .money-deposit {
+    top: 400px;
+  }
+
+  .bright-rectangle .money-deposit-btn {
+    top: calc(400px + 202px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .start-trading {
+    top: 560px;
+  }
+
+  .bright-rectangle .start-trading-long {
+    top: 990px;
+  }
+
+  .bright-rectangle .buy-token-input {
+    top: 335px;
+  }
+
+  .bright-rectangle .click-buy-button {
+    top: 505px;
+  }
+
+    
+  .bright-rectangle .price-per-player {
+    top: 64px;
+  }
+
+  .bright-rectangle .price-per-player-btn {
+    top: calc(64px + 290px + 20px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+
+  .bright-rectangle .select-payment-method {
+    top: 240px;
+  }
+
+  .bright-rectangle .select-payment-method-btn {
+    top: calc(240px + 94px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .click-on-polygon {
+    top: 400px;
+  }
+
+  .bright-rectangle .transaction-sent {
+    top: 166px;
+  }
+
+  .bright-rectangle .transaction-sent-btn {
+    top: calc(166px + 116px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .awarded-xp {
+    top: 280px;
+  }
+
+  .bright-rectangle .awarded-xp-btn {
+    top: calc(280px + 145px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .sell-tokens {
+    top: 364px;
+  }
+
+  .bright-rectangle .sell-tokens-btn {
+    top: calc(364px + 95px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .click-on-sells {
+    top: 405px;
+  }
+
+  .bright-rectangle .click-sell-button {
+    top: 535px;
+  }
+
+  .bright-rectangle .select-payment-method-sell-btn {
+    top: calc(240px + 120px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .click-on-polygon-sell {
+    top: 499px;
+  }
+
+  .bright-rectangle .awarded-xp-sell-btn {
+    top: calc(280px + 97.5px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .landing-season {
+    top: 318px;
+  }
+
+  .bright-rectangle .season-screen-step1 {
+    top: 397px;
+  }
+
+  .bright-rectangle .season-screen-step1-btn {
+    top: calc(397px + 160px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .season-screen-step2 {
+    top: 557px;
+  }
+
+  .bright-rectangle .season-screen-step2-btn {
+    top: calc(557px + 114px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .season-screen-step3 {
+    top: 675px;
+  }
+
+  .bright-rectangle .season-screen-step3-btn {
+    top: calc(675px + 214px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .season-screen-step4 {
+    top: 1060px;
+  }
+
+  .bright-rectangle .season-screen-step4-btn {
+    top: calc(1060px + 160px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .season-screen-step5 {
+    top: 1060px;
+  }
+
+  .bright-rectangle .user-screen-step1 {
+    top: 345px;
+  }
+
+  .bright-rectangle .user-screen-step1-btn {
+    top: calc(345px + 160px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .user-screen-step2 {
+    top: 480px;
+  }
+
+  .bright-rectangle .user-screen-step2-btn {
+    top: calc(480px + 138px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .user-screen-step3 {
+    top: 795px;
+  }
+
+  .bright-rectangle .user-screen-step3-btn {
+    top: calc(795px + 116px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .user-screen-step4 {
+    top: 1050px;
+  }
+
+  .bright-rectangle .user-screen-step4-btn {
+    top: calc(1050px + 138px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .user-screen-step5 {
+    top: 1050px;
+  }
+
+  .bright-rectangle .scout-screen-step1 {
+    top: 454px;
+  }
+
+  .bright-rectangle .scout-screen-step1-btn {
+    top: calc(454px + 116px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .scout-screen-step2 {
+    top: 1045px;
+  }
+
+  .bright-rectangle .scout-screen-step2-btn {
+    top: calc(1045px + 160px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .scout-screen-step3 {
+    top: 1680px;
+  }
+
+  .bright-rectangle .scout-screen-step3-btn {
+    top: calc(1680px + 181px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .staking-tokens {
+    top: 357px;
+  }
+
+  .bright-rectangle .staking-tokens-step1 {
+    top: 504px;
+  }
+
+  .bright-rectangle .staking-tokens-step2 {
+    top: 330px;
+  }
+
+  .bright-rectangle .staking-tokens-step2-btn {
+    top: calc(330px + 142.5px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .staking-tokens-step3 {
+    top: 77px;
+  }
+
+  .bright-rectangle .staking-tokens-step4 {
+    top: 190px;
+  }
+
+  .bright-rectangle .staking-tokens-step4-btn {
+    top: calc(190px + 277.5px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .bright-rectangle .staking-tokens-step5 {
+    top: 320px;
+  }
+
+  .bright-rectangle .staking-tokens-step5-btn {
+    top: calc(320px + 187.5px + 10px); /* top + height + gap */
+    left: calc(50vw - 150px + 180px); /* left + gap */
+  }
+
+  .pwa-pop.welcome-tour-dialog {
+    max-width: 300px;
+  }
+
+  .pwa-pop.overview-tour-dialog {
+    max-width: 300px;
+    margin-top: 60px !important;
+    height: 660px !important;
+  }
+
+  .welcome-tour-dialog .newsletter-wrapper .blog-title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .welcome-tour-dialog .newsletter-wrapper .blog-content {
+    padding: 0;
+    width: 100%;
+  }
+
+  .welcome-tour-dialog .newsletter-wrapper .blog-content p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .welcome-tour-dialog .newsletter-wrapper .button-box {
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .welcome-tour-dialog .newsletter-wrapper .active-btn-launch.button-box {
+    height: 50px;
+    font-size: 22px;
+  }
+
+  .overview-tour-dialog .newsletter-wrapper {
+    padding: 3px 15px;
+  }
+
+  .overview-tour-dialog .newsletter-wrapper .overview-tour-row .blog-title {
+    font-size: 18px;
+  }
+
+  .overview-tour-dialog .newsletter-wrapper .overview-tour-row .success-icon {
+    font-size: 20px;
+    margin-top: -1px;
+  }
+  .overview-tour-dialog .newsletter-wrapper .overview-tour-row .error-icon {
+    font-size: 20px;
+    margin-top: 3px;
+  }
+  .overview-tour-dialog .newsletter-wrapper .button-box {
+    margin-top: 10px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .overview-tour-dialog .newsletter-wrapper .overview-tour-wrapper {
+    margin-top: 10px;
+    padding: 16px;
+  }
+  .overview-tour-dialog .newsletter-wrapper .blog-content {
+    width: 100%;
+    padding: 0 16px;
+    margin-top: 7px!important;
+  }
+  .overview-tour-dialog .newsletter-wrapper .addhome-btn-wrapper {
+    bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .dark-overlay {
+    border-radius: 0;
+  }
+  .deposit-tour-wrapper
+    .wallet-container
+    .purchase-container
+    .bottom-popup-content
+    .wallet-container.deposit {
+    margin-top: 0 !important;
+    padding-top: 30px !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .scouts-top5-container .bright-area .user-card {
+    border: unset;
+    border-bottom: 1px solid #313241;
+  }
+  .bright-rectangle .stake-button {
+    min-height: 50px;
+  }
+}

@@ -1,0 +1,76 @@
+.trait-card {
+  background: rgba(107, 201, 9, 0.06);
+  /* Primary/300 */
+
+  border: 1px solid var(--secondary-foreground-color);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80px;
+  max-width: 160px;
+  margin: auto;
+  text-transform: capitalize;
+}
+
+.trait-card-title {
+  font-family: 'Rajdhani-regular';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--primary-foreground-color);
+  margin: 8px 0;
+}
+
+.trait-card-desc {
+  font-family: 'Rajdhani-regular';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 8px 0;
+  width: 90%;
+  line-break: auto;
+}
+
+.trait-card-icons {
+  margin-left: 110px;
+  margin-top: 3px;
+  cursor: pointer;
+  margin-bottom: -30px;
+  z-index: 600;
+}
+
+.trait-card-icons svg {
+  font-size: 1.3em;
+}
+
+.trait-card-icons svg:hover {
+  color: var(--primary-foreground-color);
+}
+
+@media only screen and (max-width: 420px) {
+  .trait-card-icons {
+    margin-left: 70%;
+  }
+}
+
+.trait-card-addicon {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Rajdhani-regular';
+  font-size: 21px;
+  font-weight: 600;
+  color: var(--primary-foreground-color);
+  cursor: pointer;
+}
+
+.trait-card-addicon span {
+  max-width: 105px;
+}

@@ -1,0 +1,159 @@
+/* Progress bar */
+.progress-bar-container {
+  margin: 16px 0;
+  position: relative;
+  --secondary-color: #0bf4ff;
+  border-radius: 20px;
+  padding: 20px 35px;
+  background: var(--third-background-color);
+}
+
+.progress-bar-container .progress-bar-wrapper {
+  display: flex;
+  align-items: center;
+  color: var(--primary-foreground-color);
+  flex-direction: column;
+  gap: 0;
+}
+
+.progress-bar-container .progress-bar-label-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: baseline;
+}
+
+.progress-bar-container .progress-bar-amount {
+  font-size: 17px;
+  position: absolute;
+  right: 5px;
+  top: -2px;
+  z-index: 10;
+  color: white;
+}
+
+.progress-bar-container .progress-bar-label {
+  white-space: nowrap;
+  font-size: 37px;
+}
+
+.progress-bar-container .progress-bar-label b {
+  font-size: 60px;
+}
+
+.progress-bar-container .progress-bar-label-xp {
+  white-space: nowrap;
+  font-size: 60px;
+  background: linear-gradient(
+    to right,
+    rgb(255, 0, 255) 0%,
+    rgb(0, 255, 255) 90%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.progress-bar-container .progress-bar-label-xp b {
+  font-size: 50px;
+}
+
+.progress-bar-container .progress-bar-label-xp i {
+  margin-right: 4px;
+}
+
+.progress-bar-container .progressBarFancyContainer {
+  margin: 0 0 20px;
+}
+
+.progress-bar-container .progressBarFancyContainer .labelScoreContainer {
+  display: none;
+}
+
+.progress-bar-container .progressBarFancyContainer .progressFill {
+  border-radius: 10px;
+}
+
+.progress-bar-container
+  .progressBarFancyContainer
+  .progressBar
+  > .progressFill {
+  z-index: 11;
+}
+
+.progress-bar-container
+  .progressBarFancyContainer
+  .progressBar
+  > .progressFill
+  ~ .progressFill {
+  z-index: 10;
+}
+
+.progress-bar-container
+  .progressBarFancyContainer
+  .progressBar
+  > .progressTrack {
+  border-radius: 10px;
+}
+
+.notification-container .progress-bar-container {
+  margin: 0;
+  padding: 0;
+  background: unset;
+  width: 100%;
+}
+
+.notification-container .progress-bar-container .progress-bar-label {
+  font-size: 22px;
+}
+
+.notification-container .progress-bar-container .progress-bar-label b,
+.notification-container .progress-bar-container .progress-bar-label-xp {
+  font-size: 30px;
+}
+
+.notification-container .progress-bar-container .progress-bar-label-xp b {
+  font-size: 30px;
+}
+
+.notification-container .progress-bar-container .progress-bar-label-wrapper {
+  padding: 0;
+}
+
+.notification-container .progressbarWidth {
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 700px) {
+  .progress-bar-container .progress-bar-label-xp {
+    font-size: 36px;
+  }
+  .progress-bar-container .progress-bar-label-xp b {
+    font-size: 36px;
+  }
+  .progress-bar-container .progress-bar-label b {
+    font-size: 36px;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .progress-bar-container .progress-bar-label {
+    font-size: 28px;
+  }
+  .progress-bar-container .progress-bar-label b {
+    font-size: 36px;
+  }
+  .progress-bar-container .progress-bar-label-xp {
+    font-size: 36px;
+  }
+  .progress-bar-container .progress-bar-label-xp b {
+    font-size: 36px;
+  }
+  .progressBarFancyContainer .barGaugeContainer .progressbarWidth {
+    margin: 0 !important;
+  }
+  .progress-bar-container .progress-bar-label-wrapper {
+    padding: 0;
+  }
+}

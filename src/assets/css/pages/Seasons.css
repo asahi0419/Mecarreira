@@ -1,0 +1,671 @@
+.seasons-container {
+  margin: 80px auto 60px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.seasons-container .seasons-banner {
+  height: 300px;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+}
+
+#season-banner-loader {
+  height: 300px;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+  background: var(--secondary-background-color);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+/* .seasons-container .seasons-banner.custom-background {
+  background-image: url('@assets/images/banner.png') !important;
+} */
+
+.seasons-container .seasons-banner div {
+  background: #fff;
+  font-family: monospace;
+  border-radius: 100%;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  font-weight: 700;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 99;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  top: 130px;
+}
+
+.seasons-container .seasons-banner .prev-btn {
+  left: 20px;
+  transition: unset;
+}
+
+.seasons-container .seasons-banner .next-btn {
+  right: 20px;
+}
+
+.season-banner-loader {
+  position: unset !important;
+  top: unset !important;
+  margin-top: unset !important;
+  background: unset !important;
+  opacity: unset !important;
+}
+
+.seasons-container .seasons-rank {
+  background-image: url('@assets/images/rank.png') !important;
+  height: 140px;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.seasons-container .seasons-summary-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  height: 155px;
+  gap: 20px;
+}
+
+.seasons-container .seasons-summary-wrapper .seasons-summary-item {
+  background: var(--secondary-background-color);
+  padding: 25px 30px;
+  border-radius: 20px;
+  min-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.seasons-container .seasons-summary-wrapper .seasons-summary-item:first-child {
+  min-width: 200px;
+}
+
+.seasons-container .seasons-summary-wrapper .seasons-summary-item-label {
+  font-size: 30px;  
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.seasons-container .seasons-summary-wrapper .seasons-summary-item-label img {
+  width: 30px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.seasons-container .seasons-summary-wrapper .seasons-summary-item-label img:hover {
+  cursor: pointer;
+}
+
+.seasons-container .seasons-summary-wrapper .seasons-summary-item-value {
+  font-size: 50px;
+  align-items: center;
+  display: flex;
+}
+
+.seasons-container .seasons-summary-wrapper .seasons-summary-item-value img {
+  width: 34px;
+  height: 34px;
+}
+
+.seasons-container
+  .seasons-summary-wrapper
+  .seasons-summary-item-value-address {
+  margin-top: 10px;
+}
+
+.seasons-container .players-list-option {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0;
+  align-items: center;
+  background-color: var(--secondary-background-color);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.seasons-container .players-list-option .players-list-label {
+  font-size: 20px;
+}
+
+.seasons-container .players-list-option .players-list-label .tabs-container,
+.seasons-container
+  .players-list-option
+  .players-list-label
+  .tabs-container
+  .tab-item {
+  background: unset;
+  width: unset;
+}
+
+.seasons-container
+  .players-list-option
+  .players-list-label
+  .tabs-container
+  > .tab-item {
+  margin: 0 15px;
+}
+
+.seasons-container .players-list-option .players-list-count-select {
+  font-family: 'Rajdhani-regular';
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.seasons-container .players-list-option .players-list-count-select select {
+  font-size: 16px;
+  border-radius: 8px;
+  margin-left: 7px;
+  width: 60px;
+  height: 38px;
+  padding: 0 9px;
+  margin-right: 13px;
+}
+
+.seasons-container .players-list-wrapper {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  flex-flow: wrap;
+  gap: 20px;
+  padding: 20px;
+  background: var(--secondary-background-color);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.seasons-container .full-user-list-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* flex-flow: wrap; */
+  grid-gap: 20px;
+  gap: 20px;
+  padding: 20px;
+  background: var(--secondary-background-color);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.seasons-container .players-list-wrapper .blog-title {
+  margin: 20px 0;
+}
+
+.seasons-container .players-list-wrapper .infinite-scroll-component__outerdiv {
+  width: 100%;
+}
+.seasons-container .players-list-wrapper .infinite-scroll-component {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden !important;
+  gap: 20px;
+  justify-content: center;
+}
+
+.seasons-container .players-list-wrapper .nft-list-grid-mob {
+  display: flex;
+  flex-flow: wrap;
+  row-gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.seasons-container .players-list-wrapper .infinite-scroll-component .nft-card {
+  border: 3px solid var(--secondary-background-color);
+}
+
+.seasons-container
+  .players-list-wrapper
+  .infinite-scroll-component
+  .nft-card:hover {
+  border: 3px solid var(--primary-foreground-color);
+}
+
+.seasons-summary-item-value-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 100%;
+  height: 62px;
+}
+
+.seasons-container .seasons-countdown.seasons-summary-wrapper {
+  height: unset;
+}
+
+.seasons-container .seasons-countdown.seasons-summary-wrapper .spinner-container.show {
+  margin: auto;
+}
+
+.seasons-container
+  .seasons-countdown.seasons-summary-wrapper
+  .seasons-summary-item {
+  padding: 15px 30px;
+  gap: 0;
+  max-height: 276px;
+}
+
+.seasons-container .seasons-rewards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 197px;
+  margin: 20px 0;
+}
+
+.seasons-container .seasons-rewards-wrapper img {
+  width: 180px;
+}
+
+.seasons-container .seasons-rewards-wrapper .seasons-rewards-content {
+  text-align: center;
+}
+
+.seasons-container .seasons-rewards-wrapper .seasons-rewards-prize-value {
+  font-size: 56px;
+  font-family: 'Rajdhani-semibold';
+}
+
+.seasons-container .seasons-rewards-wrapper .seasons-rewards-claim-text {
+  font-size: 28px;
+  color: var(--primary-foreground-color);
+}
+
+.seasons-container .seasons-rewards-wrapper .seasons-rewards-claim-btn {
+  padding: 14px;
+  background-color: var(--secondary-foreground-color);
+  color: var(--primary-background-color);
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  min-width: 200px;
+}
+
+.seasons-container .seasons-rewards-wrapper .seasons-rewards-time-left {
+  font-size: 18px;
+}
+
+.seasons-container
+  .seasons-rewards-wrapper
+  .seasons-rewards-not-winner
+  .seasons-rewards-prize-value {
+  font-size: 48px;
+}
+
+.seasons-container
+  .seasons-rewards-wrapper
+  .seasons-rewards-not-winner
+  .seasons-rewards-prize-value
+  b {
+  font-size: 50px;
+  color: var(--primary-foreground-color);
+}
+
+.seasons-container .seasons-rewards-wrapper .seasons-rewards-lose-text {
+  font-size: 36px;
+  /* margin-top: 10px; */
+}
+
+.season-coming-soon-time-card {
+  display: flex;
+  justify-content: space-around;
+  /* margin: auto; */
+  gap: 10px;
+}
+
+.season-coming-soon-time-card > .heading {
+  font-size: 30px;
+  margin-top: 14px;
+}
+
+.season-coming-soon-time-card .timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px 32px;
+  /* background: linear-gradient(
+    156.63deg,
+    hsla(0, 0%, 100%, 0.1),
+    hsla(0, 0%, 100%, 0) 115.46%
+  ); */
+  border-radius: 8px;
+  width: 90px;
+  position: relative;
+}
+
+.season-coming-soon-time-card .timer .time {
+  font-family: 'Rajdhani-semibold';
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+}
+
+.season-coming-soon-time-card .timer .time > div > div {
+  color: #3d9be3 !important;
+}
+
+.season-coming-soon-time-card .timer .heading {
+  font-family: 'Rajdhani-semibold';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--primary-foreground-color);
+  position: absolute;
+  bottom: 55px;
+}
+
+.seasons-container .user-card {
+  background: var(--primary-background-color);
+  width: 100%;
+}
+
+.seasons-container .full-user-list-wrapper .user-card {
+  width: 100%;
+}
+
+.seasons-container .tab-item button {
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1300px) {
+  .seasons-container
+    .players-list-option
+    .players-list-label
+    .tabs-container
+    .tab-item {
+    font-size: 20px;
+  }
+  .seasons-container .seasons-kpi-wrapper {
+    height: unset;
+  }
+  .seasons-container .seasons-kpi-wrapper .seasons-summary-item {
+    padding: 35px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  /* .seasons-container {
+    max-width: 600px;
+  } */
+  .seasons-container .seasons-banner {
+    aspect-ratio: 4 / 1;
+    width: 100%;
+    height: auto;
+  }
+  #season-banner-loader {
+    aspect-ratio: 4 / 1;
+    width: 100%;
+    height: auto;
+  }
+  .seasons-container .seasons-banner .prev-btn,
+  .seasons-container .seasons-banner .next-btn {
+    top: 38%;
+  }
+  .season-coming-soon-time-card .timer .time {
+    font-size: 45px;
+  }
+  .season-coming-soon-time-card .timer .heading {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .seasons-container .seasons-summary-wrapper .seasons-summary-item-label {
+    font-size: 22px;
+  }
+  .seasons-container .seasons-summary-wrapper .seasons-summary-item-value {
+    font-size: 28px;
+  }
+  .seasons-container .seasons-summary-wrapper {
+    height: 136px;
+  }
+  .seasons-container .user-card {
+    width: 100%;
+  }
+  .season-coming-soon-time-card .timer .heading {
+    bottom: 40px;
+  }
+  .seasons-container
+    .seasons-countdown.seasons-summary-wrapper
+    .seasons-summary-item {
+    padding: 4px 30px;
+  }
+  .seasons-container .seasons-summary-wrapper .seasons-summary-item {
+    padding: 25px;
+  }
+  .seasons-container .seasons-rewards-wrapper {
+    margin: 5px;
+    height: 120px;
+  }
+
+  .seasons-container .seasons-rewards-wrapper img {
+    width: 110px;
+  }
+
+  .seasons-container .seasons-rewards-wrapper .seasons-rewards-prize-value {
+    font-size: 32px;
+  }
+
+  .seasons-container .seasons-rewards-wrapper .seasons-rewards-claim-btn {
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px 0;
+    border-radius: 4px;
+  }
+
+  .seasons-container .seasons-rewards-wrapper .seasons-rewards-claim-text {
+    font-size: 18px;
+  }
+
+  .seasons-container
+    .seasons-rewards-wrapper
+    .seasons-rewards-not-winner
+    .seasons-rewards-prize-value {
+    font-size: 26px;
+  }
+
+  .seasons-container
+    .seasons-rewards-wrapper
+    .seasons-rewards-not-winner
+    .seasons-rewards-prize-value
+    b {
+    font-size: 28px;
+  }
+
+  .seasons-container .seasons-rewards-wrapper .seasons-rewards-lose-text {
+    font-size: 22px;
+  }
+  .seasons-container .players-list-option .in-menu-search {
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .seasons-container {
+    width: 94%;
+    margin: 75px auto 60px;
+  }
+
+  .seasons-container .seasons-summary-item-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .seasons-container .seasons-summary-wrapper {
+    flex-direction: column;
+    gap: 15px;
+    height: auto;
+    margin: 15px 0;
+  }
+
+  .seasons-container
+    .seasons-summary-wrapper
+    .seasons-summary-item:first-child {
+    height: 144px;
+    /* padding: 30px; */
+    width: 100%;
+    min-width: unset;
+  }
+
+  .seasons-container .seasons-summary-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .seasons-container .seasons-summary-wrapper .seasons-summary-item {
+    min-width: unset;
+    height: 144px;
+  }
+
+  .seasons-container .seasons-summary-item {
+    width: 100%;
+  }
+
+  
+  .seasons-container .seasons-summary-wrapper .seasons-summary-item-label img {
+    width: 20px;
+    height: 25px;
+    margin-top: 3px;
+  }
+
+  .seasons-container
+    .seasons-summary-wrapper
+    .seasons-summary-item-value-address {
+    margin-top: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .seasons-container .seasons-summary-wrapper a {
+    font-size: 20px;
+  }
+
+  .seasons-container
+    .players-list-option
+    .players-list-label
+    .tabs-container
+    .tab-item {
+    width: 80px;
+  }
+
+  .seasons-container .players-list-wrapper {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+  }
+
+  .seasons-container .full-user-list-wrapper {
+    padding: 10px 10px 20px 10px;
+  }
+
+  .seasons-container .seasons-rewards-wrapper {
+    margin: -5px;
+  }
+
+  .seasons-container .seasons-rewards-wrapper img {
+    width: 96px;
+    margin-top: -6px;
+  }
+
+  .seasons-container .seasons-rewards-wrapper .seasons-rewards-prize-value {
+    font-size: 32px;
+  }
+
+  .seasons-container .seasons-rewards-wrapper .seasons-rewards-claim-btn {
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px 0;
+  }
+
+  .season-coming-soon-time-card {
+    gap: 5px;
+    margin-top: 5px;
+  }
+
+  .season-coming-soon-time-card .timer {
+    padding: 6px;
+    width: 60px;
+  }
+
+  .season-coming-soon-time-card > .heading {
+    margin-top: 3px;
+  }
+
+  .seasons-container .players-list-option .search-bar {
+    padding: 0;
+  }
+  .seasons-container .players-list-option .in-menu-search {
+    width: 100%;
+  }
+  .season-coming-soon-time-card .timer .time {
+    font-size: 25px;
+  }
+  .season-coming-soon-time-card .timer .heading {
+    bottom: -24px;
+  }
+  .seasons-container
+    .seasons-countdown.seasons-summary-wrapper
+    .seasons-summary-item {
+    padding: 20px 30px;
+  }
+
+  .seasons-container .players-list-option {
+    margin: 15px 0 0;
+  }
+
+  /* .seasons-container .seasons-rewards-wrapper .seasons-rewards-lose-text {
+    font-size: 15px;
+    margin-top: 20px;
+  } */
+}
+
+@media only screen and (max-width: 420px) {
+  .seasons-container .seasons-banner {
+    height: 37.6vw;
+  }
+  .seasons-container .seasons-banner .prev-btn {
+    top: 50px;
+  }
+  .seasons-container .user-card {
+    padding: 25px 10px;
+  }
+  .seasons-container .seasons-banner .prev-btn,
+  .seasons-container .seasons-banner .next-btn {
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .seasons-container .seasons-rewards-wrapper .seasons-rewards-time-left {
+    font-size: 14px;
+  }
+  .seasons-container .seasons-rewards-wrapper .seasons-rewards-claim-btn {
+    min-width: 165px;
+  }
+  .seasons-container .seasons-summary-item-wrapper {
+    gap: 5px;
+  }
+  .seasons-container
+    .players-list-option
+    .players-list-label
+    .tabs-container
+    > .tab-item {
+    margin: 0 5px;
+  }
+}

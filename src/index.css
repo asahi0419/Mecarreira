@@ -1,0 +1,386 @@
+body {
+  margin: auto;
+  font-family: 'Rajdhani-bold';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #222435;
+  background-size: cover;
+  font-style: normal;
+  color: white;
+  justify-content: center;
+}
+
+.App {
+  position: relative;
+}
+
+progress::-moz-progress-bar {
+  background: #171923;
+}
+progress::-webkit-progress-value {
+  background: #6bc909;
+}
+progress {
+  color: #6bc909;
+  transition: 0.5s;
+}
+progress::-webkit-progress-bar {
+  background-color: #171923;
+  border-radius: 10px;
+  transition: 0.03s;
+}
+
+progress::-webkit-progress-value {
+  background-color: #6bc909 !important;
+  border-radius: 10px;
+  transition: 0.03s;
+}
+
+/* For Firefox */
+progress {
+  background-color: #171923;
+  transition: 0.03s;
+}
+
+progress::-moz-progress-bar {
+  transition: 0.5s;
+  background-color: #039603 !important;
+  transition: 0.03s;
+}
+
+/* For IE10 */
+progress {
+  background-color: #171923;
+  transition: 0.03s;
+  border-radius: 10px;
+}
+.p-20 {
+  padding: 20px !important;
+}
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mb-5 {
+  margin-bottom: 5px !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fullwidth {
+  width: 100% !important;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.default-width {
+  width: unset !important;
+}
+
+.m-0 {
+  margin: unset !important;
+}
+
+.text-error {
+  color: red;
+}
+
+/* @font-face {
+  font-family: 'Rajdhani-regular';
+  src: local('Rajdhani-regular'), url('@assets/fonts/rajdhani.regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rajdhani-semibold';
+  src: local('Rajdhani-semibold'), url('@assets/fonts/rajdhani.semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rajdhani-bold';
+  src: local('Rajdhani-bold'), url('@assets/fonts/rajdhani.bold.ttf') format('truetype');
+} */
+
+@font-face {
+  font-family: 'Rajdhani-bold';
+  src: url('@assets/fonts/Rajdhani-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani-regular';
+  src: url('@assets/fonts/Rajdhani-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rajdhani-semibold';
+  src: url('@assets/fonts/Rajdhani-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-background-color: #222435;
+  --secondary-background-color: #171923;
+  --third-background-color: #12131c;
+  --primary-text-color: white;
+  --secondary-text-color: #abacb5;
+  --primary-icon-color: white;
+  --primary-foreground-color: #6bc909;
+  --secondary-foreground-color: #81df0d;
+  --primary-shadow-color: #222435;
+  --primary-tab-color: #171923;
+  --profit-color: #6bc909;
+  --loss-color: #f04d4e;
+
+  --primary-background-color-default: #222435;
+  --secondary-background-color-default: #171923;
+  --third-background-color-default: #12131c;
+  --primary-text-color-default: white;
+  --secondary-text-color-default: #abacb5;
+  --primary-icon-color-default: white;
+  --primary-foreground-color-default: #6bc909;
+  --secondary-foreground-color-default: #81df0d;
+  --primary-shadow-color-default: #222435;
+  --primary-tab-color-default: #171923;
+
+  --primary-background-color-light: #f5f5f5;
+  --secondary-background-color-light: white;
+  --third-background-color-light: #ebebeb;
+  --primary-text-color-light: black;
+  --secondary-text-color-light: #171923;
+  --primary-icon-color-light: black;
+  --primary-foreground-color-light: #6bc909;
+  --secondary-foreground-color-light: #81df0d;
+  --primary-shadow-color-light: #999;
+  --primary-tab-color-light: #d9d8d8;
+
+  --primary-background-color-gold: #222435;
+  --secondary-background-color-gold: #171923;
+  --third-background-color-gold: #12131c;
+  --primary-text-color-gold: white;
+  --secondary-text-color-gold: #abacb5;
+  --primary-icon-color-gold: white;
+  --primary-foreground-color-gold: #f3b127;
+  --secondary-foreground-color-gold: #f3b127;
+  --primary-shadow-color-gold: #222435;
+  --primary-tab-color-gold: #171923;
+
+  --primary-background-color-ladies: #f5f5f5;
+  --secondary-background-color-ladies: white;
+  --third-background-color-ladies: #ebebeb;
+  --primary-text-color-ladies: black;
+  --secondary-text-color-ladies: #171923;
+  --primary-icon-color-ladies: black;
+  --primary-foreground-color-ladies: #da70d6;
+  --secondary-foreground-color-ladies: #da70d6;
+  --primary-shadow-color-ladies: #999;
+  --primary-tab-color-ladies: #d9d8d8;
+
+  /* --primary-background-color-black: #727171; ASTHEME*/
+  --primary-background-color-black: #d3d3d3;
+  --secondary-background-color-black: white;
+  --third-background-color-black: #a1a1a1;
+  --primary-text-color-black: black;
+  /* --secondary-text-color-black: #171923; ASTHEME*/
+  --tertiary-text-color-black: #383838;
+  /* --secondary-text-color-black: #fff; */
+  --secondary-text-color-black: #171923;
+  --primary-icon-color-black: black;
+  --primary-foreground-color-black: black;
+  --secondary-foreground-color-black: black;
+  --primary-shadow-color-black: #999;
+  --primary-tab-color-black: #d9d8d8;
+  --third-text-color-black: white;
+
+  /*
+    --primary-background-color-black: #727171;
+  --secondary-background-color-black: white;
+  --third-background-color-black: #4c4a4a;
+  --primary-text-color-black: black;
+  --secondary-text-color-black: #171923;
+  --primary-icon-color-black: black;
+  --primary-foreground-color-black: black;
+  --secondary-foreground-color-black: black;
+  --primary-shadow-color-black: #999;
+  --primary-tab-color-black: #d9d8d8;
+  --third-text-color-black: white;
+  */
+}
+.walletconnect-modal__footer {
+  display: block !important;
+  width: 100% !important;
+  margin: auto !important;
+  justify-content: unset !important;
+  overflow: auto;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-foreground-color);
+  border-radius: 6px;
+}
+@media only screen and (max-width: 480px) {
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-foreground-color) !important;
+    border-radius: 6px;
+  }
+}
+body:hover::-webkit-scrollbar-thumb {
+  background-color: var(--primary-foreground-color) !important;
+}
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.banner_canvas {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  /* position: fixed; */
+  /* top: 0; */
+  /* left: 0; */
+  /* height: 100%;
+    width: 100%; */
+  z-index: 9;
+  opacity: 0.5;
+}
+
+.header-landing {
+  margin-left: unset !important;
+  margin: auto !important;
+}
+
+dialog#privy-dialog {
+  top: 200px;
+  align-items: flex-start;
+  backdrop-filter: none;
+}
+
+dialog#privy-dialog a {
+  color: var(--primary-foreground-color);
+}
+
+dialog#privy-dialog > div > div {
+  background: var(--primary-background-color);
+  box-shadow: none;
+  width: 375px;
+}
+
+/* dialog#privy-dialog > div > div[data-height='full'] {
+  height: 487px;
+} */
+
+dialog#privy-dialog > div > div > div:nth-child(2) {
+  height: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  dialog#privy-dialog {
+    top: 0;
+    align-items: center;
+    backdrop-filter: blur(3px);
+  }
+  dialog#privy-dialog > div > div {
+    height: auto !important;
+  }
+  dialog#privy-dialog > div > div {
+    background: #12131c;
+    width: 100%;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 700; /* Ensure the overlay appears on top of other elements */
+}
+
+.trading_disabled_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 60px;
+  position: static;
+  width: 280px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  background: transparent;
+  border: 1px solid #abacb5;
+  box-sizing: border-box;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  margin: 0px 16px;
+  cursor: pointer;
+  font-family: 'Rajdhani-semibold';
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 16px;
+  color: #abacb5;
+  line-height: 125%;
+}

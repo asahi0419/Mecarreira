@@ -1,0 +1,187 @@
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+} */
+
+.spinner-container {
+  display: none;
+  position: relative;
+  /* width: 146px; commented for 'Awaiting confirmation in 1 line in buy form'*/
+  height: 90px;
+  order: 2;
+  flex-grow: 0;
+  margin-top: 34px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.purchase-loader {
+  margin-top: 25px;
+}
+
+.purchase-loader > .spinner-container {
+  height: 92px !important;
+  margin-top: unset !important;
+}
+
+.spinner-container.no-text span {
+  display: none;
+}
+
+.spinner-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.spinner-wrapper .purchase-spinner {
+  height: 160px;
+}
+
+.spinner-container.show {
+  display: flex !important;
+}
+
+.spinner-container span {
+  position: static;
+  /* width: 146px;  commented for 'Awaiting confirmation in 1 line in buy form'*/
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: var(--primary-foreground-color);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.spinner {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%); */
+  --border-width: 4px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  --mask: radial-gradient(
+    farthest-side,
+    transparent calc(100% - var(--border-width) - 1.5px),
+    #000 calc(100% - var(--border-width) + 0.5px)
+  );
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  background: linear-gradient(
+        to top,
+        var(--primary-foreground-color),
+        var(--primary-foreground-color)
+      )
+      100% 0/50% 100% no-repeat,
+    linear-gradient(var(--primary-foreground-color) 50%, transparent 90%) 0 0/70%
+      100% no-repeat;
+  animation: spin 1s linear infinite;
+}
+
+.spinner.size-small {
+  width: 35px;
+  height: 35px;
+}
+
+.spinner__circle {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  overflow: hidden;
+  background-color: var(--primary-foreground-color);
+  border-radius: 100%;
+  animation: spin 1s infinite linear;
+}
+.spinner__circle-inner,
+.spinner__circle-gradient {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  transform: translate(-50%, -50%);
+}
+.spinner__circle-inner {
+  top: 50%;
+  left: 50%;
+  background-color: var(--primary-background-color);
+  border-radius: 100%;
+}
+.spinner__circle-gradient {
+  top: -24px;
+  left: 6px;
+  background-color: var(--primary-foreground-color);
+  background-image: -moz-linear-gradient(
+    0deg,
+    var(--primary-foreground-color) 0%,
+    var(--primary-background-color) 50%
+  );
+  background-image: -webkit-linear-gradient(
+    0deg,
+    var(--primary-foreground-color) 0%,
+    var(--primary-background-color) 50%
+  );
+  background-image: linear-gradient(
+    0deg,
+    var(--primary-foreground-color) 0%,
+    var(--primary-background-color) 50%
+  );
+  transform: rotate(-45deg);
+}
+
+.spinner__circle.size-small {
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.size-small.hidden {
+  display: none !important;
+}
+
+.size-small > .spinner__circle-gradient {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.size-small > .spinner__circle-inner {
+  width: 30px !important;
+  height: 30px !important;
+}
+.spinner.size-small_cartoon {
+  width: 30px !important;
+  height: 30px !important;
+}
+.size-small_cartoon.hidden {
+  display: none !important;
+}
+
+.size-small_cartoon > .spinner__circle-gradient {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.size-small_cartoon > .spinner__circle-inner {
+  width: 25px !important;
+  height: 25px !important;
+}

@@ -1,0 +1,320 @@
+.launch-coin-container {
+  margin-top: 120px;
+}
+
+.launch-coin-container .launch-nxt-btn {
+  width: 33%;
+  margin: auto;
+  margin-top: 45px;
+  font-size: 24px;
+  padding: 35px 0px;
+  margin-bottom: 40px;
+}
+.launch-coin-container .launch-nxt-btn-mobile {
+  width: 70%;
+  margin: auto;
+  margin-top: 45px;
+  font-size: 24px;
+}
+.selectedplayer-label {
+  width: 385px;
+  margin: auto;
+  text-align: left !important;
+}
+
+.launch-btn-wrapper {
+  margin-top: 70px;
+  margin: 0 20vw;
+}
+
+.launch-select {
+  font-size: 34px;
+  margin: 30px 0;
+  padding: 0px 10px;
+}
+
+.launch-coin-container .heading-title {
+  font-size: 77px;
+  text-align: left;
+}
+.launch-coin-container .inside-card {
+  line-height: 16px;
+}
+.launch-coin-container .changed-price,
+.launch-coin-container .coin-issued,
+.launch-coin-container .holders {
+  height: 26px;
+}
+@media only screen and (max-width: 560px) {
+  .launch-coin-container .heading-title {
+    font-size: 40px;
+  }
+}
+.launch-coin-container .card-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.launch-coin-container .player-img-desc {
+  position: absolute;
+  z-index: 9;
+  top: 41px;
+  left: 36px;
+  font-size: 27px;
+  width: 80px;
+  text-align: center;
+  line-height: 40px;
+}
+.launch-coin-container .player-title-name {
+  line-height: 16px;
+  text-align: center;
+}
+.launch-coin-container .button-container {
+  width: 260px;
+  margin: 40px auto;
+}
+
+.launch-coin-container .button-container button {
+  margin: 20px auto;
+}
+.launch-coin-container .footer-icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media (max-width: 420px) {
+  .launch-coin-container {
+    margin-bottom: 80px;
+  }
+  .launch-coin-container .button-container {
+    width: 260px;
+    margin: 0;
+    position: fixed;
+    bottom: 10px;
+    z-index: 600;
+    left: calc((100vw - 260px) / 2);
+  }
+  .launch-coin-container .button_container_launch {
+    width: 320px !important;
+    margin: 0;
+    position: fixed;
+    bottom: 10px;
+    z-index: 600;
+    left: calc((100vw - 260px) / 2);
+  }
+}
+
+/* .button_container_launch .player_list_container {
+  position: unset !important
+} */
+.launch_button_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.launch_option_button_mobile {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 10px;
+  position: static;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #12131c;
+  /* border: 1px solid var(--secondary-foreground-color); */
+  box-sizing: border-box;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  cursor: pointer;
+  font-family: 'Rajdhani-semibold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  /* color: #fff; */
+  color: var(--secondary-foreground-color);
+  line-height: 125%;
+}
+.launch_option_button {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 30px;
+  position: static;
+  height: 160px;
+  left: 0px;
+  top: 0px;
+  background: #12131c;
+  /* border: 1px solid var(--secondary-foreground-color); */
+  box-sizing: border-box;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  margin: 0px 16px;
+  cursor: pointer;
+  font-family: 'Rajdhani-semibold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  color: var(--secondary-foreground-color);
+  /* color: #fff; */
+  line-height: 125%;
+}
+.Light .launch_option_button {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Light .launch_option_button_mobile {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Light .launch_option_button:hover {
+  background: var(--secondary-foreground-color) !important;
+}
+.Light .launch_option_button_mobile:hover {
+  background: var(--secondary-foreground-color) !important;
+}
+.Ladies .launch_option_button {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .launch_option_button_mobile {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .launch_option_button:hover {
+  background: var(--secondary-foreground-color) !important;
+}
+.Ladies .launch_option_button_mobile:hover {
+  background: var(--secondary-foreground-color) !important;
+}
+.launch_option_button:hover {
+  background: var(--secondary-foreground-color);
+  border: 1px solid var(--secondary-foreground-color);
+  color: #171923;
+}
+.Black .launch_option_button {
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .launch_option_button_mobile {
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .launch_option_button:hover {
+  background: var(--secondary-foreground-color) !important;
+}
+.Black .launch_option_button_mobile:hover {
+  background: var(--secondary-foreground-color) !important;
+}
+.Black .launch_option_button:hover {
+  background: var(--secondary-foreground-color);
+  border: 1px solid var(--secondary-foreground-color);
+  color: white;
+}
+.active-btn-launch {
+  background: var(--secondary-foreground-color);
+  border: 1px solid var(--secondary-foreground-color);
+  color: #171923;
+}
+
+.launch_option_button p {
+  margin: 0px;
+}
+.launch_option_button .sub_title {
+  color: grey;
+  font-size: 28px;
+  margin: 0px;
+}
+.launch_option_button_mobile:hover {
+  background: var(--secondary-foreground-color);
+  border: 1px solid var(--secondary-foreground-color);
+  color: #171923;
+}
+.launch_option_button_mobile p {
+  margin: 0px;
+}
+.launch_option_button_mobile .sub_title {
+  color: grey;
+  font-size: 14px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .launch-btn-wrapper {
+    margin-top: 70px;
+    margin: 0 10vw;
+  }
+
+  .launch-menu-wrapper {
+    width: unset !important;
+  }
+
+  #claimList {
+    left: 0px;
+    width: 80vw;
+  }
+  .claimee-name {
+    width: 120px !important;
+    text-align: left;
+  }
+  .selected-claimee {
+    width: 304px !important;
+    margin-top: 15px !important;
+  }
+}
+
+.launch-menu-wrapper {
+  z-index: 600;
+  position: relative;
+  top: 10px;
+  margin: auto;
+  width: 450px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.selected-claimee {
+  width: 387px;
+  padding: 20px;
+  background-color: #12131c;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin: auto;
+  cursor: default !important;
+}
+.Light .selected-claimee {
+  background-color: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .selected-claimee {
+  background-color: var(--secondary-background-color-ladies) !important;
+}
+.close_claimee {
+  cursor: pointer;
+}
+.okay_button_wrapper {
+  position: relative;
+  margin: 10px;
+}
+.okay_button {
+  color: var(--secondary-foreground-color);
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 18px;
+  margin: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: underline;
+}

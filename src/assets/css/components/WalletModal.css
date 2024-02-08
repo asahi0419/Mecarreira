@@ -1,0 +1,266 @@
+.wallet-modal {
+  backdrop-filter: none;
+}
+.wert-topup {
+  flex-direction: column;
+}
+
+.wallet-modal-content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 120px;
+  padding: 10px 0 12px;
+  width: 300px;
+  background: white;
+  border-radius: 8px;
+}
+.wallet-modal-btn {
+  cursor: pointer;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 16px 0; */
+  box-sizing: border-box;
+  flex-grow: 0;
+  font-family: 'Rajdhani-bold';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  border-bottom: 1px solid rgb(206, 206, 223);
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.wallet-modal-btn:last-of-type {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.wallet-modal-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.wallet-modal-btn img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+
+.wallet-modal-btn span {
+  margin: 10px;
+}
+.wallet-modal-btn p {
+  margin: 5px 20px;
+  color: rgb(169, 169, 188);
+  font-family: 'Rajdhani-semibold';
+  font-size: 18px;
+}
+.close_end_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+.close_end {
+  color: #171923;
+  z-index: 100;
+  font-size: 28px;
+  background: transparent;
+  height: 25px;
+  width: 25px;
+  border: none;
+  cursor: pointer;
+}
+.wallet-modal-close {
+  color: #171923;
+  z-index: 100;
+  font-size: 28px;
+  background: transparent;
+  height: 25px;
+  width: 25px;
+  border: none;
+  margin-left: 260px;
+  cursor: pointer;
+}
+.wallet-modal-content .wallet-icon {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+}
+
+.player-modal-content > span {
+  font-family: 'Rajdhani-semibold';
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: black;
+  margin: 20px 0;
+  padding-bottom: 30px;
+  border-bottom: none;
+}
+
+.player-modal-content .wallet-modal-btn {
+  border-bottom: none;
+}
+
+.player-modal-content .wallet-modal-btn img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+.seedTextButtonContainer {
+  display: grid !important;
+  grid-template-columns: auto auto auto;
+  /* padding: 10px !important; */
+  grid-gap: 15px !important;
+  gap: 15px !important;
+  /* margin: 0 37px; */
+}
+
+.seedTextButton {
+  border: 1px solid transparent;
+  color: white;
+  background: #171923;
+  border-radius: 4px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 4px;
+}
+.seedTextButton_confirm_container {
+  border: 1px solid transparent;
+  color: white;
+  background: #212435;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 4px;
+}
+.seedTextButton_confirm {
+  border: 1px solid transparent;
+  color: white;
+  background: #171923;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 4px;
+}
+.textNumber {
+  color: gray;
+  margin-right: 4px;
+}
+.seedWallet_container {
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 15px;
+  height: 190px;
+  background: #171923;
+  border-radius: 20px;
+}
+.seedTextButtonContainerConfirm {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 3%;
+}
+.seedWallet_keys_wrapper {
+  display: grid !important;
+  grid-template-columns: auto auto auto;
+  /* padding: 10px !important; */
+  grid-gap: 15px !important;
+  gap: 9px !important;
+}
+.copy-button-seed {
+  display: flex;
+  padding: 16px;
+  border-radius: 40px;
+  margin: 16px 0;
+  cursor: pointer;
+}
+.tooltip-seed {
+  position: relative;
+  display: inline-block;
+}
+.tooltip-seed .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  left: -30px;
+  top: -40px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  transition: 0.2s;
+}
+.back_button {
+  color: var(--secondary-foreground-color);
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 6px;
+}
+.scroll_secret::-webkit-scrollbar {
+  display: block !important;
+  width: 3px !important;
+}
+.scroll_secret::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+
+.scroll_secret::-webkit-scrollbar-thumb {
+  background-color: transparent !important;
+  border-right: none !important;
+  border-left: none !important;
+  border-radius: 6px;
+}
+@media only screen and (max-width: 480px) {
+  .scroll_secret::-webkit-scrollbar-thumb {
+    background-color: var(--primary-foreground-color) !important;
+    border-radius: 6px;
+  }
+}
+.scroll_secret:hover::-webkit-scrollbar-thumb {
+  background-color: var(
+    --primary-foreground-color
+  ) !important; /* Show the scrollbar thumb on hover */
+}
+.scroll_secret::-webkit-scrollbar-track-piece:end {
+  background: transparent !important;
+  margin-bottom: 5px !important;
+}
+
+.scroll_secret::-webkit-scrollbar-track-piece:start {
+  background: transparent !important;
+  margin-top: 5px !important;
+}

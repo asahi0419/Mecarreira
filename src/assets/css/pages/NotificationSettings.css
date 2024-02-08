@@ -1,0 +1,426 @@
+.settings-title {
+  font-weight: 700;
+  font-size: 27px;
+  margin-top: 0px;
+  padding: 0px;
+}
+.switch-container {
+  padding: 0 10px;
+}
+.my_user_setting_input_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2c2f45;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.my_user_setting_input_wrapper {
+  background: #2c2f45 !important;
+}
+
+.Light .my_user_setting_input_wrapper {
+  background: #fff !important;
+}
+
+.Ladies .my_user_setting_input_wrapper {
+  background: #fff !important;
+}
+
+.w-120 {
+  width: 120px !important;
+}
+.w-155 {
+  width: 155px !important;
+}
+.unwidth {
+  width: unset !important;
+}
+.my_user_setting_input {
+  background: #2c2f45;
+  outline: none;
+  line-height: 100%;
+  border-radius: 4px 4px 4px 4px;
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: 'Rajdhani-bold';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  border: 0px;
+  height: 50px;
+}
+.my_user_settings_title {
+  font-family: 'Rajdhani-semibold';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0px;
+  margin-bottom: 25px;
+}
+.share_link_ref_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copy_share_link {
+  background: #2c2f45;
+  outline: none;
+  line-height: 100%;
+  border-radius: 0px 4px 4px 0px;
+  padding: 12px 10px 12px 0px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: 'Rajdhani-regular';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  border: 0px;
+  height: 50px;
+}
+.invitation-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  text-decoration: none;
+}
+.info_Icon_wallet {
+  color: var(--primary-foreground-color);
+  width: 30px !important;
+  height: 30px !important;
+}
+.insideWallet {
+  padding: 0px 14px;
+}
+#myReferralSettings .early-access-desc {
+  color: var(--primary-foreground-color);
+  text-decoration: underline;
+}
+
+#myReferralSettings .my_user_setting_input {
+  font-size: 16px;
+  color: #abacb5;
+}
+
+.invitation-info .early-access-desc {
+  color: var(--primary-foreground-color);
+  text-decoration: underline;
+}
+
+.invitation-info > img {
+  height: 30px;
+  width: 30px;
+}
+
+.referral_desc {
+  font-family: 'Rajdhani-semibold';
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 18px;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+  color: #abacb5;
+}
+.referral_labels {
+  font-family: 'Rajdhani-semibold';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+}
+.level_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+.level_wrapper > div {
+  width: 40%;
+}
+.level_labels {
+  font-family: 'Rajdhani-semibold';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0px;
+  white-space: nowrap;
+}
+.pay_me_out {
+  border: 1px solid var(--primary-foreground-color);
+  width: 135px !important;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  margin-top: 11px;
+}
+.approx_dollar {
+  font-family: 'Rajdhani-semibold';
+  text-align: center;
+  margin-top: 5px;
+  color: #abacb5;
+}
+.matic_earn_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.matic_earn_box .my_user_setting_input {
+  color: #abacb5;
+  padding-left: 10px;
+}
+
+.matic_Icon {
+  background: #2c2f45;
+  outline: none;
+  line-height: 100%;
+  border-radius: 4px 0px 0px 4px;
+  padding: 12px 0px 12px 30px;
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: 'Rajdhani-regular';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  border: 0px;
+  height: 50px;
+  margin: 0px;
+}
+.payouts_date {
+  font-family: 'Rajdhani-semibold';
+  color: #abacb5;
+  margin: 2px 0px;
+}
+.box_padding {
+  padding: 20px;
+}
+
+.user-card-setting.user-card {
+  background: unset;
+}
+
+.user-card-setting.user-card:hover {
+  border: 4px solid var(--primary-background-color);
+}
+
+.user-card-setting.user-card .user-name-wrapper {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.user-card-setting .nft-gallery-card .nft-gallery-img {
+  background-size: contain;
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+}
+
+.user-card-setting .nft-gallery-card {
+  border: 3px solid #ccc;
+}
+
+.user-card-setting .nft-gallery-card:hover {
+  border: 3px solid var(--primary-foreground-color);
+}
+
+.user-card-setting .user-select {
+  background: #2c2f45;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 5px;
+  font-family: 'Rajdhani-regular';
+  border-radius: 3px;
+  width: 160px;
+  margin-top: 10px;
+}
+
+.user-card-setting .user-select:focus-visible {
+  outline: 0px;
+}
+
+.user-card-setting.user-card .user-info-wrapper {
+  gap: 40px;
+}
+
+.user-card-setting.user-card .textinput-wrapper {
+  margin-top: 0;
+}
+
+.user-card-setting.user-card .textinput-wrapper input {
+  font-family: 'Rajdhani-regular';
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+.user-card-setting.user-card .nft-image {
+  width: 100px;
+  height: 100px;
+}
+
+.user-card-setting.user-card .user-info-wrapper .user-image .image-border {
+  width: 106px;
+  height: 106px;
+}
+
+.user-card-setting .icon-pencil {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  background: var(--primary-foreground-color);
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-card-setting .user-image,
+.user-card-setting .user-name {
+  position: relative;
+}
+
+.user-card-setting.user-card .user-name-wrapper .user-name {
+  overflow: unset;
+}
+
+.user-card-setting .user-image .icon-pencil {
+  right: -8px;
+  top: 66%;
+}
+
+.user-card-setting .user-name .icon-pencil {
+  right: -50px;
+  top: -6px;
+}
+
+.user-card-setting .user-name .icon-pencil.icon-checked {
+  top: 5px;
+}
+
+.user-card-setting .modal-content .blog-title {
+  text-transform: capitalize;
+  padding-top: 60px;
+}
+
+.user-card-setting .modal-content .nft-gallery-grid {
+  max-height: 620px;
+  overflow: auto;
+}
+
+.user-card-setting .modal-content .nft-gallery-grid::-webkit-scrollbar {
+  width: 3px;
+}
+
+.user-card-setting .modal-content .nft-gallery-grid::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 6px;
+}
+.user-card-setting .user-name-wrapper .user-name .settingname {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-card-setting .user-name-wrapper .user-name .characters_left {
+  margin-top: 10px;
+  color: var(--primary-foreground-color);
+}
+
+@media only screen and (max-width: 480px) {
+  .user-card-setting .modal-content .nft-gallery-grid::-webkit-scrollbar-thumb {
+    background-color: var(--primary-foreground-color) !important;
+    border-radius: 6px;
+  }
+}
+.user-card-setting
+  .modal-content
+  .nft-gallery-grid:hover::-webkit-scrollbar-thumb {
+  background-color: var(
+    --primary-foreground-color
+  ) !important; /* Show the scrollbar thumb on hover */
+}
+
+@media only screen and (max-width: 600px) {
+  .user-card-setting.user-card {
+    padding: 25px 0;
+  }
+  .user-card-setting.user-card .user-info-wrapper {
+    gap: 20px;
+  }
+  .user-card-setting.user-card .user-name {
+    max-width: 180px;
+    width: fit-content;
+  }
+  .user-card-setting.user-card .user-name-wrapper .user-name {
+    width: 180px;
+  }
+  .user-card-setting .user-name .icon-pencil {
+    right: -40px;
+  }
+  .user-card-setting.user-card .user-name-wrapper .user-name {
+    font-size: 30px;
+    overflow-wrap: normal;
+  }
+  .user-card-setting.user-card .user-name-wrapper .user-name .settingname {
+    font-size: 25px;
+  }
+  .user-card-setting .user-select {
+    width: 145px;
+  }
+  .settings-title {
+    font-size: 25px;
+  }
+  .notifications.settings .black-box {
+    padding: 15px;
+  }
+  .notifications.settings .black-box .switch-container .notification {
+    margin-bottom: 15px;
+    padding: 15px 15px;
+  }
+  .notifications.settings .black-box .switch-container .notification:last-child {
+    margin-bottom: 0px;
+  }
+  .notifications.settings .black-box .settings-title {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .user-card-setting.user-card {
+    padding: 25px 0;
+  }
+  .user-card-setting.user-card .user-info-wrapper {
+    gap: 20px;
+  }
+  .user-card-setting.user-card .user-name {
+    max-width: 160px;
+    width: fit-content;
+  }
+  .user-card-setting.user-card .user-name-wrapper .user-name {
+    width: 160px;
+  }
+  .user-card-setting .user-name .icon-pencil {
+    right: 9px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .user-card-setting.user-card .user-name {
+    width: 120px;
+  }
+}

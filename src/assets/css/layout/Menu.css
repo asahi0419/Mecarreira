@@ -1,0 +1,442 @@
+.menu {
+  margin-top: 60px !important;
+  background-color: var(--third-background-color) !important;
+  padding: 1vh 29px 0 24px;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100vw;
+  z-index: 501;
+  overflow: auto;
+  height: 100%;
+  padding-bottom: 60px;
+}
+
+.menu::-webkit-scrollbar {
+  width: 3px;
+}
+
+.menu::-webkit-scrollbar-thumb {
+  background: var(--primary-foreground-color);
+  border-radius: 6px;
+}
+
+.new-landing-menu.content-wrap {
+  background-color: #171923;
+  margin-top: 80px !important;
+}
+
+.menu-items {
+  margin-top: 30px;
+}
+
+.selected-value-row {
+  display: flex;
+}
+
+.selected-value {
+  color: var(--primary-foreground-color);
+  font-size: 18px;
+}
+
+.menu > .container {
+  width: 350px;
+  height: fit-content;
+}
+
+.menu > .container > .button-box {
+  margin: auto;
+  margin-top: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.menu > .container > .button-box:hover {
+  color: #09090e !important;
+}
+
+.menu > .container > .bottom-line {
+  margin: 18px 0 18px;
+}
+
+.menu > .container > .menu-items > .notification {
+  margin-bottom: 0px !important;
+}
+.menu > .container > .menu-items > .notification_margin_more {
+  margin-bottom: 20px !important;
+}
+.menu > .container > .App .page-link {
+  font-weight: 600;
+  color: #80828f;
+  padding-top: 16px;
+  text-align: left !important;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.menu > .container > .App .page-link:hover {
+  color: var(--primary-foreground-color);
+  cursor: pointer;
+}
+
+.grey-color {
+  color: #80828f !important;
+}
+
+.grey-border-color {
+  border: 1px solid #80828f !important;
+}
+
+.menu > .container > .social-icons-group > .social-icons {
+  margin: 16px 8px 0px;
+}
+
+.download-app-box > .button-box {
+  margin: 22px auto 0px auto;
+}
+
+.tiktok-icon {
+  border: 1.5px solid var(--primary-foreground-color);
+  border-radius: 10px;
+  width: 3rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.tiktok-icon > img {
+  height: 20px;
+  /* height: 33%; */
+}
+
+.menu-language-background {
+  /* background-color: #171923; */
+  border-bottom: 0px;
+}
+
+/* .onboarding-popup { */
+/* margin-top: unset !important;
+  background-color: #fefefe;
+  margin: auto;
+  width: unset ; */
+
+/* margin-top: unset !important; */
+/* background-color: #212435; */
+/* border-radius: 20px; */
+/* margin: auto; */
+/* width: 350px; */
+/* width: 375px; */
+/* min-height: 600px; */
+/* height: 75vh; */
+/* width: unset;*/
+/* } */
+
+.close-menu-login {
+  right: 3px;
+  top: 50px;
+}
+
+.menu .App .flex-space-between {
+  align-items: flex-end;
+}
+
+@media only screen and (min-width: 992px) {
+  /* .onboarding-popup { */
+  /* margin-top: unset !important; */
+  /* background-color: #fefefe; */
+  /* margin: auto; */
+  /* width: 375px; */
+  /* } */
+  .close-menu-login {
+    right: unset;
+    top: unset;
+  }
+}
+.in-menu-search {
+  margin: 0 18px !important;
+}
+
+.tutorial-video-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+  .tutorial-video-container {
+    height: calc(100vh - 60px);
+    justify-content: flex-start;
+    margin: 60px 0 0 0;
+  }
+
+  .menu > .container {
+    width: 100%;
+  }
+
+  .menu::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.tutorial-video-container > iframe {
+  border: none;
+}
+
+.container-tutorial {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tutorial-item {
+  padding: 5px;
+  width: 400px;
+  height: 250px;
+  margin: 10px;
+
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.tutorial-section-title {
+  font-family: 'Rajdhani-semibold';
+  font-size: 26px;
+  margin: 20px 0;
+  margin-top: 130px;
+  text-align: center;
+}
+/*float layout*/
+.tutorial-float {
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  margin: 55px auto 0px auto;
+}
+.tutorial-float:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.tutorial-float-item {
+  float: left;
+  height: 300px;
+}
+
+.tutorial-float-item > .tutorial-box {
+  width: unset;
+  height: 100%;
+}
+
+/*inline-block*/
+.inline-b {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.inline-b-item {
+  display: inline-block;
+}
+
+/*Flexbox*/
+.tutorial-flex {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.tutorial-popup {
+  width: 90vw;
+  text-align: center;
+}
+
+.tutorial-page-popup {
+  width: 90vw;
+}
+
+.tutorial-popup > iframe {
+  margin: 35px 0;
+  border-radius: 5px;
+}
+
+.tutorial-page-popup > iframe {
+  margin: 35px 35px;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  /* .onboarding-popup {
+    width: 95vw;
+  } */
+  .tutorial-popup > iframe {
+    margin: 35px 0;
+    border-radius: 5px;
+  }
+  .tutorial-page-popup > iframe {
+    margin: 35px 35px;
+    border-radius: 5px;
+  }
+  .tutorial-item {
+    padding: 5px;
+    width: 95vw;
+    height: 300px;
+    margin: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  }
+  .tutorial-section-title {
+    font-family: 'Rajdhani-semibold';
+    font-size: 26px;
+    margin: 20px 0;
+    margin-top: 100px;
+    text-align: center;
+  }
+  .tutorial-float {
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    margin: 35px auto 0px auto;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .tutorial-float {
+    margin: 0 auto;
+  }
+  .new-landing-menu.content-wrap {
+    padding-bottom: 100px;
+    margin-top: 60px !important;
+    padding-top: 20px;
+  }
+
+  .menu > .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 912px) {
+  .tiktok-icon {
+    border: 1.5px solid var(--primary-foreground-color);
+    border-radius: 10px;
+    /* width: 60px;
+    height: 60px; */
+    /* width: 12.5vw;
+    height: 5.9vh; */
+    /* width: calc(100vw - 366px);
+    height: calc(100vw - 366px); */
+    /* width: 45px;
+    height: 45px; */
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .tiktok-icon > img {
+    height: 20px;
+    /* height: 33%; */
+  }
+
+  .tutorial-popup {
+    width: 90vw;
+  }
+  /* .tutorial-popup > iframe {
+    margin: 35px 46px;
+    border-radius: 5px;
+  } */
+  .tutorial-page-popup > iframe {
+    margin: 35px 35px;
+    border-radius: 5px;
+  }
+}
+
+.new-landing-menu .notification-title {
+  margin-bottom: 15px;
+}
+
+.watch-icon {
+  font-size: 19px !important;
+  margin-left: 10px;
+}
+.link-title .css-i4bv87-MuiSvgIcon-root {
+  width: 18px;
+  height: 18px;
+}
+.notification-title
+  .css-1ptdflp-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  line-height: unset !important;
+}
+.theme-select-box.MuiInputBase-root .MuiSelect-select.MuiSelect-select {
+  text-align: right;
+  color: var(--primary-foreground-color) !important;
+  font-family: 'Rajdhani-semibold';
+  font-size: 18px;
+  font-weight: 600;
+  background: transparent !important;
+  min-height: unset;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.theme-select-box fieldset {
+  border: none;
+}
+
+.theme-select-box svg {
+  display: none;
+}
+
+.MuiMenu-list > .MuiButtonBase-root {
+  display: flex;
+  padding: 6px 16px;
+  justify-content: flex-start;
+}
+
+.theme-circle {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  margin-right: 3px;
+  margin-top: -3px;
+}
+
+.theme-select-box .theme-circle {
+  margin-top: 0;
+}
+
+.theme-circle.default {
+  background: linear-gradient(to right, #12131c, #6bc909);
+}
+
+.theme-circle.light {
+  background: linear-gradient(to right, white, #6bc909);
+}
+
+.theme-circle.gold {
+  background: linear-gradient(to right, #222435, #f3b127);
+}
+
+.theme-circle.ladies {
+  background: linear-gradient(to right, white, #da70d6);
+}
+.theme-circle.black {
+  background: linear-gradient(to right, white, #000);
+}

@@ -1,0 +1,305 @@
+.user-container {
+  margin: 80px auto 60px;
+  width: 90%;
+  /* max-width: 600px; */
+}
+/* .user-container .user-card:hover {
+  border: 4px solid var(--primary-background-color);
+} */
+
+.user-container .user-summary-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  height: 136px;
+  gap: 20px;
+}
+
+.user-container .user-summary-wrapper .user-summary-item:first-child {
+  width: 260px;
+}
+
+.user-container .user-summary-wrapper .user-summary-item {
+  background: var(--third-background-color);
+  padding: 25px 45px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.user-container .user-summary-wrapper .user-summary-item-label {
+  font-size: 22px;
+}
+
+.user-container .user-summary-wrapper .user-summary-item-value {
+  font-size: 48px;
+  line-height: 1.3;
+}
+
+.user-container .user-summary-wrapper .user-summary-item-value-address {
+  margin-top: 10px;
+}
+
+.user-container .user-summary-wrapper a {
+  font-size: 24px;
+  color: var(--primary-foreground-color);
+}
+
+.user-container .players-list-option {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0;
+  align-items: center;
+  background-color: var(--secondary-background-color);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.user-container .players-list-option .players-list-label {
+  font-size: 20px;
+}
+
+.user-container .players-list-option .players-list-label .tabs-container,
+.user-container
+  .players-list-option
+  .players-list-label
+  .tabs-container
+  .tab-item {
+  background: unset;
+}
+
+.user-container .players-list-option .players-list-count-select {
+  font-family: 'Rajdhani-regular';
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.user-container .players-list-option .players-list-count-select select {
+  font-size: 16px;
+  border-radius: 8px;
+  margin-left: 7px;
+  width: 65px;
+  height: 38px;
+  padding: 0 9px;
+  margin-right: 13px;
+}
+
+.user-container .players-list-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* flex-flow: wrap; */
+  gap: 20px;
+  padding: 20px 30px;
+  background: var(--secondary-background-color);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.user-container .players-list-wrapper .black-box {
+  width: 100%;
+  background: var(--third-background-color);
+  border-radius: 20px;
+  padding: 25px;
+}
+/* .user-container .players-list-wrapper .players-list-skeleton-item {
+  margin-bottom: 20px;
+} */
+
+.user-container .players-list-wrapper .blog-title {
+  margin: 20px 0;
+}
+
+.user-container .players-list-wrapper .infinite-scroll-component {
+  display: flex;
+  flex-direction: column;
+  /* overflow: hidden !important; */
+  gap: 20px;
+  /* justify-content: center; */
+}
+
+.user-container .user-card .user-level-group .user-level-box {
+  min-width: 130px;
+}
+
+.user-container .user-card .user-level-group .user-level {
+  font-size: 36px;
+}
+
+.user-container .user-card .user-level-group  .user-level-label {
+  font-size: 20px;
+}
+
+.user-container
+  .players-list-wrapper
+  .infinite-scroll-component.infinite-nft-list-wrapper {
+  display: block;
+}
+
+.user-container .players-list-wrapper .nft-list-grid-mob {
+  display: flex;
+  flex-flow: wrap;
+  row-gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.user-container .players-list-wrapper .infinite-scroll-component .nft-card {
+  border: 3px solid var(--secondary-background-color);
+}
+
+.user-container
+  .players-list-wrapper
+  .infinite-scroll-component
+  .nft-card:hover {
+  border: 3px solid var(--primary-foreground-color);
+}
+
+.user-summary-item-value-skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 100%;
+  height: 62px;
+}
+
+.user-container .top-trades-section {
+  margin-top: 20px;
+}
+
+.user-container .top-trades-section .box-wrapper.section-wrapper {
+  background-color: var(--secondary-background-color);    
+}
+
+@media only screen and (max-width: 700px) {
+  .user-container {
+    width: 94%;
+  }
+
+  .user-container .user-summary-wrapper {
+    flex-direction: column;
+    gap: 20px;
+    height: auto;
+  }
+
+  .user-container .user-summary-wrapper .user-summary-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+  }
+
+  .user-container .user-summary-wrapper .user-summary-item:first-child {
+    /* height: 144px; */
+    padding: 30px;
+    width: 100%;
+  }
+
+  .user-container .user-summary-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .user-container .user-summary-item {
+    width: 100%;
+  }
+
+  .user-container .user-summary-wrapper .user-summary-item-value-address {
+    margin-top: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .user-container .user-summary-wrapper a {
+    font-size: 20px;
+  }
+
+  .user-container
+    .players-list-option
+    .players-list-label
+    .tabs-container
+    .tab-item {
+    width: 80px;
+  }
+  .user-container .players-list-wrapper {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+  }
+  .user-container .user-summary-wrapper .user-summary-item-value {
+    font-size: 30px;
+  }
+  
+}
+.private_profile {
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 1300px) {
+  .user-container {
+    width: 1200px;
+    max-width: 1200px;
+  }
+
+  .user-container .user-card,
+  .user-container .user-summary-wrapper {
+    height: 162px;
+  }
+
+  .user-container .user-summary-wrapper .user-summary-item {
+    padding: 35px 45px;
+    width: 380px;
+  }
+  .user-container .user-summary-wrapper .user-summary-item:first-child {
+    width: 400px;
+  }
+  .user-container .user-summary-wrapper .user-summary-item-label {
+    font-size: 30px;
+  }
+  .user-container
+    .players-list-option
+    .players-list-label
+    .tabs-container
+    .tab-item {
+    font-size: 20px;
+  }
+  .user-card .user-level {
+    font-size: 42px;
+  }
+  .user-container .user-card .user-level {
+    font-size: 60px;
+    max-width: unset;
+  }
+  .user-container .user-card .user-level-label {
+    font-size: 24px;
+  }
+}
+
+
+@media only screen and (max-width: 1300px) and (min-width: 700px) {
+  .user-container .user-summary-wrapper .user-summary-item:first-child {
+    width: unset;
+  }
+  .user-container .user-summary-wrapper .user-summary-item-value {
+    font-size: 36px;
+    margin-top: 10px;
+  }
+  .players-list-item.user-card .player-name > span {
+    font-size: 22px;
+  }
+  .user-container .user-card .user-level-group .user-level {
+    font-size: 36px;
+  }
+  .user-container .user-card .user-level-group .user-level-box {
+    min-width: 100px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .user-container
+  .players-list-wrapper
+  .infinite-scroll-component.infinite-nft-list-wrapper .nft-line-ex .nft-column {
+    column-gap: 1px;
+  }
+}

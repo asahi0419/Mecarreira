@@ -1,0 +1,980 @@
+.user-card {
+  background: var(--third-background-color);
+  padding: 25px 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  border: 4px solid var(--primary-background-color);
+}
+.user-card.my-settings {
+  border: none !important;
+}
+.user-card:hover {
+  border: 4px solid var(--primary-foreground-color);
+}
+
+.user-card .user-content {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.user-card .user-index {
+  font-size: 28px;
+  min-width: 40px;
+}
+
+.user-card .user-gold-text {
+  color: gold;
+}
+
+.user-card.user-gold-border {
+  border-color: gold;
+}
+
+.user-card.user-gold-border:hover {
+  border-color: var(--primary-foreground-color);
+}
+
+.user-card .nft-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 3px;
+  background-size: contain;
+}
+
+.user-card .user-info-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.user-card .user-image .image-border {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 86px;
+  height: 86px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.group-0 {
+  background-image: url('@assets/images/avatar/Group-0.webp') !important;
+}
+
+.group-1 {
+  background-image: url('@assets/images/avatar/Group-1.webp') !important;
+}
+
+.group-2 {
+  background-image: url('@assets/images/avatar/Group-2.webp') !important;
+}
+
+.group-3 {
+  background-image: url('@assets/images/avatar/Group-3.webp') !important;
+}
+
+.group-4 {
+  background-image: url('@assets/images/avatar/Group-4.webp') !important;
+}
+
+.group-5 {
+  background-image: url('@assets/images/avatar/Group-5.webp') !important;
+}
+
+.group-6 {
+  background-image: url('@assets/images/avatar/Group-6.webp') !important;
+}
+
+.group-7 {
+  background-image: url('@assets/images/avatar/Group-7.webp') !important;
+}
+
+.group-8 {
+  background-image: url('@assets/images/avatar/Group-8.webp') !important;
+}
+
+.group-9 {
+  background-image: url('@assets/images/avatar/Group-9.webp') !important;
+}
+
+.group-10 {
+  background-image: url('@assets/images/avatar/Group-10.webp') !important;
+}
+
+.group-11 {
+  background-image: url('@assets/images/avatar/Group-11.webp') !important;
+}
+
+.group-12 {
+  background-image: url('@assets/images/avatar/Group-12.webp') !important;
+}
+
+.group-13 {
+  background-image: url('@assets/images/avatar/Group-13.webp') !important;
+}
+
+.group-14 {
+  background-image: url('@assets/images/avatar/Group-14.webp') !important;
+}
+
+.group-15 {
+  background-image: url('@assets/images/avatar/Group-15.webp') !important;
+}
+
+.group-16 {
+  background-image: url('@assets/images/avatar/Group-16.webp') !important;
+}
+
+.group-17 {
+  background-image: url('@assets/images/avatar/Group-17.webp') !important;
+}
+
+.group-18 {
+  background-image: url('@assets/images/avatar/Group-18.webp') !important;
+}
+
+.group-19 {
+  background-image: url('@assets/images/avatar/Group-19.webp') !important;
+}
+
+.group-20 {
+  background-image: url('@assets/images/avatar/Group-20.webp') !important;
+}
+
+.group-21 {
+  background-image: url('@assets/images/avatar/Group-21.webp') !important;
+}
+
+.group-22 {
+  background-image: url('@assets/images/avatar/Group-22.webp') !important;
+}
+
+.group-23 {
+  background-image: url('@assets/images/avatar/Group-23.webp') !important;
+}
+
+.group-24 {
+  background-image: url('@assets/images/avatar/Group-24.webp') !important;
+}
+
+.group-25 {
+  background-image: url('@assets/images/avatar/Group-25.webp') !important;
+}
+
+.group-26 {
+  background-image: url('@assets/images/avatar/Group-26.webp') !important;
+}
+
+.group-27 {
+  background-image: url('@assets/images/avatar/Group-27.webp') !important;
+}
+
+.big-group-0 {
+  background-image: url('@assets/images/avatar/big/Group-0.webp') !important;
+}
+
+.big-group-1 {
+  background-image: url('@assets/images/avatar/big/Group-1.webp') !important;
+}
+
+.big-group-2 {
+  background-image: url('@assets/images/avatar/big/Group-2.webp') !important;
+}
+
+.big-group-3 {
+  background-image: url('@assets/images/avatar/big/Group-3.webp') !important;
+}
+
+.big-group-4 {
+  background-image: url('@assets/images/avatar/big/Group-4.webp') !important;
+}
+
+.big-group-5 {
+  background-image: url('@assets/images/avatar/big/Group-5.webp') !important;
+}
+
+.big-group-6 {
+  background-image: url('@assets/images/avatar/big/Group-6.webp') !important;
+}
+
+.big-group-7 {
+  background-image: url('@assets/images/avatar/big/Group-7.webp') !important;
+}
+
+.big-group-8 {
+  background-image: url('@assets/images/avatar/big/Group-8.webp') !important;
+}
+
+.big-group-9 {
+  background-image: url('@assets/images/avatar/big/Group-9.webp') !important;
+}
+
+.big-group-10 {
+  background-image: url('@assets/images/avatar/big/Group-10.webp') !important;
+}
+
+.big-group-11 {
+  background-image: url('@assets/images/avatar/big/Group-11.webp') !important;
+}
+
+.big-group-12 {
+  background-image: url('@assets/images/avatar/big/Group-12.webp') !important;
+}
+
+.big-group-13 {
+  background-image: url('@assets/images/avatar/big/Group-13.webp') !important;
+}
+
+.big-group-14 {
+  background-image: url('@assets/images/avatar/big/Group-14.webp') !important;
+}
+
+.big-group-15 {
+  background-image: url('@assets/images/avatar/big/Group-15.webp') !important;
+}
+
+.big-group-16 {
+  background-image: url('@assets/images/avatar/big/Group-16.webp') !important;
+}
+
+.big-group-17 {
+  background-image: url('@assets/images/avatar/big/Group-17.webp') !important;
+}
+
+.big-group-18 {
+  background-image: url('@assets/images/avatar/big/Group-18.webp') !important;
+}
+
+.big-group-19 {
+  background-image: url('@assets/images/avatar/big/Group-19.webp') !important;
+}
+
+.big-group-20 {
+  background-image: url('@assets/images/avatar/big/Group-20.webp') !important;
+}
+
+.big-group-21 {
+  background-image: url('@assets/images/avatar/big/Group-21.webp') !important;
+}
+
+.big-group-22 {
+  background-image: url('@assets/images/avatar/big/Group-22.webp') !important;
+}
+
+.big-group-23 {
+  background-image: url('@assets/images/avatar/big/Group-23.webp') !important;
+}
+
+.big-group-24 {
+  background-image: url('@assets/images/avatar/big/Group-24.webp') !important;
+}
+
+.big-group-25 {
+  background-image: url('@assets/images/avatar/big/Group-25.webp') !important;
+}
+
+.big-group-26 {
+  background-image: url('@assets/images/avatar/big/Group-26.webp') !important;
+}
+
+.big-group-27 {
+  background-image: url('@assets/images/avatar/big/Group-27.webp') !important;
+}
+
+.user-card .user-name-wrapper {
+  display: flex;
+  /* flex-direction: column;
+  justify-content: space-around; */
+  /* gap: 10px; */
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-list-wrapper .user-card .user-name-wrapper .user-name {
+  max-width: 400px;
+}
+
+.user-card .user-name-wrapper .user-name {
+  font-size: 30px;
+  /* max-width: 228px; */
+  width: fit-content;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-name-wrapper .user-name .textinput-wrapper {
+  max-width: 160px;
+  width: fit-content;
+}
+
+.user-card .user-vip-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.user-card .user-vip {
+  font-size: 42px;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  line-height: 1;
+}
+
+.user-level-group {
+  display: flex;
+  gap: 20px;
+}
+
+.user-card .user-level-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-card .user-image {
+  align-self: center;
+}
+
+.user-card .user-level {
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  color: var(--primary-foreground-color-gold);
+  /* max-width: 120px; */
+  line-height: 1;
+  justify-content: flex-end;
+}
+
+.feed-section .user-card {
+  /* border: 4px solid var(--primary-foreground-color-gold); */
+  margin-bottom: 10px;
+}
+
+.scouts-top5-container .user-card {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 4px solid var(--secondary-background-color);
+}
+
+.scouts-top5-container .user-card .user-level-box {
+  min-width: 155px;
+}
+
+.scouts-top5-container .user-card:hover {
+  border: 4px solid var(--primary-foreground-color);
+}
+
+.scouts-top5-container .user-card.user-card.user-scouts-card-supporter:hover {
+  border: 0;
+  border-bottom: 1px solid #313241;
+}
+
+.user-card.user-card-supporter .user-level-box {
+  min-width: 120px;
+}
+
+.user-card-feed-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.user-card-feed-name-info {
+  display: flex;
+  gap: 10px;
+}
+
+.user-feedinfo {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  color: var(--primary-foreground-color-gold);
+  line-height: 1;
+}
+
+.user-feedinfo b {
+  text-decoration: underline;
+}
+
+.user-feedinfo b:hover {
+  color: var(--primary-foreground-color-gold);
+}
+
+.user-card .user-name .user-name-text {
+  display: inline;
+  margin-right: 10px;
+}
+
+.user-card .user-feed-level-wrapper {
+  align-items: center;
+  /* margin-left: 10px; */
+  display: inline-block;
+  align-self: center;
+}
+
+.user-card .user-feed-level {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-foreground-color-gold);
+  /* max-width: 120px; */
+  /* line-height: 1; */
+  min-width: 40px;
+  padding: 2px;
+  height: 40px;
+  /* border: 1px solid var(--primary-foreground-color-gold); */
+  border-radius: 4px;
+  justify-content: center;
+  color: #12131c;
+  border-radius: 4px;
+}
+
+.user-card-scouts-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.user-card .user-level-label {
+  font-size: 20px;
+  text-align: right;
+}
+
+.user-container .user-card .user-level {
+  max-width: unset;
+}
+
+.user-card.user-card-supporter {
+  /* gap: 10px; */
+  /* padding: 25px; */
+  /* width: 600px; */
+  text-align: left;
+  border-color: var(--third-background-color);
+}
+
+.user-card.user-card-supporter:hover {
+  border-color: var(--primary-foreground-color);
+}
+
+.user-card.user-card-supporter .user-index {
+  min-width: 40px;
+}
+
+.user-card-supporter .user-price-wrapper {
+  width: 360px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-card-supporter .user-level-wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.user-card-supporter .user-level-wrapper .number-color {
+  font-size: 30px;
+}
+
+.user-card-supporter .user-level-wrapper a {
+  width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--primary-foreground-color);
+}
+
+.skeleton-user-card {
+  justify-content: space-between;
+}
+
+.skeleton-user-image {
+  width: 86px;
+  height: 86px;
+  border-radius: 100%;
+}
+
+.skeleton-user-name {
+  width: 180px;
+  height: 28px;
+}
+
+.skeleton-user-vip {
+  width: 180px;
+  height: 28px;
+}
+
+.skeleton-user-level {
+  width: 60px;
+  height: 60px;
+}
+
+.user-card .user-content {
+  font-size: 16px;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-card.user-scouts-card-supporter {
+  width: 100%;
+  background: unset;
+  padding: 15px;
+  border: 0;
+  border-bottom: 1px solid #313241;
+  border-radius: 0;
+  justify-content: space-between;
+}
+
+.players-live-section .user-card.user-scouts-card-supporter {
+  padding: 15px 10px;
+}
+
+.players-live-section .user-card.user-scouts-card-supporter {
+  padding: 15px 10px;
+}
+
+.players-live-section .user-card.user-scouts-card-supporter:last-child {
+  border-bottom: unset;
+}
+
+.players-live-section .user-card.user-scouts-card-supporter .user-level-group {
+  min-width: 50px;
+}
+
+.user-scouts-card-supporter .user-content {
+  justify-content: flex-start;
+}
+
+.user-card.user-scouts-card-supporter .user-name-wrapper {
+  text-align: right;
+  justify-content: space-between;
+  /* width: 40%; */
+  margin-left: 10px;
+}
+
+.user-card.user-scouts-card-supporter .user-info-wrapper {
+  gap: 20px;
+  width: unset;
+}
+
+.user-card.user-scouts-card-supporter .user-index {
+  font-size: 16px;
+  width: 24px;
+  min-width: 24px;
+}
+
+.user-card.user-scouts-card-supporter .user-name-wrapper .user-name {
+  font-size: 18px;
+  /* color: var(--primary-foreground-color-gold); */
+  word-break: break-word;
+  width: fit-content;
+}
+
+.players-live-section
+  .user-card.user-scouts-card-supporter
+  .user-name-wrapper
+  .user-name {
+  color:var(--primary-text-color);
+}
+
+.user-card.user-scouts-card-supporter
+  .user-info-wrapper
+  .user-image
+  .image-border {
+  width: 56px;
+  height: 56px;
+  background-color: var(--primary-icon-color);
+}
+
+.user-card.user-scouts-card-supporter .nft-image {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+}
+
+.user-scouts-card-supporter .user-price-wrapper {
+  width: unset;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-scouts-card-supporter .user-level-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 5px;
+}
+
+.nft-item.user-scouts-card-supporter .nft-price {
+  color: white;
+}
+
+.user-scouts-card-supporter .user-level-wrapper .number-color {
+  font-size: 16px;
+  color: var(--primary-foreground-color);
+  width: max-content;
+}
+
+.user-scouts-card-supporter .user-level-wrapper a {
+  width: 240px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--primary-foreground-color);
+}
+
+@media only screen and (max-width: 1300px) {
+  .full-user-list-wrapper .user-card .user-name-wrapper .user-name {
+    max-width: 200px;
+  }
+  .players-list-wrapper .user-card .user-name-wrapper .user-name {
+    max-width: 200px;
+  }
+  .user-list-wrapper .user-card .user-name-wrapper .user-name {
+    max-width: unset;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .user-card-feed-content {
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width: 1300px) and (min-width: 700px) {
+  .user-card .user-level{
+    font-size: 36px;
+  }
+  .user-card .user-name-wrapper .user-name {
+    font-size: 24px;
+  }
+  .user-card .user-feed-level {
+    font-size: 24px;
+    min-width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .player-container
+    .coin-table-container
+    .user-list-container
+    .user-list-wrapper {
+    padding: 0;
+    gap: 0;
+  }
+
+  .player-container
+    .coin-table-container
+    .user-list-container
+    .user-list-wrapper
+    .user-list-column {
+    gap: 10px;
+  }
+
+  .user-card.user-card-supporter {
+    width: 100%;
+    flex-direction: column;
+    background: unset;
+    padding: 15px;
+    border: 0;
+    border-bottom: 1px solid #313241;
+    border-radius: 0;
+    background: var(--third-background-color);
+    border-radius: 20px;
+  }
+
+  .user-card .user-content {
+    font-size: 18px;
+    align-items: center;
+    gap: 0;
+  }
+
+  .user-card-supporter .user-price-wrapper {
+    width: unset;
+  }
+
+  .user-card.user-card-supporter .user-name-wrapper {
+    text-align: right;
+    justify-content: space-between;
+    width: 40%;
+    margin-left: 10px;
+  }
+
+  .user-card.user-card-supporter .user-info-wrapper {
+    gap: 20px;
+    width: unset;
+  }
+
+  .user-card .user-info-wrapper {
+    width: 100%;
+  }
+
+  .user-name-wrapper {
+    width: fit-content;
+  }
+
+  .user-card .user-name-wrapper {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .user-card.user-card-supporter .user-index {
+    font-size: 17px;
+    width: 18px;
+    min-width: 11px;
+  }
+
+  .user-list-wrapper .user-card.user-card-supporter .user-name-wrapper .user-name {
+    font-size: 18px;
+    max-width: fit-content;
+    width: calc(100vw - 180px);
+  }
+
+  .user-card-supporter .user-level-wrapper {
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    gap: 0;
+  }
+
+  .user-card-supporter .user-level-wrapper .number-color {
+    font-size: 18px;
+    /* color: var(--primary-foreground-color); */
+  }
+
+  .user-card-supporter .user-level-wrapper .number-color:first-child {
+    font-size: 18px;
+  }
+
+  .user-card.user-card-supporter .user-info-wrapper .user-image .image-border {
+    width: 56px;
+    height: 56px;
+    background-color: var(--primary-icon-color);
+  }
+
+  .user-card.user-card-supporter .nft-image {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+  }
+
+  .user-card .user-vip {
+    font-size: 24px;
+    width: 60px;
+    justify-content: center;
+  }
+
+  .user-card .user-name-wrapper .user-name {
+    width: calc(100vw - 200px);
+    text-align: left;
+    text-overflow: ellipsis;
+    font-size: 18px;
+  }
+
+  .user-card .user-level {
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 18px;
+  }
+
+  .user-card .user-level-label {
+    /* font-size: 20px; */
+    font-size: 14px;
+  }
+
+  .user-card .user-name-wrapper .user-name {
+    /* display: flex;
+    gap: 5px;
+    align-items: center; */
+    width: fit-content;
+    max-width: 130px;
+    overflow-wrap: anywhere;
+  }
+
+  .user-list-wrapper .user-card .user-name-wrapper .user-name {
+    max-width: 130px;
+  }
+
+  .user-card .nft-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .user-card .user-image .image-border {
+    width: 56px;
+    height: 56px;
+  }
+
+  .app-landing-container .players-trending-section .user-card {
+    padding: 20px;
+  }
+
+  .feed-section .user-card .user-content {
+    font-size: 16px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .user-card .user-name .user-name-text {
+    margin-right: 5px;
+  }
+  
+  .user-card .user-feed-level {
+    font-size: 18px;
+    /* width: 22px; */
+    height: 22px;
+    min-width: 22px;
+    display: inline-flex;
+    /* margin-left: 5px; */
+  }
+  /* 
+  .app-landing-container
+    .feed-section
+    .user-list-wrapper
+    .user-card
+    .user-name-wrapper
+    .user-name {
+    max-width: 150px;
+  } */
+
+  .user-card-feed-content {
+    gap: 0px;
+  }
+  .user-card .user-card-feed-content .user-name-wrapper {
+    width: fit-content;
+  }
+  .user-feed-desc {
+    display: none;
+  }
+  .user-feedinfo {
+    font-size: 16px;
+    width: fit-content;
+    display: block;
+  }
+  .feed-section .user-card {
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .user-card {
+    padding: 25px;
+    gap: 5px;
+  }
+  .user-card .user-info-wrapper {
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* .user-card .user-name-wrapper .user-name {
+    width: calc(100vw - 200px);
+    text-align: left;
+    text-overflow: ellipsis;
+    font-size: 23px;
+  } */
+
+  .user-container .user-card .user-name-wrapper .user-name {
+    width: calc(100vw - 166px);
+    max-width: 160px;
+  }
+
+  .user-card .user-vip-wrapper {
+    /* flex-direction: column; */
+    text-align: left;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  /* .user-card .user-vip {
+    font-size: 24px;
+    width: 60px;
+    justify-content: center;
+  } */
+
+  /* .user-card .user-level {
+    font-size: 28px;
+  }
+
+  .user-card .user-level-label {
+    font-size: 14px;
+  } */
+
+  .user-card .user-index {
+    width: 25px;
+    font-size: 24px;
+    min-width: 25px;
+  }
+
+  .user-card .user-info-wrapper .skeleton-user-image {
+    width: 56px;
+    height: 56px;
+  }
+  .user-card.skeleton-user-card .user-info-wrapper .user-name-wrapper {
+    width: auto;
+  }
+  .skeleton-user-level {
+    height: 56px;
+  }
+
+  .app-landing-container .feed-section .user-feedinfo {
+    max-width: 200px;
+  }
+  .user-card-feed-name-info {
+    gap: 5px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .app-landing-container .feed-section .user-feedinfo {
+    max-width: 150px;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  .user-card .user-name {
+    width: 120px;
+  }
+  .user-card .user-info-wrapper {
+    gap: 10px;
+  }
+  .player-container .coin-table-container section {
+    padding: 10px;
+  }
+  .user-card.user-card-supporter .user-name-wrapper {
+    margin-left: 0px;
+  }
+  /* .user-card .user-info-wrapper .user-image .image-border {
+    width: 76px;
+    height: 76px;
+  } */
+  /* .user-card .nft-image {
+    width: 70px;
+    height: 70px;
+  } */
+
+  .skeleton-user-name {
+    width: 140px;
+  }
+
+  .skeleton-user-vip {
+    width: 140px;
+  }
+
+  .user-list-wrapper .user-card .user-name-wrapper .user-name {
+    max-width: 150px;
+  }
+}

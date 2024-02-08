@@ -1,0 +1,201 @@
+@keyframes slide-in {
+  0% {
+    transform: translateY(200px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes slide-out {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(200px);
+  }
+}
+
+.cookie-policy-banner {
+  position: fixed;
+  width: 100%;
+  z-index: 701;
+  bottom: 0;
+  font-family: 'Rajdhani-regular';
+  animation: slide-in 1s both;
+  display: flex;
+  justify-content: center;
+  padding: 48px 32px;
+  background-color: white;
+  border-top: 1px solid #e6e8ea;
+  bottom: 0;
+  box-shadow: 0 -5px 30px #0000001a;
+}
+
+.accepted-banner {
+  animation: slide-out 1s both !important;
+}
+
+.cookie-policy-banner-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.cookie-policy-banner-text {
+  color: #003b2f;
+  font-size: 16px;
+  line-height: 1.35;
+  padding: 0 1.5rem 0 0;
+}
+
+.cookie-policy-link-text {
+  color: #217af2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cookie-policy-banner-buttons {
+  grid-gap: 1.5rem;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-width: 270px;
+}
+
+.cookie-policy-banner-btn {
+  height: 40px;
+  padding: 0.7rem 1rem;
+  width: auto;
+  line-height: 1;
+  box-shadow: none;
+  font-family: 'Rajdhani-semibold';
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.cookie-policy-banner-btn:hover {
+  background: var(--primary-foreground-color-default);
+  color: white;
+}
+
+.cookie-policy-banner-custom-btn {
+  border: 1px solid var(--primary-foreground-color-default);
+  color: var(--primary-foreground-color-default);
+}
+
+.cookie-policy-banner-enable-btn {
+  background-color: var(--primary-foreground-color-default);
+  color: white;
+}
+
+.cookie-setting-modal.show-modal {
+  display: block;
+}
+
+.cookie-setting-modal.hide-modal {
+  display: none;
+}
+
+.cookie-setting-modal-root {
+  animation: slide-in 1s both !important;
+  position: relative;
+  background-color: var(--primary-text-color-default);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 5%;
+  max-width: 1200px;
+  width: 100%;
+  color: black;
+  overflow-y: scroll;
+  max-height: 80vh;
+}
+
+.cookie-setting-modal-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e8ea;
+  padding: 1.5rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+}
+
+.cookie-setting-modal-header-buttons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.cookie-setting-modal-title {
+  font-size: 28px;
+}
+
+.cookie-setting-modal-close-btn {
+  color: #171923;
+  background-color: transparent;
+  font-size: 28px;
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  height: 25px;
+  width: 25px;
+  border: none;
+  padding: 0;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.cookie-setting-modal-content {
+  padding: 1.5rem 2rem;
+}
+
+.cookie-setting-modal-text {
+  font-family: 'Rajdhani-regular';
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.cookie-setting-modal-subtitle {
+  font-family: 'Rajdhani-semibold';
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .cookie-policy-banner-content {
+    flex-direction: column;
+  }
+  .cookie-policy-banner-text {
+    padding: 0 0 1.5rem;
+  }
+  .cookie-policy-banner {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cookie-policy-banner {
+    padding: 32px 24px;
+  }
+}
+
+.cookie-setting-modal-root::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cookie-setting-modal-root::-webkit-scrollbar-thumb {
+  background: var(--secondary-text-color-default);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.cookie-setting-modal-root::-webkit-scrollbar-track {
+  background: transparent;
+}

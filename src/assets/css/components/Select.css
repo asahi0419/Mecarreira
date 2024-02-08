@@ -1,0 +1,17 @@
+.MuiSelect-select.MuiSelect-select {
+  color: white;
+  padding: 14px;
+  font-family: 'Rajdhani-regular';
+  font-weight: 400;
+  font-size: 16px;
+}
+.MuiSelect-icon {
+  color: white !important;
+}
+
+.MuiInput-underline:before {
+  border-bottom: 0px !important;
+}
+.MuiInput-underline:after {
+  border-bottom: 0px !important;
+}

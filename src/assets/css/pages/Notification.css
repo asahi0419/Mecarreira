@@ -1,0 +1,254 @@
+.notifications {
+  /* min-height: 90vh; */
+  background-color: #1e2030;
+  /* margin-top: 60px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notifications.settings .black-box:first-child {
+  margin: 90px auto 30px;
+}
+.notifications.settings .black-box {
+  background: var(--secondary-background-color);
+  max-width: 1220px;
+  margin: 0px auto 30px;
+  padding: 30px;
+  border-radius: 20px;
+}
+/* .notifications-live .black-box .notification_scroll {
+  padding: 100px 0px;
+} */
+.notifications-live .black-box .notification_scroll .no-notification {
+  font-size: 80px;
+}
+.notifications.settings .black-box .switch-container .notification {
+  background: var(--third-background-color);
+}
+.notifications > .container {
+  /* margin-top: 16px; */
+  width: 600px;
+  max-width: 600px;
+}
+
+.notifications > .container > .new-nft-title.settings-title {
+  margin-top: 76px;
+}
+.notifications.settings .settings-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.my-settings > .container {
+  width: 600px;
+}
+.switch-container .MuiFormControl-root {
+  width: 100%;
+  margin: 8px 0 0;
+  border-radius: 4px;
+  background-color: #2c2f45;
+  position: relative;
+}
+
+.notifications-live {
+  min-height: 90vh;
+  background-color: #1e2030;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.notifications-live .black-box {
+  background: var(--secondary-background-color);
+  width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+.notifications-live > .container {
+  width: 90%;
+}
+
+@media screen and (max-width: 800px) {
+  .my-settings > .container {
+    width: 375px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .notifications > .container {
+    width: 327px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .notifications.my-settings > .container {
+    width: 94% !important;
+  }
+  .notifications-live .black-box {
+    width: 100%;
+    margin: 15px auto;
+  }
+  .notifications-live .black-box .notification_scroll .no-notification {
+    font-size: 42px;
+  }
+  .notifications.settings .black-box {
+    margin: 0px auto 10px;
+  }
+  .notifications.settings .black-box:first-child {
+    margin: 70px auto 10px;
+  }
+  .notifications.settings .black-box:last-child {
+    margin-bottom: 30px;
+  }
+  .notifications-live .black-box .notification_scroll .notification {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .notifications > .container {
+    width: 300px;
+  }
+}
+
+.switch-container > .bottom-line {
+  margin-bottom: 35px !important;
+}
+
+.notification {
+  margin-bottom: 20px;
+  color: #80828f;
+  padding: 20px 20px;
+  background: var(--third-background-color);
+  border-radius: 10px;
+}
+.notification_scroll .notification:last-child {
+  margin-bottom: 0px;
+}
+.notification .notification-item-content,
+.notification .notification-date {
+  background-color: unset !important;
+}
+
+.divider-next {
+  margin-bottom: 0;
+}
+
+.notification-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Rajdhani-semibold';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.notification-wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+
+.notification-title.plain {
+  color: #fff;
+}
+
+.notification-title.plain:hover {
+  color: #fff;
+}
+
+.notification-title:hover,
+.link-title:hover {
+  color: var(--primary-foreground-color);
+  cursor: pointer;
+}
+
+.notification-title-color {
+  color: var(--primary-foreground-color) !important;
+}
+
+.notification-title .grey-color {
+  display: flex;
+  align-items: center;
+}
+
+.notification-content {
+  font-family: 'Rajdhani-regular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  color: #80828f;
+  width: 293px;
+}
+
+.notification-item-content {
+  font-family: 'Rajdhani-regular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #80828f;
+  /* width: 600px; */
+}
+
+.notification-date {
+  font-family: 'Rajdhani-semibold';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #80828f;
+
+  margin-top: 12px;
+}
+
+.notification .selected {
+  color: white;
+}
+
+.notification-link {
+  text-decoration: auto;
+}
+
+.link-title {
+  color: #80828f;
+}
+.link-title.focussed {
+  color: var(--primary-foreground-color) !important;
+}
+
+@media only screen and (min-width: 1200px) {
+  .notification-item-content {
+    font-family: 'Rajdhani-regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #80828f;
+    width: 600px;
+  }
+  .notifications-live > .container {
+    /* margin-top: 40px; */
+    /* width: 675px; */
+  }
+}
+.new_notification {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+.title_change_secret {
+  color: #fff;
+}
+.title_change_secret:hover {
+  color: var(--primary-foreground-color);
+}

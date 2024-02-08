@@ -1,0 +1,64 @@
+.response-status-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 88px;
+  height: 16px;
+  left: 96px;
+  top: 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px 24px 0px;
+}
+
+.response-status-container.none {
+  display: none;
+}
+
+.response-status-container span {
+  position: static;
+  height: 16px;
+  left: 32px;
+  top: 0px;
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.pay-success svg:nth-child(1) {
+  display: block;
+  color: var(--primary-foreground-color);
+}
+
+.pay-success span {
+  color: var(--primary-foreground-color);
+}
+
+.pay-success svg:nth-child(2) {
+  display: none;
+}
+
+.pay-error svg:nth-child(1) {
+  display: none;
+}
+
+.pay-error svg:nth-child(2) {
+  display: block;
+  color: #eb5757;
+}
+
+.pay-error span {
+  color: #eb5757;
+}

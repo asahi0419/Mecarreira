@@ -1,0 +1,81 @@
+.bid-popup {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 600; /* Sit on top */
+  /*padding-top: 100px;  Location of the box */
+  /* padding-top: 10vh; */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 50%; /* Full height */
+  /* overflow: auto; Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* transition: 1.3s; */
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1162px) {
+  .bid-popup {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .bid-popup {
+    left: 12px;
+    width: 260px;
+  }
+}
+
+.bid-popup.show {
+  display: block;
+  height: 96%;
+}
+
+@keyframes slidein-low {
+  from {
+    top: 30%;
+    transform: scaleY(0.1);
+  }
+
+  to {
+    top: 0%;
+  }
+}
+
+/* Modal Content */
+.bid-popup-content {
+  position: relative;
+  margin-top: 40% !important;
+  background-color: #222435;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 1vh;
+  height: 80%;
+  margin: auto;
+  /* width: 350px; */
+
+  animation-duration: 0.3s;
+  animation-name: slidein-low;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.bid-popup-content .close-button {
+  font-family: 'Rajdhani-semibold';
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--primary-foreground-color);
+  text-decoration: underline;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+  .bid-popup-content {
+    width: 100%;
+    min-height: 80%;
+  }
+}

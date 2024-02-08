@@ -1,0 +1,1330 @@
+/* Helper classes */
+.mt-60 {
+  margin-top: 60px !important;
+}
+
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.mt-15 {
+  margin-top: 15px !important;
+}
+
+.mt-7 {
+  margin-top: 7px !important;
+}
+
+.mb-80 {
+  margin-bottom: 80px !important;
+}
+
+.mb-50 {
+  margin-bottom: 50px !important;
+}
+
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.mr-20 {
+  margin-right: 20px !important;
+}
+
+.mr-30 {
+  margin-right: 30px !important;
+}
+
+.mt-0 {
+  margin-top: 0px !important;
+}
+
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+
+.mt-5 {
+  margin-top: 5px !important;
+}
+
+.mt-80 {
+  margin-top: 80px !important;
+}
+
+.mt-105 {
+  margin-top: 105px !important;
+}
+
+.mt-110 {
+  margin-top: 110px !important;
+}
+
+.mt-120 {
+  margin-top: 120px !important;
+}
+
+.mt-180 {
+  margin-top: 180px !important;
+}
+
+.mt-240 {
+  margin-top: 240px !important;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}
+
+.ml-0 {
+  margin-left: 0px !important;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+.p-0 {
+  padding: unset !important;
+}
+
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+.pt-16 {
+  padding-top: 16px !important;
+}
+
+.pt-24 {
+  padding-top: 24px !important;
+}
+
+.pt-50 {
+  padding-top: 50px !important;
+}
+
+.ml-10 {
+  margin-left: 10px !important;
+}
+
+.ml-20 {
+  margin-left: 20px !important;
+}
+
+.m-0auto {
+  margin: 0 auto;
+}
+
+.m-40auto {
+  margin: 40px auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-10 {
+  margin: 10px !important;
+}
+
+.no-margin {
+  margin: unset !important;
+}
+
+.w-90 {
+  width: 90px !important;
+}
+
+.w-320 {
+  width: 320px !important;
+}
+
+.h-70vh {
+  height: 70vh;
+}
+
+.no-gap {
+  grid-gap: 0 !important;
+  column-gap: 0 !important;
+  row-gap: 0 !important;
+}
+
+.one-grid {
+  grid-template-columns: auto !important;
+  width: fit-content;
+  margin: auto;
+}
+
+.two-grid {
+  grid-template-columns: auto auto !important;
+}
+
+.fullwidth {
+  width: 100%;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-static {
+  position: static;
+}
+
+.width-unset {
+  width: unset !important;
+}
+
+.width-fit {
+  width: fit-content !important;
+}
+
+.fullheight {
+  height: 100% !important;
+}
+
+.flex-center {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.align-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.align-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.flex-left {
+  display: flex;
+  justify-content: left;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: right;
+}
+
+.flex-middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.no-background {
+  background-color: unset;
+  background: unset;
+}
+
+.font-xs {
+  font-size: 18px !important;
+}
+
+.font-sm {
+  font-size: 19px !important;
+}
+
+.font-md {
+  font-size: 22px !important;
+}
+
+.player-data {
+  flex-direction: row !important;
+  padding: 0px !important;
+  border: none !important;
+  height: unset !important;
+  margin-bottom: 20px !important;
+}
+
+.fixed-content {
+  max-width: 600px;
+  width: 600px;
+  margin: auto;
+}
+
+.width-content {
+  width: 1200px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .width-content {
+    width: 600px;
+  }
+}
+
+.fixed-content-fill {
+  /* max-width: 360px; */
+  width: 360px;
+  margin: auto;
+}
+
+.fixed-content > .stat-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-table-container {
+  width: 100%;
+  min-height: 70vh;
+}
+
+.fi {
+  border-radius: 100%;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 420px) {
+  .fixed-content {
+    margin: unset;
+    width: 100%;
+  }
+}
+
+.fixed-content-without-margin {
+  max-width: 360px;
+  width: 360px;
+}
+
+.border-top {
+  border-top: 1px solid var(--primary-background-color);
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.no-transform {
+  text-transform: none !important;
+}
+
+.no-transform > button {
+  text-transform: none !important;
+}
+
+.no-transition {
+  transition: none !important;
+}
+
+.no-animation {
+  animation: none !important;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.flip {
+  transform: rotate(180deg);
+}
+
+.green-color {
+  color: #6bc909 !important;
+}
+
+.red-color {
+  color: #eb5757 !important;
+}
+
+.white-color {
+  color: white !important;
+}
+
+.grey-color {
+  color: grey !important;
+}
+
+.yellow-color {
+  color: #f3b127 !important;
+}
+
+.gold-color {
+  color: #f3b127 !important;
+}
+
+.primary-text-color {
+  color: var(--primary-text-color) !important;
+}
+
+.bg-green-color {
+  background-color: #6bc909 !important;
+}
+
+.bg-red-color {
+  background-color: #eb5757 !important;
+}
+
+.bg-white-color {
+  background-color: white !important;
+}
+
+.bg-grey-color {
+  background-color: grey !important;
+}
+
+.bg-dark-color {
+  background-color: #090a0d !important;
+}
+.bg-yellow-color {
+  background-color: #f3b127 !important;
+}
+
+.bg-primary-color {
+  background-color: var(--primary-background-color) !important;
+}
+
+.bg-secondary-color {
+  background-color: var(--secondary-background-color) !important;
+}
+
+.no-border {
+  border: 0px !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.zIndex-999 {
+  z-index: 600;
+}
+
+.top-index {
+  z-index: 600;
+}
+
+@media only screen and (max-width: 360px) {
+  .fixed-content,
+  .fixed-content-without-margin {
+    max-width: 360px;
+    width: 320px;
+  }
+}
+
+.btn-active {
+  background: none;
+  color: var(--secondary-foreground-color);
+  border: 1px solid var(--secondary-foreground-color);
+  cursor: pointer;
+}
+
+.btn-active:hover {
+  background: var(--secondary-foreground-color);
+  border: 1px solid var(--secondary-foreground-color);
+  color: #171923;
+}
+
+.btn-disabled {
+  background: none !important;
+  color: var(--secondary-foreground-color) !important;
+  border: 1px solid var(--secondary-foreground-color) !important;
+  cursor: pointer;
+}
+
+.btn-disabled-yellow {
+  background: none !important;
+  color: #f3b127 !important;
+  border: 1px solid #f3b127 !important;
+  cursor: pointer;
+}
+
+.btn-disabled-gray {
+  background: none !important;
+  color: gray !important;
+  border: 1px solid gray !important;
+  /* cursor: pointer; */
+  pointer-events: none;
+}
+
+/* Fix for Blog content */
+
+/* .blog-container {
+  font-family: 'Rajdhani-regular';
+  margin-top: 100px;
+  width: 100%;
+  background: var(--primary-background-color);
+}
+  background: #171923;
+} */
+
+.blog-container #dib-posts a {
+  color: var(--primary-foreground-color);
+}
+
+.blog-container #dib-posts a:visited {
+  color: #f3b127;
+}
+
+.blog-content #dib-recent-posts #dib-template-2 {
+  width: 70vw;
+}
+
+@media only screen and (max-width: 420px) {
+  #dib-template-2 {
+    width: unset !important;
+  }
+}
+
+/* Layout */
+.content-wrap {
+  background-color: var(--primary-background-color);
+}
+
+.content-wrap > .container {
+  display: flow-root;
+}
+
+/* Page Container */
+
+.container > section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  min-height: 70vh;
+  border-radius: 0px;
+  margin: auto;
+  width: unset;
+}
+
+.modal-content > section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: var(--primary-background-color);
+  flex-direction: column;
+  /* min-height: 70vh; */
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+}
+
+/* Tab Container */
+
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  height: 60px;
+  width: 100%;
+  justify-content: space-around;
+  background: var(--primary-tab-color);
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+}
+
+.tab-item {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #abacb5;
+  font-family: 'Rajdhani-bold';
+  background: var(--primary-tab-color);
+  height: 50px;
+  text-transform: uppercase;
+}
+
+.tab-item-test {
+  display: flex;
+  width: unset;
+  align-items: center;
+  height: 60px;
+  background: var(--primary-tab-color);
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.tab-item-test > button {
+  background: none;
+  border: none;
+  color: var(--secondary-text-color);
+  white-space: nowrap;
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.tab-item-test.tab-active {
+  border-bottom: 2px solid var(--secondary-foreground-color);
+}
+
+.tab-item-test.tab-active > button {
+  color: var(--primary-text-color);
+}
+
+.tab-item.disabled {
+  color: #abacb536 !important;
+  pointer-events: none;
+}
+
+.tab-item button {
+  position: static;
+  /* width: 28px; */
+  height: 18px;
+  left: calc(50% - 28px / 2);
+  top: calc(50% - 18px / 2 - 10.5px);
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  text-align: center;
+  color: #abacb5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 18px 0px; */
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tab-active {
+  border-bottom: 2px solid var(--primary-foreground-color);
+  color: var(--primary-text-color) !important;
+}
+
+div.tab-item.tab-item-only {
+  width: 327px !important;
+}
+
+@media only screen and (max-width: 420px) {
+  .tabs-container {
+    border-radius: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* width: 95% !important; */
+  }
+
+  .tab-item-test {
+    margin: 0 10px;
+  }
+
+  div.tab-item.tab-item-only {
+    width: calc(100vw - 48px) !important;
+  }
+}
+
+/* Components */
+.home {
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      180deg,
+      rgba(23, 25, 35, 0) 38.16%,
+      #171923 45.99%
+    ),
+    url('@assets/images/stadium-min.webp'), #171923;
+  background-size: 100vw 120vh;
+  background-repeat: no-repeat;
+  /* margin-top: 60px; */
+}
+
+.logo-img {
+  width: 120px;
+}
+
+.wallet-address:hover {
+  cursor: pointer;
+}
+
+/* Nft list */
+
+.list-header {
+  font-family: 'Rajdhani-semibold';
+  color: #abacb5;
+  border-bottom: 1px solid #56596a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.list-header.coin-header {
+  padding-left: 10px !important;
+}
+
+.coin-table-header {
+  border-radius: unset !important;
+  display: flex !important;
+  gap: 10px !important;
+  border-color: transparent !important;
+}
+
+.drafts-search {
+  padding-left: unset !important;
+  margin: 20px 0;
+}
+
+#profile-drafts {
+  justify-content: space-between;
+  width: unset !important;
+}
+
+#profile-drafts > .search-bar {
+  /* width: inherit !important; */
+  width: 450px;
+}
+
+#profile-drafts-mobile > .list-header {
+  width: 180px;
+}
+
+.fill-search-bar {
+  width: 690px !important;
+}
+
+.profile-draft-tab {
+  background: none !important;
+}
+
+.profile-draft-tab > .tab-item {
+  background: none !important;
+}
+
+.nft-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  border-bottom: 1px solid var(--primary-background-color);
+  font-family: 'Rajdhani-semibold';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 20px 20px 20px 10px;
+  text-align: right;
+  cursor: pointer;
+  /* gap: 20px; */
+  border-top: 1px solid transparent;
+}
+
+.nft-item.coin-item {
+  cursor: default !important;
+}
+
+.token-ticket {
+  /* width: 90%; */
+  width: calc(100vw - 10%);
+}
+
+.nft-item.wallet-player-coin {
+  padding: 20px 3px 20px 0px !important;
+}
+
+.p-default {
+  padding: 20px 20px 20px 10px !important;
+}
+
+.nft-item.no-data {
+  justify-content: center !important;
+  border: none !important;
+  /* height: 60vh; */
+  height: 68vh;
+}
+
+.player-list-container .nft-item.no-data {
+  padding: 0;
+}
+
+.nft-item .nft-image-section {
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-icon {
+  z-index: 10;
+}
+
+.draft-option {
+  max-width: 230px !important;
+}
+
+.draft-option > .image-border {
+  margin-left: unset !important;
+}
+
+.draft-option > .nft-name {
+  width: 220px !important;
+}
+
+.nft-item .nft-image-section .nft-image {
+  width: 40px;
+  height: 40px;
+  padding: 1px;
+  z-index: 1;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.nft-item .image-border {
+  position: relative;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+  border-radius: 50%;
+  /* background: linear-gradient(to top, #f3b127, #ffffff, #f3b127); */
+}
+
+.pc-avatar-container {
+  margin-left: 10px !important;
+}
+
+.nft-item .image-border::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.nft-item .nft-name-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*julian css*/
+  /* width: 240px; */
+  /* padding-left: 20px; */
+  /*akshay css*/
+  width: 270px;
+}
+
+.pc-name-section {
+  padding-left: unset !important;
+  width: 270px !important;
+}
+
+.pc-name-section > .balance-wrapper {
+  /* white-space: nowrap; */
+  /* max-width: 108px; */
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.stake-spin-container {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.pc-name-section > .nft-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.szh-menu__item--disabled {
+  color: #abacb5 !important;
+}
+
+.nft-item .nft-name {
+  color: #f3b127;
+  text-align: left;
+  width: 130px;
+  text-transform: capitalize;
+}
+
+.nft-item .nft-name .fi {
+  line-height: 11px;
+}
+
+.nft-item .nft-price {
+  color: var(--secondary-text-color);
+}
+
+.nft-item .nft-price.nft-usd-price {
+  max-width: 100px;
+}
+
+/* icon color */
+.icon-color {
+  margin: 22px;
+  color: var(--primary-icon-color);
+  cursor: pointer;
+}
+
+.icon-color-search {
+  height: 16px;
+  cursor: pointer;
+}
+
+.icon-color-search.black {
+  color: #09090e;
+}
+
+.icon-color-search.gray {
+  color: #abacb5;
+}
+
+.icon-color:hover {
+  cursor: pointer;
+}
+
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  /* width: 299px; This makes awful scroll at Galaxy S9 */
+  /* width: 327px; */
+  /* height: 74px; */
+  left: calc(50% - 327px / 2);
+  top: calc(50% - 74px / 2 - 98px);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 24px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.capitalize {
+  text-transform: uppercase;
+}
+
+.share-info-label {
+  width: 90%;
+  height: 40px !important;
+  text-align: left !important;
+  text-transform: unset;
+  margin-left: 10px;
+  /* margin-bottom: 10px; */
+}
+
+.uppercase {
+  text-transform: capitalize;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-18 {
+  font-size: 18px !important;
+}
+
+.font-21 {
+  font-size: 21px !important;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0px !important;
+}
+
+/* Accordion */
+
+.item {
+  background: var(--primary-background-color);
+  margin-bottom: 5px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #56596a;
+  width: 100%;
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.content.show {
+  transition: 0.3s;
+  margin-top: 16px;
+  /* max-height: 130px; */
+  max-height: 100%;
+}
+
+.wrapper .content.show {
+  max-height: 200vh;
+}
+
+.d-none {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .tabs-container {
+    overflow: hidden;
+  }
+
+  .tabs-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    height: 60px;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .nft-item .nft-name {
+    width: 120px;
+  }
+
+  .tabs-container {
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .nft-item .nft-name {
+    width: 72px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .tabs-container {
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+} */
+
+@media only screen and (min-width: 768px) {
+  .token-ticket {
+    width: 100% !important;
+  }
+
+  .tab-item-test {
+    display: flex;
+    width: unset;
+    align-items: center;
+    height: 60px;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .token-ticket {
+    width: 100% !important;
+  }
+
+  .field-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    /* width: 299px; This makes awful scroll at Galaxy S9 */
+    /* width: 327px; */
+    /* height: 74px; */
+    /* width: 300px !important; akshay removed width to allow content fit inputs with container*/
+
+    left: calc(50% - 327px / 2);
+    top: calc(50% - 74px / 2 - 98px);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 24px;
+  }
+
+  .nft-item.no-data {
+    justify-content: center !important;
+    border: none !important;
+    height: 480px;
+  }
+
+  .tab-item-test {
+    display: flex;
+    width: unset;
+    align-items: center;
+    height: 60px;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+}
+
+.szh-menu {
+  background-color: var(--primary-background-color);
+  padding-left: 10px;
+  -webkit-box-shadow: -5px 7px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -5px 7px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -5px 7px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.szh-menu__item {
+  color: var(--primary-text-color);
+  text-transform: capitalize;
+}
+
+.szh-menu__item:hover {
+  color: var(--primary-foreground-color) !important;
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 992px) {
+  .nft-item .nft-name-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+  }
+
+  .tab-item-test {
+    display: flex;
+    width: unset;
+    align-items: center;
+    height: 60px;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+}
+
+.percentage_change_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.percentage_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.right_side_notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.live_notification_wrapper {
+  position: relative;
+}
+
+.live_notification {
+  position: absolute;
+  top: 22%;
+  right: -18.4%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 8px;
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.diamond-img {
+  background-image: url('@assets/images/DIA.webp');
+}
+
+.gold-img {
+  background-image: url('@assets/images/GOLD.webp');
+}
+
+.silver-img {
+  background-image: url('@assets/images/SILVER.webp');
+}
+
+.bronze-img {
+  background-image: url('@assets/images/BRONZ.webp');
+}
+
+.vanilla-img {
+  background-image: url('@assets/images/vanilla.png');
+}
+
+.text-primary-color {
+  color: var(--primary-text-color) !important;
+}
+
+.text-secondary-color {
+  color: var(--secondary-text-color) !important;
+}
+
+.text-third-color {
+  color: var(--third-text-color) !important;
+}
+
+.svg-primary-color path {
+  fill: var(--primary-foreground-color) !important;
+}
+
+.fg-primary-color {
+  color: var(--primary-foreground-color) !important;
+}
+
+.linear-flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sell-btn {
+  background-color: #f54f4f !important;
+  border-color: #f54f4f !important;
+  color: #171923 !important;
+}
+
+.sell-btn-inactive {
+  border-color: #f54f4f !important;
+  color: #f54f4f !important;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.golden {
+  color: #c9a009 !important;
+}
+
+.green {
+  color: #6bc909 !important;
+}
+
+.light-blue {
+  color: #49adf4 !important;
+}
+
+.d-grid {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.ath-container {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.ath-banner {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fi-shootingstar {
+  background-image: url('@assets/images/kiosk/shootingstar.png');
+}
+
+.fi-arrows {
+  background-image: url('@assets/images/kiosk/arrows.png');
+}
+
+.fi-dollarlabel {
+  background-image: url('@assets/images/kiosk/dollarlabel.png');
+}

@@ -1,0 +1,205 @@
+.players-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--third-background-color);
+  padding: 25px;
+  border-radius: 20px;
+  border: 4px solid transparent;
+  height: 136px;
+  cursor: pointer;
+}
+
+.players-list-item.user-card {
+  height: 136px;
+  cursor: pointer;
+}
+
+.players-list-skeleton-item {
+  width: 100%;
+  margin: auto;
+}
+
+.players-list-item:hover {
+  border: 4px solid var(--primary-foreground-color);
+}
+
+.players-list-item .balance-wrapper {
+  text-align: right;
+  /* width: 160px; */
+  font-size: 26px;
+}
+
+.players-list-item .player-image-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.players-list-item .player-number {
+  font-size: 30px;
+  width: 32px;
+}
+
+.players-list-item .image-border {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 86px;
+  height: 86px;
+  cursor: pointer;
+}
+
+.players-list-item .nft-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.players-list-item .player-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 20px;
+  gap: 8px;
+}
+
+.players-list-item .player-name-wrapper {
+  display: flex;
+  justify-content: space-between;
+  min-width: 180px;
+}
+
+.players-list-item .player-name {
+  margin-left: 0;
+  line-height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.players-list-item .player-name > span {
+  font-size: 30px;
+}
+
+.players-list-item .player-name > span.player_level_none {
+  color: var(--primary-text-color);
+}
+
+.players-list-item .player-info-stats {
+  font-size: 20px;
+  color: white;
+}
+
+.players-list-item .changed-price {
+  margin: 0;
+}
+
+.players-list-skeleton-item .image-border {
+  opacity: 0.7;
+  background: #171923;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.players-list-skeleton-item .player-name-wrapper {
+  margin-bottom: 10px;
+}
+
+.players-list-skeleton-item .player-name-skeleton {
+  background: #171923;
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 40%;
+  height: 52px;
+}
+
+.players-list-skeleton-item .market-value-skeleton {
+  background: #171923;
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 40%;
+  height: 52px;
+}
+
+.players-list-skeleton-item .price-value-skeleton {
+  background: #171923;
+  animation: skeleton-loading 1s linear infinite alternate;
+  width: 40%;
+  height: 25px;
+}
+
+@media only screen and (max-width: 700px) {
+  .players-list-item {
+    padding: 20px;
+    height: fit-content;
+  }
+
+  .players-list-item .player-number {
+    font-size: 18px;
+    width: 22px;
+  }
+
+  .players-list-skeleton-item {
+    width: 100%;
+  }
+
+  .players-list-item .player-info-wrapper {
+    /* flex-direction: column; */
+    margin-left: 0;
+    /* width: 170px; */
+    gap: 0;
+  }
+
+  .players-list-item .player-name-wrapper {
+    min-width: unset;
+  }
+
+  .players-list-item .player-image-wrapper {
+    margin-right: 10px;
+  }
+
+  .players-list-item .image-border {
+    width: 56px;
+    height: 56px;
+  }
+
+  .players-list-item .nft-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .players-list-item .player-name {
+    margin-bottom: 2px;
+  }
+
+  .players-list-item .player-name > span {
+    font-size: 18px;    
+    word-break: break-word;
+  }
+
+  .players-list-item .balance-wrapper {
+    font-size: 18px;
+  }
+
+  .players-list-item .player-info-stats {
+    font-size: 20px !important;
+  }
+
+  .players-list-item .balance-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .players-list-item .balance-value {
+    word-wrap: break-word;
+  }
+
+  .players-list-skeleton-item .player-name-skeleton {
+    width: 80%;
+    height: 22px;
+    margin-bottom: 10px;
+  }
+
+  .players-list-skeleton-item .market-value-skeleton {
+    height: 22px;
+  }
+}

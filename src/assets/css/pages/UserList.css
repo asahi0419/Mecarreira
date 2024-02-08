@@ -1,0 +1,110 @@
+.user-list-container .section-wrapper {
+  max-width: 1220px;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.user-list-container .section-wrapper .blog-title {
+  margin-bottom: 40px;
+  justify-content: flex-start;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.user-list-container .user-search {
+  margin: 20px 0 !important;
+  width: 100%;
+}
+
+.user-list-container .user-list-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  gap: 80px;
+}
+
+.user-list-container .user-list-wrapper .user-list-column {
+  /* width: 48.5%; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* .user-list-container .user-list-wrapper .user-list-column .user-card {
+  max-width: 560px;
+} */
+.user-list-container .user-list-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.user-list-container .user-list-wrapper::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 6px;
+}
+
+.season-list .user-card .user-vip {
+  color: #f3b127;
+}
+
+.season-list .user-card .user-level {
+  color: #f3b127;
+}
+
+.season-list .user-card .user-info-wrapper .user-image .image-border {
+  background: linear-gradient(
+    rgb(245, 185, 51),
+    rgb(251, 233, 179),
+    rgb(245, 185, 51)
+  );
+}
+
+@media only screen and (max-width: 1300px) {
+  .user-list-container .user-list-wrapper .user-list-column {
+    width: 100%;
+  }
+
+  .user-list-container .user-list-wrapper .user-list-column .user-card {
+    max-width: unset;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .user-list-container .user-list-wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--primary-foreground-color) !important;
+    border-radius: 6px;
+  }
+}
+.user-list-container .user-list-wrapper:hover::-webkit-scrollbar-thumb {
+  background-color: var(
+    --primary-foreground-color
+  ) !important; /* Show the scrollbar thumb on hover */
+}
+@media only screen and (max-width: 900px) {
+  .user-list-container .section-wrapper {
+    margin: auto 15px;
+    padding-top: 30px;
+  }
+  .user-list-container .section-wrapper .blog-title {
+    font-size: 42px;
+    margin-bottom: 0;
+  }
+  .user-list-container .user-list-wrapper .user-list-column {
+    width: 100%;
+    gap: 5px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .user-list-container .section-wrapper {
+    padding-top: 30px;
+  }
+  .user-list-container .section-wrapper .blog-title {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  /* .user-list-container .user-card .user-level {
+    font-size: 36px;
+  } */
+}

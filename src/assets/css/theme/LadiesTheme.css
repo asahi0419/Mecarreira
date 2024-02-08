@@ -1,0 +1,1254 @@
+.Ladies {
+  background: var(--primary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* Style.css */
+
+.Ladies .btn-disabled {
+  background: none !important;
+  color: var(--primary-text-color-ladies) !important;
+  border: 1px solid var(--primary-text-color-ladies) !important;
+  cursor: pointer;
+}
+
+.Ladies .form-submit-btn {
+  color: var(--primary-text-color-ladies);
+  border: 1px solid var(--primary-text-color-ladies);
+}
+
+.Ladies .border-top {
+  border-top: 1px solid transparent !important;
+}
+.Ladies .modal-content > section {
+  background: var(--primary-background-color-ladies) !important;
+}
+.Ladies .tab-item-test > button {
+  color: var(--secondary-text-color-ladies) !important;
+}
+.Ladies .tab-item-test.tab-active > button {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .tab-active {
+  color: var(--secondary-text-color-ladies) !important;
+}
+.Ladies .home {
+  background: linear-gradient(
+      180deg,
+      rgba(23, 25, 35, 0) 38.16%,
+      #ebebeb 45.99%
+    ),
+    url('@assets/images/stadium_lightx.webp'), #ebebeb;
+  background-repeat: no-repeat;
+  /* background-size: 100vw 120vh; */
+  background-size: contain;
+}
+.Ladies .nft-item {
+  border-bottom: 1px solid transparent !important;
+}
+.Ladies .nft-item .nft-price {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .item {
+  background: var(--primary-background-color-ladies) !important;
+}
+.Ladies .item > .content > .notification > .notification-title > div {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .szh-menu {
+  background-color: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .szh-menu__item {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* Font.css */
+.Ladies .h-4,
+.Ladies .h-5,
+.Ladies .ct-p1 {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* BottomPopup.css */
+.Ladies .bottom-popup-content {
+  background-color: var(--primary-background-color-ladies);
+}
+
+.Ladies > .staked-amount-raw > .staked-symbol-wrapper > .minus-symbol {
+  background: var(--primary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies > .button-inactive {
+  background: var(--primary-background-color-ladies);
+}
+
+/* .Ladies > .button-inactive:hover {
+      background: #81df0d;
+      color: #212435;
+  } */
+
+/* ComingSoon.css */
+.Ladies .coming-soon-time-card {
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+/* DialogBox.css */
+.Ladies .modal {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Ladies .modal-content {
+  background-color: var(--primary-background-color-ladies) !important;
+}
+
+/* FilterModal.css */
+.Ladies .filter-modal-body {
+  background-color: var(--primary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .filter-modal-body .MuiSelect-select.MuiSelect-select {
+  color: var(--primary-text-color-ladies) !important;
+  font-size: 17px;
+}
+
+.Ladies
+  .filter-modal-body
+  .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input,
+.Ladies
+  .filter-modal-body
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input,
+.Ladies .filter-modal-body .MuiOutlinedInput-root input {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .filter-modal-body .MuiSelect-select.MuiSelect-select {
+  background: unset !important;
+}
+
+.Ladies .filter-modal-body .MuiTextField-root label {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .filter-modal-body .MuiTextField-root button {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* FormCheckbox.css */
+.Ladies .MuiTypography-body1 {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* FormInput.css */
+
+.Ladies .textinput-wrapper {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .textinput-wrapper input {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .textinput-wrapper textarea {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* NftCard.css */
+
+.Ladies .nft-card {
+  background: var(--secondary-background-color-ladies) !important;
+  border-radius: 17px !important;
+}
+
+.Ladies .nft-card .second-part .nft-name:hover {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .nft-card .second-part .nft-title,
+.Ladies .nft-card .second-part .nft-number {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* .Ladies .nft-list-grid-mob .nft-card {
+  border: none !important;
+} */
+
+.Ladies .kiosk_title {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .kiosk_sub_title {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .kiosk_sub_desc {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .kiosk_sub_desc_box {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .kiosk_player_name {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* @media screen and (min-width: 420px) {
+  .Ladies .nft-card {
+    border: 4px solid var(--secondary-background-color-ladies);
+  }
+} */
+
+/* Select.css */
+.Ladies .MuiSelect-select.MuiSelect-select {
+  color: var(--primary-text-color-ladies) !important;
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+.Ladies .MuiSelect-icon {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* WalletModal */
+.Ladies .seedTextButton {
+  color: var(--primary-text-color-ladies) !important;
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .seedTextButton_confirm_container {
+  color: var(--primary-text-color-ladies) !important;
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .seedTextButton_confirm {
+  color: var(--primary-text-color-ladies) !important;
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .seedWallet_container {
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+/* SearchBarPlayerList.css */
+.Ladies .player_list_container {
+  background: var(--primary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .search-bar-player-list .search-filter-show-item {
+  color: var(--primary-icon-color-ladies);
+}
+
+/* Header.css */
+.Ladies .header {
+  background: var(--primary-background-color-ladies);
+}
+.Ladies .header-title {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .menu {
+  background-color: var(--primary-background-color) !important;
+}
+
+/* Footer.css */
+.Ladies .footer-wrapper {
+  background-color: var(--primary-background-color-ladies);
+}
+.Ladies .footer-nav-item {
+  color: var(--primary-icon-color-ladies) !important;
+}
+/* .Ladies .footer-nav-item > img {
+      filter: invert(100%) sepia(5%) saturate(151%) hue-rotate(37deg)
+        brightness(21%) contrast(102%) !important;
+  } */
+
+/* Landing.css */
+.Ladies .login-wrapper {
+  background: white;
+}
+.Ladies .header-ticker-container {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .input-box.otp {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .button-box {
+  border: 1px solid var(--secondary-text-color-ladies) !important;
+  color: var(--secondary-text-color-ladies) !important;
+}
+.Ladies .page-link {
+  color: var(--secondary-text-color-ladies) !important;
+}
+.Ladies .new-launch-title {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .new-launches-nft-content .new-launch-title .new-nft-content {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .container > .tutorials-section {
+  background-color: var(--third-background-color-ladies);
+}
+.Ladies .close_icon {
+  background: var(--primary-icon-color-ladies) !important;
+}
+.Ladies .close_icon_notification {
+  background: var(--primary-icon-color-ladies) !important;
+}
+.Ladies .app-landing-container .players-trending-section .players-landing-item {
+  background: var(--secondary-background-color-ladies);
+}
+.Ladies .collectibles-section,
+.Ladies .versus-players-section,
+.Ladies .rated-players-section,
+.Ladies .drafted-players-section {
+  background-color: var(--third-background-color-ladies);
+}
+.Ladies .drafted-players-section {
+  background-color: var(--primary-background-color-ladies);
+}
+.Ladies .app-landing-container .row:nth-child(odd) {
+  background-color: var(--third-background-color-ladies);
+}
+
+.Ladies .app-landing-container .row:nth-child(even) {
+  background-color: var(--primary-background-color-ladies);
+}
+
+.Ladies .app-landing-container .rated-players-section .section-wrapper .section-title {
+  background-color: var(--secondary-background-color);
+}
+
+.Ladies .app-landing-container .rate-card,
+.Ladies .app-landing-container .investment-card {
+  box-shadow: 0 0 6px var(--third-background-color-ladies),
+    0 4px 10px var(--third-background-color-ladies);
+  background: var(--secondary-background-color-ladies);
+}
+
+/* Careers.css */
+.Ladies .careers-select > .MuiFormControl-root {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+/* Language.css */
+.Ladies .language {
+  background-color: var(--secondary-background-color-ladies) !important;
+}
+/* NftList.css */
+.Ladies .nft-list-container {
+  background-color: var(--third-background-color-ladies);
+}
+.Ladies .nft-list-container .row ~ .row {
+  box-shadow: 0 0 10px 10px var(--primary-shadow-color-ladies);
+}
+
+.Ladies .nft-list-container .row:nth-child(odd) {
+  background-color: var(--secondary-background-color-ladies);
+}
+
+.Ladies .nft-list-container .row:nth-child(even) {
+  background-color: var(--third-background-color-ladies);
+}
+
+.Ladies .nft-list-container .row:nth-child(odd) .nft-card {
+  background-color: var(--third-background-color-ladies) !important;
+}
+
+/* Notification.css */
+.Ladies .switch-container .MuiFormControl-root {
+  background-color: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .notification-title.plain {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .notification-title.plain:hover {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .link-title {
+  color: var(--secondary-text-color-ladies) !important;
+}
+.Ladies .arrow {
+  color: var(--secondary-text-color-ladies) !important;
+}
+
+/* NotificationSettings.css */
+.Ladies .my_user_setting_input {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .copy_share_link {
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+.Ladies .referral_desc {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .approx_dollar {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .matic_Icon {
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+.Ladies .payouts_date {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* Onboarding.css */
+.Ladies .onboarding-container {
+  background: var(--primary-background-color-ladies);
+}
+.Ladies .note-wrapper {
+  background: var(--primary-background-color-ladies);
+}
+
+.Ladies .note-wrapper > span {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .note-wrapper > .metamask-btn > span {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .verification-container {
+  background: var(--primary-background-color-ladies);
+}
+.Ladies .enter-number-title {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* Player.css */
+.Ladies .player-container section {
+  background-color: var(--primary-background-color);
+}
+
+.Ladies .player-container .profile-container section {
+  background-color: var(--secondary-background-color);
+}
+
+.Ladies .player-container .profile-container section.profile-kiosk-section {
+  background-color: var(--primary-tab-color);
+}
+
+.Ladies .player-container .profile-container section.profile-history-section {
+  background-color: var(--primary-tab-color);
+}
+
+.Ladies .player-container .profile-container section.profile-history-section .user-card {
+  border-color: var(--primary-tab-color);
+}
+
+.Ladies .player-container .profile-container section .blog-title{
+  background-color: var(--third-background-color);
+}
+
+.Ladies .player-container .messages-container .message-action-reply {
+  color: var(--primary-icon-color);
+}
+
+.Ladies .player-container .box-wrapper {
+  background-color: var(--secondary-background-color);
+}
+
+/* .Ladies .player-container .profile-container section ~ section {
+  box-shadow: 0 0 10px 10px var(--primary-shadow-color);
+}
+.Ladies .player-container .profile-container section:nth-child(odd) {
+  background-color: var(--third-background-color);
+}
+
+.Ladies .player-container .profile-container section:nth-child(even) {
+  background-color: var(--primary-background-color);
+} */
+
+.Ladies .player-container .player-card {
+  background-image: linear-gradient(
+      to bottom,
+      transparent,
+      var(--primary-background-color-ladies)
+    ),
+    url('@assets/images/playerdetail-bg-light.webp');
+}
+.Ladies .player-container .not-launched-section {
+  background: var(--primary-background-color-ladies) !important;
+}
+.Ladies .coin-stat > a {
+  color: var(--primary-text-color-ladies) !important;
+  text-decoration: none;
+}
+.Ladies .player-container .player-chart .player-name {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .chart-period,
+.Ladies .wallet-container .chart-period,
+.Ladies .chart-dialog .chart-period {
+  background-color: var(--primary-background-color-ladies);
+}
+
+.Ladies .player-container .button-line .button-box {
+  border: 1px solid transparent !important;
+}
+
+@media only screen and (min-width: 900px) {
+  .Ladies .player-container .player-card {
+    background-image: linear-gradient(
+        to bottom,
+        transparent,
+        var(--primary-background-color-ladies)
+      ),
+      url('@assets/images/playercard-bg-light.webp');
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .Ladies .player-container .player-card {
+    background-image: linear-gradient(
+        to bottom,
+        transparent,
+        var(--primary-background-color-ladies)
+      ),
+      linear-gradient(
+        to left,
+        transparent 90%,
+        var(--primary-background-color-ladies) 95%
+      ),
+      linear-gradient(
+        to right,
+        transparent 90%,
+        var(--primary-background-color-ladies) 95%
+      ),
+      url('@assets/images/playercard-bg-light.webp');
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .Ladies .player-container .player-card {
+    background-image: linear-gradient(
+        to bottom,
+        transparent,
+        var(--primary-background-color-ladies)
+      ),
+      linear-gradient(
+        to left,
+        transparent 80%,
+        var(--primary-background-color-ladies) 90%
+      ),
+      linear-gradient(
+        to right,
+        transparent 80%,
+        var(--primary-background-color-ladies) 90%
+      ),
+      url('@assets/images/playercard-bg-light.webp');
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  .Ladies .player-container .player-card {
+    background-image: linear-gradient(
+        to bottom,
+        transparent,
+        var(--primary-background-color-ladies)
+      ),
+      linear-gradient(
+        to left,
+        transparent 75%,
+        var(--primary-background-color-ladies) 80%
+      ),
+      linear-gradient(
+        to right,
+        transparent 75%,
+        var(--primary-background-color-ladies) 80%
+      ),
+      url('@assets/images/playercard-bg-light.webp');
+  }
+}
+
+@media only screen and (min-width: 2800px) {
+  .Ladies .player-container .player-card {
+    background-image: linear-gradient(
+        to bottom,
+        transparent,
+        var(--primary-background-color-ladies)
+      ),
+      linear-gradient(
+        to left,
+        transparent 65%,
+        var(--primary-background-color-ladies) 70%
+      ),
+      linear-gradient(
+        to right,
+        transparent 65%,
+        var(--primary-background-color-ladies) 70%
+      ),
+      url('@assets/images/playercard-bg-light.webp');
+  }
+}
+.Ladies .voting-polls .voting-disabled {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .social_media_link {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .social_media_link_mobile {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .wallet-container .chart-period {
+  background-color: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .pay-item-subtitle {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .my_settings_input {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .percentage_icon {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .new_percentage_value {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .list_of_items_wrapper {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .welcome {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .term_text {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .check_sign_text {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies > .player-card > .fixed-content > .img > .profile-img-loader {
+  background: var(--primary-background-color-ladies);
+}
+
+/* PlayerDashboard.css */
+.Ladies .player-dashboard-container {
+  color: var(--primary-text-color-ladies) !important;
+  background-color: var(--primary-background-color-ladies) !important;
+}
+
+.Ladies .player-dashboard-container .box-wrapper {
+  background-color: var(--primary-tab-color-ladies);
+}
+
+.Ladies .player-dashboard-container .player-draft .item {
+  background: unset !important;
+}
+
+.Ladies
+  .player-dashboard-container
+  .my-card-container
+  .setting-container
+  .accordion
+  .item {
+  background: unset !important;
+}
+
+.Ladies .player-dashboard-container > .player-coin > .player-value {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .player-dashboard-container > .player-coin > .accordion > .item {
+  background: unset !important;
+}
+
+.Ladies
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .title
+  > h2 {
+  color: var(--primary-text-color-ladies);
+}
+
+.Ladies
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .content
+  > .textinput-wrapper {
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+.Ladies
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .content
+  > .white-color {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .contract-balance
+  > .content
+  > .cryptocurrency-desc {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .content
+  > .player_reward_percentage_wrapper
+  > .percentage_value_wrapper
+  > input {
+  color: var(--primary-text-color-ladies) !important;
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+.Ladies
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .content
+  > .player_reward_percentage_wrapper
+  > .percentage_value_wrapper
+  > .percentage_icon {
+  color: var(--primary-text-color-ladies) !important;
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+.Ladies .player-coin-request > .player-dashboard-title {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .player-coin-request > .player-dashboard-desc {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .player-coin-request > form > .birthday > .dob-select {
+  color: var(--primary-text-color-ladies) !important;
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+.Ladies
+  .player-coin-request
+  > form
+  > .player-dashboard-select
+  > .MuiFormControl-root {
+  color: var(--primary-text-color-ladies) !important;
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+.Ladies .player-coin-request > form > .textinput-wrapper > input {
+  color: var(--primary-text-color-ladies) !important;
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .PhoneInput input {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .main-tabwrapper {
+  background: var(--primary-background-color-ladies) !important;
+}
+.Ladies .player-dashboard-container .textinput-wrapper input {
+  color: var(--primary-text-color-ladies) !important;
+  /* background: var(--secondary-background-color-ladies) !important; */
+}
+.Ladies .player-dashboard-container .player-dashboard-title {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .player-dashboard-container .player-dashboard-desc {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .player-dashboard-container .player-dashboard-notification {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .player-dashboard-container .terms-conditions-check div {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .player-dashboard-container .accordion .title h2 {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .new-draft-title {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .player-dashboard-container .nft-tab-title,
+.Ladies .onboarding-popup .nft-tab-title {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .nft-tab-container > .nft-tab-title {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .nft-tab-container > div > .nft-tab-title {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .item-description {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .player-dashboard-container .NftList-poll-container .NftList-poll-item {
+  background-color: var(--primary-background-color-ladies) !important;
+}
+.Ladies
+  .player-dashboard-container
+  .NftList-poll-container
+  .NftList-poll-footer {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies
+  .player-dashboard-container
+  .NftList-poll-container
+  .poll-countdown-container
+  .coming-soon-time-card {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies
+  .player-dashboard-container
+  .createpoll-input-item
+  > .createpoll-textarea {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .bottom-close > .close-button {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies
+  .player-dashboard-container
+  .my-card-container
+  .setting-container
+  .setting-colors
+  .image-button {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .price-ticker-wrapper {
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+/* PlayerList.css */
+.Ladies .player-list-container {
+  background: var(--primary-background-color-ladies) !important;
+}
+.Ladies .player-list-container .dlg-content .list-header {
+  background-color: var(--primary-background-color-ladies);
+}
+.Ladies .dob-select {
+  background: var(--secondary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .player-list-container .row {
+  box-shadow: 0 0 10px 10px var(--primary-shadow-color-ladies);
+}
+.Ladies .player-list-container .row:nth-child(odd) {
+  background-color: var(--secondary-background-color-ladies);
+}
+
+.Ladies .player-list-container .row:nth-child(even) {
+  background-color: var(--third-background-color-ladies);
+}
+.Ladies
+  .player-list-container
+  .row
+  .players-table-container
+  .nft-item:nth-child(odd) {
+  background-color: var(--secondary-background-color-ladies);
+}
+
+.Ladies
+  .player-list-container
+  .row
+  .players-table-container
+  .nft-item:nth-child(even) {
+  background-color: var(--third-background-color-ladies);
+}
+
+/* PlayerNft.css */
+
+.Ladies .nft-container {
+  background-color: var(--primary-background-color-ladies) !important;
+}
+.Ladies .nft-owner div a {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .nft-mint-date div {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .nft-container .nft-bid-info-header {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .nft-detail-container {
+  background-color: var(--primary-background-color-ladies);
+}
+.Ladies .modal-content > section.nft-view-container .nft-detail-container {
+  background-color: var(--primary-background-color-ladies) !important;
+}
+.Ladies .nft-container .nft-bid-item {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .nft-container .nft-bid-item-amount {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* PurchaseNft.css */
+
+.Ladies .purchase-container {
+  background: var(--primary-background-color-ladies) !important;
+}
+.Ladies .pricing-value-text {
+  color: var(--primary-text-color-ladies);
+}
+.Ladies .pricing-value-text.number-color.profit {
+  color: var(--profit-color);
+}
+.Ladies .pricing-value-text.number-color.loss {
+  color: var(--loss-color);
+}
+.Ladies .methods-heading {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .approve-blockchain {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .approve-blockchain {
+  color: var(--primary-text-color-ladies) !important;
+}
+@media screen and (max-height: 699px) {
+  .Ladies .approve-blockchain {
+    color: var(--primary-text-color-ladies) !important;
+  }
+}
+.Ladies .home-load {
+  background-color: var(--primary-background-color-ladies) !important;
+}
+.Ladies .pay-detail > span {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* Staking.css */
+
+.Ladies .player-name {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+.Ladies .button-inactive {
+  background-color: var(--primary-background-color-ladies);
+}
+
+.Ladies .button-inactive:hover {
+  color: var(--primary-text-color-ladies);
+}
+
+.Ladies .staked-amount-raw .staked-symbol-wrapper .minus-symbol {
+  background-color: var(--primary-background-color-ladies);
+}
+
+.Ladies .staked-amount-raw .staked-symbol-wrapper .minus-symbol.button-active {
+  background-color: var(--primary-foreground-color-ladies);
+  color: var(--primary-text-color-ladies);
+}
+
+/* Terms&Conditions.css */
+.Ladies .terms-container {
+  background-color: var(--primary-background-color-ladies) !important;
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .terms-subtitle {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* Wallet.css */
+.Ladies .wallet-heading {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .wallet-text {
+  color: var(--primary-text-color-ladies) !important;
+}
+.Ladies .balance-card {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .bottom-popup-content .wallet-container .sub-title {
+  color: var(--primary-text-color-ladies) !important;
+}
+
+/* Rest pages */
+.Ladies .bottom.bottom-shadow {
+  box-shadow: 0 0 10px 10px var(--primary-shadow-color-ladies);
+}
+
+.Ladies .player_level_diamond {
+  background: linear-gradient(#c879f9, #8d64a7);
+  -webkit-background-clip: text;
+}
+.Ladies .player_level_gold {
+  background: linear-gradient(#f5b933, #bb9524);
+  -webkit-background-clip: text;
+}
+.Ladies .player_level_silver {
+  background: linear-gradient(#95979a, #6f6f76);
+  -webkit-background-clip: text;
+}
+.Ladies .player_level_bronze {
+  background: linear-gradient(#c37b47, #bf6f32);
+  -webkit-background-clip: text;
+}
+
+.Ladies .user-card,
+.Ladies .progress-bar-container,
+.Ladies .user-container .user-summary-wrapper .user-summary-item,
+.Ladies .user-container .players-list-item {
+  background-color: var(--secondary-background-color);
+}
+
+.Ladies .user-container .players-list-option,
+.Ladies .user-container .players-list-wrapper {
+  background-color: var(--third-background-color);
+}
+
+.Ladies .user-card-setting .user-select {
+  background-color: var(--third-background-color);
+  color: var(--primary-text-color-light);
+}
+
+@media only screen and (max-width: 700px) {
+  .user-card.user-card-supporter .user-info-wrapper .user-image .image-border {
+    background-color: var(--primary-background-color);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .Ladies
+    .nft-list-container
+    .row:nth-child(even)
+    .nft-list-grid-mob
+    .circle-carousel
+    .nft-card {
+    border: 3px solid var(--primary-background-color);
+  }
+
+  .Ladies
+    .nft-list-container
+    .row:nth-child(odd)
+    .nft-list-grid-mob
+    .circle-carousel
+    .nft-card {
+    border: 3px solid var(--primary-background-color);
+  }
+}
+.Ladies .player-dashboard-container .accordion .title .disabled-color {
+  color: grey !important;
+}
+.Ladies .player-container .player-chart .chart-period {
+  background-color: var(--primary-background-color-light) !important;
+}
+
+.Ladies .nft-detail-title {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .owners_wrapper {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .owner_list_wrapper {
+  background: var(--secondary-background-color-ladies) !important;
+}
+.Ladies .boost_xp_box {
+  background: var(--secondary-background-color-ladies) !important;
+}
+
+.Ladies .player-container .player-info-box {
+  background: var(--secondary-background-color);
+}
+
+.Ladies .new-launches-nft-btn-group {
+  background: var(--primary-background-color);
+}
+
+.Ladies .new-launches-nft-btn.active {
+  background: var(--secondary-background-color);
+}
+
+.Ladies
+  .app-landing-container
+  .players-trending-section
+  .section-wrapper
+  .section-title-container,
+.Ladies
+  .app-landing-container
+  .feed-section
+  .section-wrapper
+  .section-title-container {
+  background-color: var(--secondary-background-color);
+}
+
+.Ladies .app-landing-container .players-trending-section .trending-switch {
+  background: var(--third-background-color);
+}
+
+.Ladies
+  .app-landing-container
+  .players-trending-section
+  .trending-switch
+  b.trending-switch-selected {
+  background: var(--primary-background-color);
+}
+
+/* Scouts page */
+
+.Ladies .scouts-count-item {
+  background: var(--secondary-background-color);
+}
+
+.Ladies .scouts-section-wrapper .nft-item:nth-child(odd) {
+  background-color: var(--third-background-color);
+}
+
+.Ladies .scouts-section-wrapper .nft-item:nth-child(even) {
+  background-color: var(--secondary-background-color);
+}
+
+.Ladies .scouts-section-title .in-menu-search-header {
+  background-color: var(--third-background-color);
+}
+
+.Ladies .scouts-section-title {
+  background-color: var(--secondary-background-color);
+}
+
+.Ladies .scouts-section-wrapper .scouts-leaderboard-container {
+  background-color: var(--primary-background-color);
+}
+
+.Ladies .scouts-section-wrapper .scouts-top5-container {
+  background-color: var(--primary-background-color);
+}
+
+.Ladies .scouts-section-wrapper .scouts-top5-title {
+  background-color: var(--secondary-background-color);
+}
+
+.Ladies .players-live-section .user-card.user-scouts-card-supporter {
+  border-bottom: 1px solid #313241 !important;
+}
+
+.Ladies .players-live-section .user-card.user-scouts-card-supporter:last-child {
+  border-bottom: unset !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.Ladies
+  .scouts-section-wrapper
+  .scouts-top5-container
+  .user-card.user-scouts-card-supporter {
+  background-color: var(--primary-background-color);
+}
+
+.Ladies
+  .user-card.user-scouts-card-supporter
+  .user-info-wrapper
+  .user-image
+  .image-border {
+  background-color: var(--secondary-background-color);
+}
+
+/* Players page */
+
+.Ladies .players-count-item {
+  background-color: var(--secondary-background-color);
+}
+
+.Ladies .players-coming-soon-wrapper .players-section-title {
+  background-color: var(--primary-background-color);
+}
+
+/* Kiosk Page */
+
+.Ladies .kiosk-title-wrapper {
+  background: var(--primary-background-color);
+}
+
+.Ladies .kiosk-wrapper {
+  background: var(--primary-tab-color);
+}
+
+.Ladies .kiosk-wrapper .nft-card .second-part {
+  border-top: 1px solid var(--primary-tab-color);
+}
+
+.Ladies .kiosk-items .nft-card .second-part {
+  border-top: 1px solid var(--primary-tab-color);
+}
+
+/* Tour */
+
+.Ladies .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.Ladies .tour-button.form-submit-btn {
+  border: unset;
+}
+
+.Ladies .bright-rectangle .footer-wrapper {
+  background: unset;
+}
+
+.Ladies .deposit-tour-wrapper .modal-content {  
+  background: unset!important;
+}
+
+.Ladies .deposit-tour-wrapper .bottom-popup-content.wallet {  
+  height: calc(min(671px, 82vh));
+}
+
+.Ladies .bright-rectangle.bright-rectangle-deposit-tour-step3 .modal-content > section {
+  background: var(--primary-background-color) !important;
+}
+
+.Ladies .bg-dark-color.bright-area {
+  background-color: #3d3d3d !important;
+}
+
+.Ladies .bright-rectangle .modal-content .purchase-container {
+  background: unset;
+}
+
+.Ladies .bright-rectangle .bg-dark-color {
+  background-color: #3d3d3d !important;
+}
+
+.Ladies .bright-rectangle .modal-content > section {
+  background-color: #3d3d3d !important;
+}
+
+.Ladies .staking-tour-wrapper .staked {
+  background: unset;
+}
+
+.Ladies .staking-tour-wrapper .button-inactive, .staking-tour-wrapper .button-inactive:hover{
+  background: unset;
+}
+
+/* Box */
+
+.Ladies .box-wrapper .section-title-container {
+  background-color: var(--secondary-background-color);
+}
+
+.Ladies .box-wrapper .list-wrapper .box-item {
+  background-color: var(--secondary-background-color);
+}
+
+.Ladies .user-container .top-trades-section .box-wrapper.section-wrapper {
+  background-color: var(--third-background-color);
+}
+
+.Ladies .top-trades-container .box-wrapper.section-wrapper {
+  background-color: var(--third-background-color);
+}

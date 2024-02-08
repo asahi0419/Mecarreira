@@ -1,0 +1,190 @@
+.genesis-collection-card {
+  border: 2px solid #000;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(156.63deg, #1a1a1a, hsla(0, 0%, 100%, 0) 115.46%);
+  background-clip: padding-box;
+  width: clamp(100px, 18vw, 20vh);
+}
+
+.genesis-common-collection-content .genesis-collection-card {
+  box-shadow: 0 0 300px #6bc909, 0 4px 0px #1d1e2a;
+  border: none;
+}
+
+.genesis-collection-card:hover {
+  border: 2px solid var(--primary-foreground-color);
+}
+
+.genesis-collection-nft {
+  width: 100%;
+  background: url('@assets/images/card2-bg-min.webp');
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.genesis-collection-nft-cover {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
+
+.genesis-collection-nft-item {
+  position: relative;
+  aspect-ratio: 1 / 1;
+}
+
+.genesis-collection-nft-item span {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%) rotate(-25deg);
+  z-index: 1;
+  font-size: clamp(12px, 2vw, 2.5vh);
+  /* font-size: clamp(20px, 2.5vw, 6.67vh); */
+  width: 100%;
+  text-align: center;
+}
+
+.genesis-collection-nft-item span.COMMON {
+  color: #81df0d;
+}
+
+.genesis-collection-nft-item span.BRONZE {
+  color: #c37b47;
+}
+
+.genesis-collection-nft-item span.SILVER {
+  color: #95979a;
+}
+
+.genesis-collection-nft-item span.GOLD {
+  color: #f5b933;
+}
+
+.genesis-collection-nft-item span.DIAMOND {
+  color: #c879f9;
+}
+
+.genesis-collection-nft-cover img {
+  filter: brightness(0.5);
+}
+
+.genesis-collection-nft-bottom {
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: clamp(max(10px, 1.5vh), 1vw, min(96px, 2vh));
+  font-family: 'Rajdhani-bold';
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.genesis-collection-nft-type {
+  font-weight: 700;
+  font-size: clamp(12px, 2vw, 2.5vh);
+  /* font-size: clamp(20px, 2.5vw, 6.67vh); */
+  width: 100%;
+  text-align: center;
+  -webkit-text-fill-color: transparent;
+}
+
+.Common.genesis-collection-nft-type {
+  background: linear-gradient(#81df0d, #f4ffe6);
+  -webkit-background-clip: text;
+  line-height: normal;
+}
+.Bronze.genesis-collection-nft-type {
+  background: linear-gradient(#c37b47, #feddc4);
+  -webkit-background-clip: text;
+}
+.Silver.genesis-collection-nft-type {
+  background: linear-gradient(#95979a, #e7e7e8);
+  -webkit-background-clip: text;
+}
+.Gold.genesis-collection-nft-type {
+  background: linear-gradient(#f5b933, #fbe9b3);
+  -webkit-background-clip: text;
+}
+.Diamond.genesis-collection-nft-type {
+  background: linear-gradient(#c879f9, #d0deec);
+  -webkit-background-clip: text;
+}
+
+.genesis-collection-nft-locks {
+  font-weight: 700;
+  font-size: clamp(10px, 1.25vw, 1.8vh);
+  /* font-size: clamp(18px, 1.25vw, 3.33vh); */
+  width: 100%;
+  text-align: center;
+  margin-top: clamp(0px, 0.2vw, 1vh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.genesis-collection-nft-percent {
+  font-weight: 700;
+  font-size: 32px;
+  color: #81df0d;
+}
+
+.genesis-collection-infinity-icon {
+  width: 40px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .genesis-collection-nft-percent {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .genesis-collection-infinity-icon {
+    width: 30px;
+  }
+  .genesis-collection-list {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .genesis-collection-card {
+    width: 280px;
+    margin: auto;
+  }
+  .genesis-collection-nft-item span {
+    font-size: 36px;
+  }
+  .genesis-collection-list .alice-carousel__stage-item {
+    padding-left: 0px;
+  }
+  .genesis-collection-nft-type {
+    line-height: normal;
+    font-size: 24px;
+  }
+  .genesis-collection-nft-locks {
+    font-size: 20px;
+    height: 30px;
+  }
+  .genesis-collection-nft-bottom {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 2860px) {
+  .genesis-collection-nft-bottom {
+    gap: 20px;
+  }
+  .genesis-collection-nft-percent {
+    font-size: 40px;
+  }
+}

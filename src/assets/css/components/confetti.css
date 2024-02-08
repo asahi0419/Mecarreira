@@ -1,0 +1,8 @@
+.confetti-body {
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+}

@@ -1,0 +1,596 @@
+.container > .onboarding-container {
+  /* margin-top: 60px!important; */
+  /*commented by akshay because it was causing wallet pages to have margin from top on mobile view*/
+  margin-top: 60px;
+}
+
+.container > .onboarding-container {
+  /* margin-top: 60px!important; */
+  /*commented by akshay because it was causing wallet pages to have margin from top on mobile view*/
+  margin-top: 60px;
+}
+
+.onboarding-container.reset-password {
+  width: 100vw !important;
+  top: unset !important;
+}
+.verification-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  background: #212435;
+  flex-direction: column;
+  /* margin-top: 60px; */
+  height: 100vh;
+  /* width: 95vw; */
+
+  position: relative;
+  left: 0px;
+  top: 60px;
+  width: 99vw;
+}
+/*assign full width inputs*/
+
+/* input[type=text],
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  } */
+/*set a style for the buttons*/
+
+/* button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  } */
+/* set a hover effect for the button*/
+
+button:hover {
+  opacity: 0.8;
+}
+/*set extra style for the cancel button*/
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+/*centre the display image inside the container*/
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+/*set image properties*/
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/*set the forgot password text*/
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/*set styles for span and cancel button on small screens*/
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: static;
+  /* width: 327px; */
+  /* width: 80vw; */
+  /* height: 270px; */
+  /* height: 295px; */
+  left: 24px;
+  top: 32px;
+  /* Inside auto layout */
+  width: unset !important;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px 40px 0px;
+  /* margin: 40px 0px; */
+}
+
+.login-form-container label {
+  position: static;
+  width: 251px;
+  left: 0px;
+  top: 0px;
+  bottom: 58px;
+  /* Heading 5 */
+  font-family: 'Rajdhani-semibold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  display: flex;
+  align-items: center;
+  /* Neutral/200 */
+  color: #abacb5;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* margin: 8px 0px; */
+}
+
+.captcha-wrapper {
+  width: 297px;
+  height: 0;
+  display: none;
+}
+
+/* .login-form-container input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    position: static;
+    width: 327px;
+    height: 50px;
+    left: 0px;
+    top: 24px;
+    border: none;
+    background: #2C2F45;
+    border-radius: 4px;
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-top: 8px;
+    font-family: 'Rajdhani-bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #ABACB5;
+} */
+.login-text-content {
+  /* position: static;
+  width: 251px;
+  left: 0px;
+  top: 0px;
+  bottom: 74px; */
+
+  font-family: 'Rajdhani-semibold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  /* or 21px */
+
+  /* display: flex;
+  align-items: center; */
+  text-align: center;
+
+  /* Neutral/White */
+
+  color: var(--primary-icon-color);
+
+  /* Inside auto layout */
+
+  /* flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px; */
+  max-width: 297px;
+}
+
+.note-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.note-wrapper .metamask-btn {
+  color: var(--primary-icon-color);
+}
+
+.login-text-content {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.signup-btn {
+  flex-grow: 0;
+  margin: 10px 0px 20px;
+  width: 280px;
+  align-self: center;
+  /* width: 100%; */
+  width: 250px;
+  padding: 24px;
+}
+
+.onboarding-loader {
+  width: 80vw;
+}
+
+.onboarding-loader span {
+  display: none;
+}
+
+.onboarding-loader.spinner {
+  top: 53%;
+}
+
+.login-form.hide {
+  display: none;
+}
+
+.otp-form {
+  height: auto;
+  width: 100%;
+  margin-top: 93px;
+  overflow: hidden;
+}
+
+.login-otp {
+  margin-top: 78px;
+}
+
+.otp-form > .input-feedback {
+  width: 306px;
+}
+
+.otp-form > .otp-error {
+  margin: 10px 40px !important;
+}
+
+.otp-invalid-error {
+  width: 380px !important;
+}
+
+.otp-form.show {
+  display: block;
+}
+.otp-form.hide {
+  display: none;
+}
+
+.digit-group input {
+  width: 30px;
+  height: 50px;
+  border: none;
+  line-height: 50px;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: white;
+  margin: 0 2px;
+}
+
+.digit-group .splitter {
+  padding: 0 5px;
+  color: white;
+  font-size: 24px;
+}
+
+.otp-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.email-verification-container {
+  height: 60vh;
+  width: 100%;
+  margin-top: 10vh;
+  padding: 0 5vw;
+}
+
+.email-verification-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-verification-container.not-found {
+  height: unset !important;
+  margin-top: 30vh !important;
+}
+
+.login-form {
+  /* width: 300px; */
+  overflow: auto;
+  /* padding: 30px; */
+  height: 100%;
+  padding-top: 0px;
+  /* margin: 6px 0px 20px; */
+}
+
+.modal-content section .login-form::-webkit-scrollbar {
+  width: 0px;
+}
+
+.reset-password-form {
+  padding: 16px 24px 0px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .login-form {
+    /* width: 252px;  */
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .onboarding-container {
+    /* width: unset; */
+    /* width: 375px !important; */
+    width: 100%;
+    position: absolute;
+    left: unset !important;
+    /* top: 60px; */
+    width: unset;
+  }
+  .onboarding-container.reset-password {
+    position: unset !important;
+    width: 390px !important;
+  }
+  /* .login-form-container {
+      width: 327px !important;
+    } */
+  .onboarding-loader {
+    width: 327px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .onboarding-container {
+    /* width: 375px; */
+    width: 100%;
+    height: 97%;
+    /* overflow-y: scroll; */
+    /* left: 21vw; */
+    /* left: calc(100% - 511px); */
+  }
+  .login-form-container {
+    height: 100% !important;
+  }
+}
+
+.change-secret > h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.change-secret > form > .login-form-container > .check_sign_text {
+  text-align: left !important;
+  width: 220px !important;
+}
+
+.change-secret-otp-wrapper {
+  display: flex;
+  align-items: center;
+  width: 297px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.change-secret-otp-wrapper > .percentage_value_wrapper > input {
+  border-radius: 5px;
+}
+
+.item-admin-open {
+  width: 365px !important;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .onboarding-container {
+    /* width: 375px; */
+    width: 100%;
+    /* left: 29vw; */
+    /* margin: 0 292px; */
+  }
+  .login-form-container {
+    height: 100% !important;
+  }
+  /* .login-form-container {
+    width: 327px;
+  } */
+}
+
+@media only screen and (max-width: 600px) {
+  .onboarding-container {
+    width: 100% !important;
+  }
+  .post-msg-popup {
+    height: 0px;
+    color: transparent;
+  }
+  .post-msg-popup > .bottom-popup > .bottom-popup-content > .close-button{
+    top: 80% !important;
+  }
+  .login-form {
+    /* width: 300px; */
+    overflow: auto;
+    /* padding: 30px; */
+    height: 75vh;
+    width: 100%;
+    padding: 0 55px;
+    padding-top: 0px;
+    /* margin: 6px 0px 20px; */
+  }
+
+  .login-form-container .textinput-wrapper {
+    width: calc(100vw - 110px);
+  }
+  .login-form-container {
+    margin-top: 0;
+  }
+  .login-form-container .signup-btn {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    line-height: 0.3;
+  }
+  .login-form-container .metamask-btn {
+    margin: 10px 0 0;
+  }
+}
+.enter-number-title {
+  color: white;
+}
+/* Typography */
+.page-heading {
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.page-text {
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0 24px;
+}
+
+.page-text.semibold {
+  font-family: 'Rajdhani-semibold';
+}
+
+.resend-verification {
+  max-width: 16em;
+}
+
+.page-text u {
+  cursor: pointer;
+}
+
+.btn-done {
+  background: var(--secondary-foreground-color);
+  /* padding: 24px 60px; */
+  border: 1px solid var(--secondary-foreground-color);
+  border-radius: 8px;
+  width: 256px !important;
+  height: 50px;
+  color: #171923;
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
+
+.update-number-btn {
+  margin: 40px 0 0 0;
+}
+.whatsApp {
+  width: 170px !important;
+}
+
+.resend-link {
+  color: var(--secondary-foreground-color);
+}
+
+.otp-resend {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.otp-loader {
+  position: relative;
+  height: 124px;
+}
+
+.otp-loader > .spinner {
+  top: 30% !important;
+  margin: auto;
+}
+
+.resend-link.hidden {
+  display: none !important;
+}
+
+.resend-link.no-click {
+  cursor: default !important;
+}
+
+.sent-success {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 6px;
+}
+
+#privy-dialog > div > div {
+  background: #12131c;
+}
+#privy-dialog > div > div > div > div,
+#privy-dialog > div > div > div > div label {
+  background: unset;
+}
+
+/* Responsive CSS */
+@media only screen and (max-width: 360px) {
+  .modal-content {
+    margin-top: 7vh !important;
+    width: 95vw !important;
+  }
+  /* .modal.show {
+    background: #212435;
+  } */
+}
+
+@media only screen and (max-height: 700px) {
+  .otp-form {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .login-form {
+    padding: 0 45px;
+  }
+
+  .login-form .field-wrapper {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .login-form-container .textinput-wrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .login-form {
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .login-form {
+    padding: 0 35px;
+  }
+}

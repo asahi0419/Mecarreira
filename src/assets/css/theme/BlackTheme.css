@@ -1,0 +1,1636 @@
+.Black {
+  background: var(--primary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+
+.h-black {
+  font-family: 'Rajdhani-semibold';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+  padding-top: 24px;
+  cursor: pointer;
+}
+
+.footer-black > .h-black {
+  color: #fff !important;
+}
+
+/* Style.css */
+
+.Black .btn-disabled {
+  background: none !important;
+  color: var(--primary-text-color-black) !important;
+  border: 1px solid var(--primary-text-color-black) !important;
+  cursor: pointer;
+}
+
+.Black .form-submit-btn {
+  color: var(--third-text-color-black);
+  border: 1px solid var(--primary-text-color-black);
+}
+
+.Black .nft-card .second-part .nft-bid-button {
+  color: var(--third-text-color-black);
+}
+
+.Black .border-top {
+  border-top: 1px solid transparent !important;
+}
+.Black .modal-content > section {
+  background: var(--primary-background-color-black) !important;
+}
+.Black .tab-item-test > button {
+  /* color: var(--secondary-text-color-black) !important; */
+  color: #abacb5 !important;
+}
+.Black .tab-item-test.tab-active > button {
+  color: var(--secondary-background-color) !important;
+}
+
+/* .Black .wallet-container .tabs-container .wallet-tab .tab-active {
+  border-bottom: 2px solid var(--secondary-background-color) !important;
+}
+.Black .wallet-container .tabs-container .wallet-tab .tab-active {
+  border-bottom: 2px solid var(--secondary-background-color) !important;
+} */
+
+.Black .tab-active {
+  /* color: var(--secondary-text-color-black) !important;
+  border-bottom: 2px solid var(--secondary-foreground-color); */
+  color: var(--secondary-background-color) !important;
+  border-bottom: 2px solid var(--secondary-background-color) !important;
+  height: 100%;
+}
+
+.Black .tab-bar-container > .tabs-container > .tab-active {
+  border-bottom: 2px solid var(--secondary-background-color) !important;
+}
+
+.Black .content-wrap {
+  background-color: var(--primary-background-color-black);
+}
+
+.Black .home {
+  background: linear-gradient(
+      180deg,
+      rgba(23, 25, 35, 0) 38.16%,
+      #ebebeb 45.99%
+    ),
+    url('@assets/images/stadium_lightx.webp'), #ebebeb;
+  background-repeat: no-repeat;
+  /* background-size: 100vw 120vh; */
+  background-size: contain;
+}
+.Black .nft-item {
+  border-bottom: 1px solid transparent !important;
+}
+
+.Black .scouts-section-wrapper .nft-item {
+  border: 4px solid transparent !important;
+}
+
+.Black .scouts-section-wrapper .nft-item:hover {
+  border: 4px solid var(--primary-foreground-color) !important;
+}
+
+.Black .nft-item .nft-price {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .item {
+  background: var(--primary-background-color-black) !important;
+}
+.Black .item > .content > .notification > .notification-title > div {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .szh-menu {
+  background-color: var(--secondary-background-color-black) !important;
+}
+.Black .szh-menu__item {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* Font.css */
+.Black .h-4,
+.Black .h-5,
+.Black .ct-p1 {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* BottomPopup.css */
+.Black .bottom-popup-content {
+  background-color: var(--primary-background-color-black);
+}
+
+.Black > .staked-amount-raw > .staked-symbol-wrapper > .minus-symbol {
+  background: var(--primary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black > .button-inactive {
+  background: var(--primary-background-color-black);
+}
+
+/* .Black > .button-inactive:hover {
+        background: #81df0d;
+        color: #212435;
+    } */
+
+/* ComingSoon.css */
+.Black .coming-soon-time-card {
+  background: var(--secondary-background-color-black) !important;
+}
+
+/* DialogBox.css */
+.Black .modal {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.Black .modal-content {
+  background-color: var(--primary-background-color-black) !important;
+}
+
+.Black .player-chart-dialog {
+  background-color: var(--primary-background-color-ladies) !important;
+}
+
+/* FilterModal.css */
+.Black .filter-modal-body {
+  background-color: var(--primary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .filter-modal-body .MuiSelect-select.MuiSelect-select {
+  color: var(--primary-text-color-black) !important;
+  font-size: 17px;
+}
+
+.Black .filter-modal-body .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input,
+.Black
+  .filter-modal-body
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input,
+.Black .filter-modal-body .MuiOutlinedInput-root input {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .filter-modal-body .MuiSelect-select.MuiSelect-select {
+  background: unset !important;
+}
+
+.Black .filter-modal-body .MuiTextField-root label {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .filter-modal-body .MuiTextField-root button {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* FormCheckbox.css */
+.Black .MuiTypography-body1 {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* FormInput.css */
+
+.Black .textinput-wrapper {
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .textinput-wrapper input {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .textinput-wrapper textarea {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+
+/* NftCard.css */
+
+.Black .nft-card {
+  background: var(--secondary-background-color-black) !important;
+  border-radius: 17px !important;
+}
+
+.Black .nft-card .second-part .nft-name:hover {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .nft-card .second-part .nft-title,
+.Black .nft-card .second-part .nft-number {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* .Black .nft-list-grid-mob .nft-card {
+    border: none !important;
+  } */
+
+.Black .kiosk_title {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .kiosk_sub_title {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .kiosk_sub_desc {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .kiosk_sub_desc_box {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black .kiosk_player_name {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* @media screen and (min-width: 420px) {
+    .Black .nft-card {
+      border: 4px solid var(--secondary-background-color-black);
+    }
+  } */
+
+/* Select.css */
+.Black .MuiSelect-select.MuiSelect-select {
+  color: var(--primary-text-color-black) !important;
+  background: var(--secondary-background-color-black) !important;
+}
+
+.Black .MuiSelect-icon {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* WalletModal */
+.Black .seedTextButton {
+  color: var(--primary-text-color-black) !important;
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .seedTextButton_confirm_container {
+  color: var(--primary-text-color-black) !important;
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .seedTextButton_confirm {
+  color: var(--primary-text-color-black) !important;
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .seedWallet_container {
+  background: var(--secondary-background-color-black) !important;
+}
+
+/* SearchBarPlayerList.css */
+.Black .player_list_container {
+  background: var(--primary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .search-bar-player-list .search-filter-show-item {
+  color: var(--primary-icon-color-black);
+}
+
+/* Header.css */
+.Black .header {
+  background: var(--primary-foreground-color-black) !important;
+}
+.Black .header-title {
+  color: var(--third-text-color-black) !important;
+}
+
+/* Footer.css */
+.Black .footer-wrapper {
+  background-color: var(--primary-background-color-black);
+}
+.Black .footer-nav-item {
+  color: var(--primary-icon-color-black) !important;
+}
+
+.Black .footer-nav-item:hover {
+  background-color: unset;
+}
+
+.Black .footer-nav-item > img {
+  filter: brightness(0);
+}
+/* .Black .footer-nav-item > img {
+        filter: invert(100%) sepia(5%) saturate(151%) hue-rotate(37deg)
+          brightness(21%) contrast(102%) !important;
+    } */
+
+/* Landing.css */
+.Black .login-wrapper {
+  background: white;
+}
+.Black .header-ticker-container {
+  /* background: var(--secondary-background-color-black) !important; */
+  background: var(--primary-tab-color);
+}
+.Black .input-box.otp {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black .menu > .container > .button-box {
+  border: 1px solid var(--secondary-text-color-black) !important;
+  color: var(--secondary-text-color-black) !important;
+}
+.Black .menu > .container > .button-box:hover {
+  border: 1px solid var(--secondary-text-color-black) !important;
+  color: var(--third-text-color-black) !important;
+}
+.Black .button-box {
+  border: 1px solid var(--secondary-text-color-black) !important;
+  color: var(--third-text-color-black) !important;
+}
+.Black .app-landing-container .button-line .button-box {
+  color: var(--primary-foreground-color) !important;
+}
+.Black .app-landing-container .button-line .button-box:hover {
+  color: var(--third-text-color-black) !important;
+}
+.Black .app-landing-container .button-line .button-box.button1 {
+  color: var(--third-text-color-black) !important;
+}
+.Black .app-landing-container .button-line .button-box.button1:hover {
+  color: var(--primary-foreground-color) !important;
+}
+/* .Black .page-link {
+  color: var(--secondary-text-color-black) !important;
+} */
+
+.Black .page-link {
+  color: var(--tertiary-text-color-black) !important;
+}
+
+.Black .page-link:hover {
+  color: var(--primary-text-color) !important;
+  cursor: pointer;
+}
+
+.Black .grey-color {
+  color: var(--tertiary-text-color-black) !important;
+}
+
+.Black .header > .wallet-address .spinner .spinner__circle-inner {
+  background-color: var(--primary-foreground-color-black);
+}
+
+.Black .header > .wallet-address .spinner {
+  background: linear-gradient(
+        to top,
+        var(--primary-background-color),
+        var(--primary-background-color)
+      )
+      100% 0/50% 100% no-repeat,
+    linear-gradient(var(--primary-background-color) 50%, transparent 90%) 0 0/70%
+      100% no-repeat;
+}
+
+.Black .spinner__circle {
+  background-color: #202020 !important;
+}
+
+.Black .new-launch-title {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .new-launches-nft-content .new-launch-title .new-nft-content {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .container > .tutorials-section {
+  background-color: var(--third-background-color-black);
+}
+.Black .close_icon {
+  background: var(--primary-icon-color-black) !important;
+}
+.Black .close_icon_notification {
+  background: var(--primary-icon-color-black) !important;
+}
+.Black .app-landing-container .players-trending-section .players-landing-item {
+  background: var(--secondary-background-color-black);
+}
+/* .Black .collectibles-section,
+.Black .versus-players-section,
+.Black .rated-players-section,
+.Black .drafted-players-section {
+  background-color: var(--third-background-color-black);
+} */
+.Black .drafted-players-section {
+  background-color: var(--primary-background-color-black);
+}
+.Black .app-landing-container .row:nth-child(odd) {
+  background-color: var(--third-background-color-black);
+}
+
+.Black .app-landing-container .row:nth-child(even) {
+  background-color: var(--primary-background-color-black);
+}
+
+.Black .app-landing-container .rated-players-section .section-wrapper .section-title {
+  color: var(--primary-background-color);
+  background-color: var(--primary-foreground-color);
+}
+
+.Black .app-landing-container .rate-card,
+.Black .app-landing-container .investment-card {
+  box-shadow: 0 0 6px var(--third-background-color-black),
+    0 4px 10px var(--third-background-color-black);
+  background: var(--secondary-background-color-black);
+}
+
+/* Careers.css */
+.Black .careers-select > .MuiFormControl-root {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+/* Language.css */
+.Black .language {
+  background-color: var(--secondary-background-color-black) !important;
+}
+/* NftList.css */
+.Black .nft-list-container {
+  background-color: var(--third-background-color-black);
+}
+.Black .nft-list-container .row ~ .row {
+  box-shadow: 0 0 10px 10px var(--primary-shadow-color-black);
+}
+
+.Black .nft-list-container .row:nth-child(odd) {
+  background-color: var(--secondary-background-color-black);
+}
+
+.Black .nft-list-container .row:nth-child(even) {
+  background-color: var(--third-background-color-black);
+}
+
+.Black .nft-list-container .row:nth-child(odd) .nft-card {
+  background-color: var(--third-background-color-black) !important;
+}
+
+/* Notification.css */
+.Black .switch-container .MuiFormControl-root {
+  background-color: var(--secondary-background-color-black) !important;
+}
+.Black .notification-title.plain {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .notification-title.plain:hover {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .link-title {
+  color: var(--tertiary-text-color-black) !important;
+}
+
+.Black .link-title.focussed {
+  color: var(--primary-text-color) !important;
+}
+
+.Black .arrow {
+  color: var(--secondary-text-color-black) !important;
+}
+
+/* NotificationSettings.css */
+.Black .my_user_setting_input {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .copy_share_link {
+  background: var(--secondary-background-color-black) !important;
+}
+
+.Black .referral_desc {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .approx_dollar {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .matic_Icon {
+  background: var(--secondary-background-color-black) !important;
+}
+
+.Black .payouts_date {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* Onboarding.css */
+.Black .onboarding-container {
+  background: var(--primary-background-color-black);
+}
+.Black .modal-content > section.onboarding-container .bottom-popup-content {
+  background: var(--primary-background-color-light);
+}
+.Black .note-wrapper {
+  background: var(--primary-background-color-black);
+}
+
+.Black .note-wrapper > span {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .note-wrapper > .metamask-btn > span {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .verification-container {
+  background: var(--primary-background-color-black);
+}
+.Black .enter-number-title {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* Player.css */
+.Black .player-container .spinner__circle-inner {
+  background-color: #d3d3d3;
+}
+
+/* Player.css */
+
+.Black .player-container section {
+  background-color: var(--third-background-color-black);
+}
+
+.Black .player-container .profile-container section {
+  background-color: var(--secondary-background-color);
+}
+
+.Black .player-container .profile-container section.profile-kiosk-section {
+  background-color: var(--primary-background-color);
+}
+
+
+.Black .player-container .profile-container section.profile-kiosk-section {
+  background-color: var(--primary-background-color);
+}
+
+.Black .player-container .profile-container section.profile-history-section {
+  background-color: var(--primary-background-color);
+}
+
+.Black .player-container .profile-container .profile-history-section .section-title-container{
+  background-color: var(--primary-tab-color);  
+  color: var(--secondary-background-color);
+}
+
+.Black .player-container .profile-container section .blog-title {
+  color: var(--secondary-background-color);
+  background-color: var(--primary-tab-color);
+}
+
+.Black .player-container .messages-container .message-action-reply {
+  color: var(--primary-icon-color);
+}
+
+.Black .mobile-back-button.chart-back-button {
+  color: var(--secondary-background-color);
+}
+
+/* .Black .player-container .profile-container section ~ section {
+  box-shadow: 0 0 10px 10px var(--primary-shadow-color);
+}
+.Black .player-container .profile-container section:nth-child(odd) {
+  background-color: var(--third-background-color);
+}
+
+.Black .player-container .profile-container section:nth-child(even) {
+  background-color: var(--primary-background-color);
+} */
+
+.Black .player-container .player-card {
+  background-image: linear-gradient(to bottom, transparent, #a1a1a1 70%),
+    url('@assets/images/playerDetailBackgroundBlack.jpg');
+  background-size: cover;
+}
+.Black .player-container .not-launched-section {
+  background: var(--primary-background-color-black) !important;
+}
+.Black .coin-stat > a {
+  color: var(--primary-text-color-black) !important;
+  text-decoration: none;
+}
+.Black .player-container .player-chart .player-name {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .chart-period,
+.Black .wallet-container .chart-period,
+.Black .chart-dialog .chart-period {
+  background-color: var(--primary-background-color-black);
+}
+
+.Black .player-container .button-line .button-box {
+  border: 1px solid transparent !important;
+}
+
+/* Style.css */
+.Black .player-container .profile-container .player-card .fixed-content {
+  color: var(--third-text-color-black);
+}
+
+.Black .latest_tran {
+  color: black;
+}
+
+
+.Black .unclaimed-club {
+  color: black;
+  border-color: black;
+}
+
+.Black .unclaimed-club svg {
+  color: black;
+}
+
+@media only screen and (min-width: 900px) {
+  .Black .player-container .player-card {
+    background-image: linear-gradient(to bottom, transparent, #a1a1a1 70%),
+      url('@assets/images/playerDetailBackgroundBlack.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+  }
+}
+/* 
+@media only screen and (min-width: 1800px) {
+  .Black .player-container .player-card {
+    background-image: linear-gradient(to bottom, transparent, #a1a1a1 70%),
+      linear-gradient(to left, transparent 70%, #a1a1a1 95%),
+      linear-gradient(to right, transparent 70%, #a1a1a1 95%),
+      url('@assets/images/playerDetailBackgroundBlack.jpg');
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .Black .player-container .player-card {
+    background-image: linear-gradient(to bottom, transparent, #a1a1a1 70%),
+      linear-gradient(to left, transparent 70%, #a1a1a1 90%),
+      linear-gradient(to right, transparent 70%, #a1a1a1 90%),
+      url('@assets/images/playerDetailBackgroundBlack.jpg');
+  }
+}
+
+@media only screen and (min-width: 2600px) {
+  .Black .player-container .player-card {
+    background-image: linear-gradient(to bottom, transparent, #a1a1a1 70%),
+      linear-gradient(to left, transparent 70%, #a1a1a1 80%),
+      linear-gradient(to right, transparent 70%, #a1a1a1 80%),
+      url('@assets/images/playerDetailBackgroundBlack.jpg');
+    background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 2800px) {
+  .Black .player-container .player-card {
+    background-image: linear-gradient(to bottom, transparent, #a1a1a1 70%),
+      linear-gradient(to left, transparent 65%, #a1a1a1 70%),
+      linear-gradient(to right, transparent 65%, #a1a1a1 70%),
+      url('@assets/images/playerDetailBackgroundBlack.jpg');
+  }
+} */
+.Black .voting-polls .voting-disabled {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .social_media_link {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black .social_media_link_mobile {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black .wallet-container .chart-period {
+  background-color: var(--secondary-background-color-black) !important;
+}
+.Black .pay-item-subtitle {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .my_settings_input {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black .percentage_icon {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black .new_percentage_value {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black .list_of_items_wrapper {
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .welcome {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .term_text {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .check_sign_text {
+  color: var(--primary-text-color-black) !important;
+}
+.Black > .player-card > .fixed-content > .img > .profile-img-loader {
+  background: var(--primary-background-color-black);
+}
+
+/* PlayerDashboard.css */
+.Black .player-dashboard-container {
+  color: var(--primary-text-color-black) !important;
+  background-color: var(--primary-background-color-black) !important;
+}
+
+.Black .open-votes-content .NftList-poll-container {
+  background-color: var(--primary-background-color) !important;
+}
+
+.Black .open-votes-wrapper .open-votes-content {
+  background-color: unset !important;
+}
+
+.Black .player-dashboard-container .box-wrapper {
+  background-color: var(--third-background-color-black);
+}
+
+.Black .player-dashboard-container .player-draft .item {
+  background: unset !important;
+}
+
+.Black
+  .player-dashboard-container
+  .my-card-container
+  .setting-container
+  .accordion
+  .item {
+  background: unset !important;
+}
+
+.Black .player-dashboard-container > .player-coin > .player-value {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .player-dashboard-container > .player-coin > .accordion > .item {
+  background: unset !important;
+}
+
+.Black
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .title
+  > h2 {
+  color: var(--primary-text-color-black);
+}
+
+.Black
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .content
+  > .textinput-wrapper {
+  background: var(--secondary-background-color-black) !important;
+}
+
+.Black
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .content
+  > .white-color {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .contract-balance
+  > .content
+  > .cryptocurrency-desc {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .content
+  > .player_reward_percentage_wrapper
+  > .percentage_value_wrapper
+  > input {
+  color: var(--primary-text-color-black) !important;
+  background: var(--secondary-background-color-black) !important;
+}
+
+.Black
+  .player-dashboard-container
+  > .player-coin
+  > .accordion
+  > .item
+  > .content
+  > .player_reward_percentage_wrapper
+  > .percentage_value_wrapper
+  > .percentage_icon {
+  color: var(--primary-text-color-black) !important;
+  background: var(--secondary-background-color-black) !important;
+}
+
+.Black .player-coin-request > .player-dashboard-title {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .player-coin-request > .player-dashboard-desc {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .player-coin-request > form > .birthday > .dob-select {
+  color: var(--primary-text-color-black) !important;
+  background: var(--secondary-background-color-black) !important;
+}
+
+.Black
+  .player-coin-request
+  > form
+  > .player-dashboard-select
+  > .MuiFormControl-root {
+  color: var(--primary-text-color-black) !important;
+  background: var(--secondary-background-color-black) !important;
+}
+
+.Black .player-coin-request > form > .textinput-wrapper > input {
+  color: var(--primary-text-color-black) !important;
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .PhoneInput input {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black .main-tabwrapper {
+  background: var(--primary-background-color-black) !important;
+}
+.Black .player-dashboard-container .textinput-wrapper input {
+  color: var(--primary-text-color-black) !important;
+  /* background: var(--secondary-background-color-black) !important; */
+}
+.Black .player-dashboard-container .player-dashboard-title {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .player-dashboard-container .player-dashboard-desc {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .player-dashboard-container .player-dashboard-notification {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .player-dashboard-container .terms-conditions-check div {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .player-dashboard-container .accordion .title h2 {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .new-draft-title {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .player-dashboard-container .nft-tab-title,
+.Black .onboarding-popup .nft-tab-title {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .nft-tab-container > .nft-tab-title {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .nft-tab-container > div > .nft-tab-title {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .item-description {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .player-dashboard-container .NftList-poll-container .NftList-poll-item {
+  background-color: var(--primary-background-color-black) !important;
+}
+.Black
+  .player-dashboard-container
+  .NftList-poll-container
+  .NftList-poll-footer {
+  color: var(--primary-text-color-black) !important;
+}
+.Black
+  .player-dashboard-container
+  .NftList-poll-container
+  .poll-countdown-container
+  .coming-soon-time-card {
+  background: var(--secondary-background-color-black) !important;
+}
+.Black
+  .player-dashboard-container
+  .createpoll-input-item
+  > .createpoll-textarea {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black .bottom-close > .close-button {
+  color: var(--primary-text-color-black) !important;
+}
+.Black
+  .player-dashboard-container
+  .my-card-container
+  .setting-container
+  .setting-colors
+  .image-button {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black
+  .player-dashboard-container
+  .my-card-container
+  .setting-container
+  .accordion
+  .item {
+  background: var(--secondary-background-color) !important;
+}
+.Black .price-ticker-wrapper {
+  background: var(--secondary-background-color-black) !important;
+}
+
+/* PlayerList.css */
+.Black .player-list-container {
+  background: var(--primary-background-color-black) !important;
+}
+.Black .player-list-container .dlg-content .list-header {
+  background-color: var(--primary-background-color-black);
+}
+.Black .dob-select {
+  background: var(--secondary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black .player-list-container .row {
+  box-shadow: 0 0 10px 10px var(--primary-shadow-color-black);
+}
+.Black .player-list-container .row:nth-child(odd) {
+  background-color: var(--secondary-background-color-black);
+}
+
+.Black .player-list-container .row:nth-child(even) {
+  background-color: var(--third-background-color-black);
+}
+.Black
+  .player-list-container
+  .row
+  .players-table-container
+  .nft-item:nth-child(odd) {
+  background-color: var(--secondary-background-color-black);
+}
+
+.Black
+  .player-list-container
+  .row
+  .players-table-container
+  .nft-item:nth-child(even) {
+  background-color: var(--third-background-color-black);
+}
+
+/* PlayerNft.css */
+
+.Black .nft-container {
+  background-color: var(--primary-background-color-black) !important;
+}
+.Black .nft-owner div a {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .nft-mint-date div {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .nft-container .nft-bid-info-header {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .nft-detail-container {
+  background-color: var(--primary-background-color-black);
+}
+.Black .modal-content > section.nft-view-container .nft-detail-container {
+  background-color: var(--primary-background-color-black) !important;
+}
+.Black .nft-container .nft-bid-item {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .nft-container .nft-bid-item-amount {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* PurchaseNft.css */
+
+.Black .purchase-container {
+  background: var(--primary-background-color-black) !important;
+}
+.Black .pricing-value-text {
+  color: var(--primary-text-color-black);
+}
+.Black .pricing-value-text.number-color.profit {
+  color: var(--profit-color);
+}
+.Black .pricing-value-text.number-color.loss {
+  color: var(--loss-color);
+}
+.Black .methods-heading {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .approve-blockchain {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .approve-blockchain {
+  color: var(--primary-text-color-black) !important;
+}
+@media screen and (max-height: 699px) {
+  .Black .approve-blockchain {
+    color: var(--primary-text-color-black) !important;
+  }
+}
+.Black .home-load {
+  background-color: var(--primary-background-color-black) !important;
+}
+.Black .pay-detail > span {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* Staking.css */
+
+/* .Black .player-name {
+  color: var(--primary-text-color-black) !important;
+} */
+
+.Black .button-inactive {
+  background-color: var(--primary-background-color-black);
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .button-inactive:hover {
+  color: var(--primary-text-color-black);
+}
+
+.Black .staked-amount-raw .staked-symbol-wrapper .minus-symbol {
+  background-color: var(--primary-background-color-black);
+}
+
+.Black .staked-amount-raw .staked-symbol-wrapper .minus-symbol.button-active {
+  background-color: var(--primary-foreground-color-black);
+  color: var(--primary-text-color-black);
+}
+
+.Black .xp_title {
+  color: var(--primary-foreground-color);
+}
+
+/* Terms&Conditions.css */
+.Black .terms-container {
+  background-color: var(--primary-background-color-black) !important;
+  color: var(--primary-text-color-black) !important;
+}
+.Black .terms-subtitle {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* Wallet.css */
+.Black .wallet-heading {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .wallet-text {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .balance-card {
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .bottom-popup-content .wallet-container .sub-title {
+  color: var(--primary-text-color-black) !important;
+}
+
+/* Rest pages */
+.Black .bottom.bottom-shadow {
+  box-shadow: 0 0 10px 10px var(--primary-shadow-color-black);
+}
+
+.Black .player_level_diamond {
+  background: linear-gradient(#c879f9, #8d64a7);
+  -webkit-background-clip: text;
+}
+.Black .player_level_gold {
+  background: linear-gradient(#f5b933, #bb9524);
+  -webkit-background-clip: text;
+}
+.Black .player_level_silver {
+  background: linear-gradient(#95979a, #6f6f76);
+  -webkit-background-clip: text;
+}
+
+.Black .player-card .player_level_silver {
+  background: linear-gradient(#fff, #95979a);
+  -webkit-background-clip: text;
+}
+
+.Black .player_level_bronze {
+  background: linear-gradient(#c37b47, #bf6f32);
+  -webkit-background-clip: text;
+}
+
+.Black .user-card,
+.Black .progress-bar-container,
+.Black .user-container .user-summary-wrapper .user-summary-item,
+.Black .user-container .players-list-item {
+  background-color: var(--secondary-background-color);
+}
+
+.Black
+  .user-container
+  .players-list-option
+  .players-list-label
+  .tabs-container
+  .tab-item
+  .tab-active {
+  color: var(--primary-text-color) !important;
+  border-color: var(--primary-text-color) !important;
+}
+
+.Black .user-container .players-list-option,
+.Black .user-container .players-list-wrapper {
+  background-color: var(--third-background-color);
+}
+
+.Black .seasons-container .players-list-label .tab-active {
+  color: var(--primary-text-color) !important;
+  border-color: var(--primary-text-color) !important;
+}
+
+@media screen and (max-width: 420px) {
+  .Black
+    .nft-list-container
+    .row:nth-child(even)
+    .nft-list-grid-mob
+    .circle-carousel
+    .nft-card {
+    border: 3px solid var(--primary-background-color);
+  }
+
+  .Black
+    .nft-list-container
+    .row:nth-child(odd)
+    .nft-list-grid-mob
+    .circle-carousel
+    .nft-card {
+    border: 3px solid var(--primary-background-color);
+  }
+}
+
+.Black #profile-drafts > .list-header .button-hover {
+  background: var(--primary-foreground-color);
+  border: 1px solid var(--primary-foreground-color);
+  color: white !important;
+  padding: 6px 10px;
+}
+.Black .new-launches-nft-content .button-line .button-box.button1:hover {
+  color: var(--primary-text-color-black) !important;
+}
+
+.Black .new-launches-nft-content .button-line .button-box.button2 {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .new-launches-nft-content .button-line .button-box.button2:hover {
+  color: var(--third-text-color-black) !important;
+}
+.Black .staking-container .stake-button.allow-staking-button {
+  color: var(--third-text-color-black) !important;
+}
+.Black .tx-link {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .tx-link:hover {
+  color: var(--third-text-color-black) !important;
+}
+.Black .purchase-btn {
+  color: var(--third-text-color-black) !important;
+}
+.Black .purchase-btn-inactive {
+  color: var(--secondary-foreground-color) !important;
+}
+
+.Black .purchase-btn-inactive.sell-btn-inactive {
+  border-color: #f54f4f !important;
+  color: #f54f4f !important;
+}
+
+.Black .value-container > img {
+  filter: invert(1);
+}
+
+.Black .methods-wrapper .method-visa {
+  filter: invert(1);
+}
+
+.Black .pay-detail > .approx-icon {
+  filter: invert(1);
+}
+
+.Black .early-access-container .accordion .item {
+  background: var(--secondary-background-color) !important;
+}
+
+.Black .early-access-container .early-access-info-icon img {
+  filter: invert(1);
+}
+
+.Black .footer-active-signin {
+  background-color: var(--secondary-foreground-color);
+  color: var(--third-text-color-black) !important;
+}
+.Black .footer-nav-item-unsigned-active {
+  color: var(--primary-text-color-black);
+}
+.Black .player-dashboard-container .accordion .title .disabled-color {
+  color: grey !important;
+}
+.Black .social_handle_btn.btn-disabled {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .social_handle_btn {
+  color: var(--third-text-color-black) !important;
+}
+.black-color {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .player-dashboard-container .nft-gallery-btn {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .player-dashboard-container .nft-gallery-btn:hover {
+  color: var(--third-text-color-black) !important;
+}
+.Black .chart-period .button-hover {
+  color: var(--third-text-color-black) !important;
+}
+.Black .purchase-container .chart-back-button,
+.Black .wallet-player-coins .chart-back-button {
+  background: transparent !important;
+}
+.Black .footer-nav-item-signed {
+  color: var(--third-text-color-black) !important;
+  background-color: var(--tertiary-text-color-black);
+}
+.Black .footer-nav-item-signed > img {
+  filter: invert(100%) sepia(5%) saturate(151%) hue-rotate(37deg)
+    brightness(400%) contrast(102%);
+}
+.Black .star_wrapper.inactive > svg {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .star_wrapper > svg {
+  color: var(--third-text-color-black) !important;
+}
+.Black .player-dashboard-container .icon-camera-svg {
+  color: var(--third-text-color-black) !important;
+}
+.Black .player-container .coming-soon {
+  color: var(--primary-background-color);
+}
+.Black .player-container .player-chart .chart-option .button-hover {
+  color: var(--third-text-color-black) !important;
+}
+.Black .player-container .player-chart .chart-period .button-hover {
+  color: var(--third-text-color-black) !important;
+}
+.Black .player-container .player-chart .chart-period {
+  background-color: var(--primary-background-color-light) !important;
+}
+.Black .fullWidth_Black {
+  width: 102% !important;
+}
+.Black .header .icon-color {
+  color: var(--third-text-color-black) !important;
+}
+.Black .nft-btn {
+  color: var(--third-text-color-black) !important;
+}
+
+.Black .nft-btn.btn-disabled {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .nft-close-link {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .bg-secondary-color {
+  /* background-color: var(--secondary-background-color-black) !important; */
+  background-color: var(--primary-tab-color) !important;
+}
+.Black .nft-card .second-part .nft-name {
+  color: var(--primary-text-color-black) !important;
+}
+.Black .icon-pencil-svg {
+  color: var(--third-text-color-black) !important;
+}
+.Black .user-card-setting .user-select {
+  background: var(--primary-text-color-black) !important;
+}
+/* .Black .app-landing-container .bottom-section .bottom {
+  background-color: var(--primary-text-color-black) !important;
+  color: var(--third-text-color-black) !important;
+}
+.Black .bottom {
+  background-color: var(--primary-text-color-black) !important;
+}
+.Black .blog-content .company-content .pg-lg {
+  color: var(--third-text-color-black) !important;
+}
+.Black .social-group .social-icons {
+  color: var(--third-text-color-black) !important;
+}
+.Black .social-group svg {
+  border: 2px solid var(--third-text-color-black) !important;
+}
+.Black .svg-primary-color path {
+  fill: var(--third-text-color-black) !important;
+}
+.Black .bottom-section .row .page-link {
+  color: var(--third-text-color-black) !important;
+} */
+
+.Black .footer-nav-item-unsigned {
+  color: var(--tertiary-text-color-black);
+}
+
+.Black .footer-nav-item-unsigned > img {
+  filter: brightness(50%);
+}
+
+.Black .player-dashboard-container .createnft-fileload-description {
+  color: var(--third-text-color-black);
+}
+
+.Black .list-header {
+  color: var(--primary-text-color-black);
+}
+.Black .xp_text {
+  color: var(--third-text-color-black);
+}
+.Black .nft-detail-title {
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .owners_wrapper {
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .owner_list_wrapper {
+  background: var(--secondary-background-color-black) !important;
+}
+.Black .boost_xp_box {
+  background: var(--secondary-background-color-black) !important;
+}
+
+.Black .select_nft_stake {
+  color: var(--secondary-background-color) !important;
+}
+
+.Black .player-container .player-info-box {
+  background: var(--primary-foreground-color);
+}
+
+.Black .new-launches-nft-btn-group {
+  background: var(--primary-background-color);
+}
+
+.Black .new-launches-nft-btn.active {
+  background: var(--secondary-background-color);
+}
+
+.Black
+  .app-landing-container
+  .players-trending-section
+  .section-wrapper
+  .section-title-container,
+.Black
+  .app-landing-container
+  .feed-section
+  .section-wrapper
+  .section-title-container {
+  background-color: var(--primary-foreground-color);
+}
+
+.Black
+  .app-landing-container
+  .players-trending-section
+  .section-wrapper
+  .section-title,
+.Black .app-landing-container .feed-section .section-wrapper .section-title {
+  color: var(--primary-background-color);
+}
+
+.Black .app-landing-container .players-trending-section .trending-switch {
+  background: var(--third-background-color);
+}
+
+.Black
+  .app-landing-container
+  .players-trending-section
+  .trending-switch
+  b.trending-switch-selected {
+  background: var(--secondary-background-color);
+}
+
+.Black .newsletter-submit .button-box {
+  color: var(--primary-text-color) !important;
+}
+
+.Black .newsletter-submit .button-box.active-btn-launch,
+.Black .newsletter-submit .button-box:hover {
+  color: var(--third-text-color-black) !important;
+}
+
+/* Scouts page */
+
+.Black .scouts-count-item {
+  background: var(--secondary-background-color);
+}
+
+.Black .scouts-section-wrapper .nft-item:nth-child(odd) {
+  background-color: var(--third-background-color);
+}
+
+.Black .scouts-section-wrapper .nft-item:nth-child(even) {
+  background-color: var(--secondary-background-color);
+}
+
+.Black .scouts-section-title .in-menu-search-header {
+  background-color: var(--third-background-color);
+}
+
+.Black .scouts-section-title {
+  color: var(--secondary-background-color);
+  background: var(--primary-tab-color);
+}
+
+.Black .scouts-section-wrapper .scouts-leaderboard-container {
+  background-color: var(--primary-background-color);
+}
+
+.Black .scouts-section-wrapper .scouts-top5-container {
+  background-color: var(--primary-background-color);
+}
+
+.Black .scouts-section-wrapper .scouts-top5-title {
+  color: var(--secondary-background-color);
+  background: var(--primary-tab-color);
+}
+
+.Black .players-live-section .user-card.user-scouts-card-supporter {
+  border-bottom: 1px solid #313241 !important;
+}
+
+.Black .players-live-section .user-card.user-scouts-card-supporter:last-child {
+  border-bottom: unset !important;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.Black
+  .scouts-section-wrapper
+  .scouts-top5-container
+  .user-card.user-scouts-card-supporter {
+  background-color: var(--primary-background-color);
+}
+
+.Black .nft-list-container .tabs-container > .MuiSvgIcon-root {
+  color: var(--secondary-background-color);
+}
+
+.Black
+  .user-card.user-scouts-card-supporter
+  .user-info-wrapper
+  .user-image
+  .image-border {
+  background-color: var(--secondary-background-color);
+}
+.Black .coin-table-container {
+  background-color: var(--third-background-color-black);
+}
+.Black .coin-table-container .player-list-container.user-list-container {
+  background-color: var(--secondary-background-color) !important;
+}
+.Black .user-card.user-card-supporter {
+  background-color: var(--third-background-color);
+  border-color: var(--third-background-color);
+}
+.Black .user-card.user-card-supporter:hover {
+  border-color: var(--secondary-foreground-color);
+}
+/* Players page */
+
+.Black .players-count-item {
+  background-color: var(--secondary-background-color);
+}
+
+.Black .players-coming-soon-wrapper .players-section-title {
+  color: var(--secondary-background-color);
+  background: var(--primary-tab-color);
+}
+
+/* NotFound page */
+
+.Black .not-found > .button-box {
+  color: var(--secondary-text-color-black) !important;
+}
+
+.Black .not-found > .button-box:hover {
+  color: var(--third-text-color-black) !important;
+}
+
+.Black .my_user_setting_input_wrapper {
+  background: var(--secondary-background-color-black) !important;
+}
+
+/* Kiosk Page */
+
+.Black .kiosk-title-wrapper {
+  background: var(--primary-background-color);
+}
+
+.Black .kiosk-wrapper {
+  background: var(--primary-tab-color-black);
+}
+
+.Black .kiosk-wrapper .nft-card .second-part {
+  border-top: 1px solid var(--primary-tab-color);
+}
+
+.Black .kiosk-items .nft-card .second-part {
+  border-top: 1px solid var(--primary-tab-color);
+}
+
+/* Tour */
+
+.Black .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.Black .bright-rectangle .wallet-address {
+  background-color: var(--primary-text-color);
+}
+
+.Black .bright-rectangle .header-user-image {
+  background-color: var(--primary-text-color) !important;
+}
+
+.Black .tour-button.form-submit-btn {
+  border: unset;
+}
+
+.Black .bright-rectangle .footer-wrapper {
+  background: unset;
+}
+
+.Black .deposit-tour-wrapper .modal-content {  
+  background: unset!important;
+}
+
+.Black .deposit-tour-wrapper .bottom-popup-content.wallet {  
+  height: calc(min(671px, 82vh));
+}
+
+.Black .bright-rectangle.bright-rectangle-deposit-tour-step3 .modal-content > section {
+  background: var(--primary-background-color) !important;
+}
+
+.Black .bg-dark-color.bright-area {
+  background-color: #3d3d3d !important;
+}
+
+.Black .bright-rectangle .modal-content .purchase-container {
+  background: unset !important;
+}
+
+.Black .bright-rectangle .bg-dark-color {
+  background-color: #3d3d3d !important;
+}
+
+.Black .bright-rectangle .modal-content > section {
+  background-color: #3d3d3d !important;
+}
+
+.Black .staking-tour-wrapper .staked {
+  background: unset;
+}
+
+.Black .staking-tour-wrapper .button-inactive, .staking-tour-wrapper .button-inactive:hover{
+  background: unset;
+}
+
+.Black .overview-tour-dialog .newsletter-wrapper .button-box.button-active {
+  color: var(--primary-background-color) !important;
+}
+
+/* Box */
+
+.Black .box-wrapper .section-title-container {
+  background-color: var(--secondary-background-color);
+}
+
+.Black .box-wrapper .list-wrapper .box-item {
+  background-color: var(--secondary-background-color);
+}
+
+.Black .user-container .top-trades-section .box-wrapper.section-wrapper {
+  background-color: var(--third-background-color);
+}
+
+.Black .top-trades-container .box-wrapper.section-wrapper {
+  background-color: var(--third-background-color);
+}

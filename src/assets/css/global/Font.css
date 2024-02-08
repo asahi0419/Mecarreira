@@ -1,0 +1,161 @@
+.h-1 {
+  font-family: 'Rajdhani-bold';
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: white;
+}
+
+.h-2 {
+  font-family: 'Rajdhani-semibold';
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.h-3 {
+  font-family: 'Rajdhani-bold';
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.h-4 {
+  font-family: 'Rajdhani-semibold';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.h-4.inactive {
+  color: #abacb5 !important;
+}
+
+.h-5 {
+  font-family: 'Rajdhani-semibold';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: var(--primary-text-color);
+}
+.pg-lg {
+  font-family: 'Rajdhani-regular';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.pg-xl {
+  font-family: 'Rajdhani-regular';
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.pg-xlb {
+  font-family: 'Rajdhani-bold';
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.link {
+  font-family: 'Rajdhani-semibold';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: var(--primary-foreground-color);
+}
+
+.ct-h1 {
+  font-family: 'Rajdhani-bold';
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.ct-h2 {
+  font-family: 'Rajdhani-bold';
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.ct-h3 {
+  font-family: 'Rajdhani-bold';
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.01em;
+  text-align: right;
+  color: #171923;
+}
+
+.ct-h4 {
+  font-family: 'Rajdhani-bold';
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0px;
+  text-align: center;
+  height: 80px;
+}
+.ct-p1 {
+  font-family: 'Rajdhani-regular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: var(--primary-text-color);
+}
+
+.designation {
+  height: 65px;
+  text-align: center;
+}
+
+.ct-p2 {
+  font-family: 'Rajdhani-regular';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #171923;
+  margin: 0;
+}
+
+.ct-p3 {
+  font-family: 'Rajdhani-regular';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}

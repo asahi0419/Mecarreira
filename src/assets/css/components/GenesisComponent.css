@@ -1,0 +1,53 @@
+.genesis-utility-item-root {
+  display: flex;
+  gap: 20px;
+}
+
+.genesis-utility-item-img {
+  /* background: linear-gradient(
+    rgb(245, 185, 51),
+    rgb(251, 233, 179),
+    rgb(245, 185, 51)
+  ); */
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: clamp(30px, 2vw, 5vh);
+  height: clamp(30px, 2vw, 5vh);
+  cursor: pointer;
+}
+
+.genesis-utility-item-largetext {
+  font-size: clamp(12px, 2vw, 2vh);
+  /* font-size: clamp(20px, 2vw, 6.67vh); */
+  font-family: 'Rajdhani-bold';
+}
+
+.genesis-utility-item-smalltext {
+  font-size: clamp(10px, 1.25vw, 1.8vh);
+  font-family: 'Rajdhani-semibold';
+}
+
+@media only screen and (max-width: 1000px) {
+  .genesis-utility-item-img {
+    min-width: 30px;
+    width: 30px;
+    min-height: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .genesis-utility-item-img {
+    min-width: 40px;
+    width: 40px;
+    min-height: 40px;
+    height: 40px;
+  }
+  .genesis-utility-item-largetext {
+    font-size: 24px;
+  }
+  .genesis-utility-item-smalltext {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "players": "球员",
+
+  "favorite player": "获取您最喜欢的播放器的数字片段",
+  "buy player": "购买玩家币以解锁对独家内容的访问权限",
+  "new launches": "新品发布",
+  "what is": "meCarreira 是什么？",
+  "how to buy": "如何购买",
+  "latest blog posts": "最新博客文章",
+  "stay in the loop": "留在循环中",
+  "your email address": "您的电子邮件地址",
+
+  "connect wallet": "连接钱包",
+  "disconnect wallet": "断开钱包",
+  "sign up / sign in": "注册登录",  
+
+  "wallet": "钱包",
+  "language": "语言",
+  "account": "帐户",
+  "ongoing subscriptions": "持续订阅",
+  "latest created NFT’s": "最新创建的 NFT",
+  "about us": "关于我们",
+  "team": "团队",
+  "terms & conditions": "条款和条件",
+  "privacy": "隐私",
+  "careers": "职业生涯",
+  "join the community": "加入社区",
+  "buy": "买",
+  "sell": "卖",
+  "view all": "查看全部",
+  "register": "登记",
+  "sign up": "报名",
+  "sign in": "登入",
+  "sign out": "登出"
+}

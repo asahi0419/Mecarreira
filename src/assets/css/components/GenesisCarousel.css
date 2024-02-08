@@ -1,0 +1,241 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1216px;
+}
+.center-carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.alice-carousel__stage-item {
+  width: 304px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.alice-carousel__stage-item * {
+  line-height: 16px;
+}
+
+.alice-carousel__dots-item:not(.__custom).__active {
+  background: var(--primary-foreground-color);
+  border-radius: 4px;
+  width: 30px;
+}
+
+.alice-carousel__dots-item:not(.__custom):hover {
+  background: var(--primary-foreground-color);
+}
+
+.alice-carousel__prev-btn {
+  position: absolute;
+  left: -115px;
+  width: unset;
+  top: 120px;
+  opacity: 0.2;
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+}
+
+.alice-carousel__prev-btn > img {
+  height: 75px;
+}
+
+.alice-carousel__prev-btn-item {
+  color: var(--primary-foreground-color);
+  transform: scale(3, 6);
+}
+
+.alice-carousel__next-btn {
+  position: absolute;
+  right: -112px;
+  width: unset;
+  top: 120px;
+  opacity: 0.2;
+  filter: brightness(0) invert(1);
+  cursor: pointer;
+}
+
+.alice-carousel__next-btn > img {
+  height: 75px;
+}
+
+.alice-carousel__next-btn-item {
+  color: var(--primary-foreground-color);
+  transform: scale(3, 6);
+}
+
+.circle-carousel .alice-carousel__dots {
+  display: none;
+  margin-top: 0;
+}
+
+.circle-carousel .alice-carousel__prev-btn,
+.circle-carousel .alice-carousel__next-btn {
+  opacity: 1;
+  filter: none;
+  right: -9px;
+  top: calc(50% - 30px);
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+}
+
+.circle-carousel .alice-carousel__prev-btn div,
+.circle-carousel .alice-carousel__next-btn div {
+  background: white;
+  font-family: monospace;
+  border-radius: 100%;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.circle-carousel .alice-carousel__prev-btn {
+  left: -11px;
+}
+
+.circle-carousel .alice-carousel__prev-btn p,
+.circle-carousel .alice-carousel__next-btn p {
+  color: #171923;
+  font-size: 38px;
+  font-family: monospace;
+  margin: 0;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.circle-carousel .alice-carousel__prev-btn p {
+  margin-left: -1px;
+}
+
+.circle-carousel .alice-carousel__prev-btn div:hover,
+.circle-carousel .alice-carousel__next-btn div:hover {
+  box-shadow: 0 0 2px 2px #ddd;
+}
+
+.circle-carousel .alice-carousel {
+  width: 100%;
+}
+
+@media (max-width: 1216px) {
+  .carousel {
+    width: 916px;
+  }
+}
+
+@media only screen and (max-width: 1368px) and (min-width: 1024px) {
+  .alice-carousel {
+    width: 75vw;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 912px) {
+  .alice-carousel {
+    width: 620px;
+  }
+}
+
+@media (max-width: 912px) {
+  .carousel {
+    width: 100vw;
+  }
+
+  .alice-carousel {
+    width: 304px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .alice-carousel__next-btn {
+    display: none !important;
+  }
+  .alice-carousel__prev-btn {
+    display: none !important;
+  }
+  .circle-carousel .alice-carousel__next-btn {
+    display: block !important;
+  }
+  .circle-carousel .alice-carousel__prev-btn {
+    display: block !important;
+  }
+}
+
+@media (min-width: 421px) {
+  .circle-carousel {
+    width: 304px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 620px) {
+  .circle-carousel {
+    width: 608px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 920px) {
+  .circle-carousel {
+    width: 916px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .circle-carousel {
+    width: 1216px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .circle-carousel {
+    width: 1520px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .circle-carousel {
+    width: 1824px;
+  }
+}
+
+@media (max-width: 420px) {
+  .circle-carousel .alice-carousel {
+    width: 304px;
+  }
+
+  .circle-carousel .alice-carousel__dots {
+    display: block;
+  }
+
+  .player-carousel
+    .circle-carousel
+    .alice-carousel
+    div.alice-carousel__next-btn {
+    right: 0;
+  }
+
+  .player-carousel
+    .circle-carousel
+    .alice-carousel
+    div.alice-carousel__prev-btn {
+    left: 0;
+  }
+
+  .player-carousel .circle-carousel .alice-carousel__stage-item {
+    margin: 0;
+    padding: 0;
+  }
+
+  .player-carousel .circle-carousel .my-card {
+    transform: scale(0.9);
+    margin: auto;
+  }
+}

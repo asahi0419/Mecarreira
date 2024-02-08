@@ -1,0 +1,986 @@
+.kiosk-item-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 255px !important;
+}
+
+.clamped-text {
+  display: block;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 75px;
+  max-height: unset !important;
+}
+
+.kiosk-item-flag {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: white;
+  background: red;
+  border: 2px solid red;
+  border-radius: 20px;
+  width: 80px;
+  text-align: center;
+}
+.kiosk-item-flag-buyItem {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: white;
+  background: var(--secondary-foreground-color);
+  border: 2px solid var(--secondary-foreground-color);
+  border-radius: 20px;
+  width: 80px;
+  font-size: 20px;
+  font-weight: bolder;
+  /* text-align: center; */
+}
+.kiosk-item-flag-shipped {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: white;
+  background: var(--secondary-foreground-color);
+  border: 2px solid var(--secondary-foreground-color);
+  border-radius: 20px;
+  width: 80px;
+  text-align: center;
+}
+.kiosk_close_button {
+  padding: 16px;
+  height: 50px;
+  background: var(--secondary-foreground-color);
+  border: 1px solid var(--secondary-foreground-color);
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Rajdhani-semibold';
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 16px;
+  color: #171923;
+  line-height: 125%;
+  margin: 20px 0px 20px 0px;
+}
+.kiosk_title {
+  text-align: center;
+  color: white;
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  text-transform: capitalize;
+  font-size: 24px;
+
+  position: absolute;
+  width: 100%;
+  background: #222434;
+  height: 40px;
+  z-index: 100;
+}
+.main_kiosk_wrapper {
+  /* padding: 40px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.main_kiosk_wrapper_Buy {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .kiosk-main-mobile {
+  height: calc(100vh - 120px);
+} */
+.kiosk-scroll-wrapper {
+  height: 790px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 20px;
+}
+.buy_item_desc::-webkit-scrollbar {
+  width: 3px;
+}
+
+.buy_item_desc::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 6px;
+}
+
+.buy_item_desc:hover::-webkit-scrollbar-thumb {
+  background-color: var(
+    --primary-foreground-color
+  ); /* Show the scrollbar thumb on hover */
+}
+.kiosk-scroll-wrapper::-webkit-scrollbar {
+  display: block;
+  width: 3px;
+}
+.kiosk-scroll-wrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.kiosk-scroll-wrapper::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-right: none;
+  border-left: none;
+  border-radius: 6px;
+}
+
+.kiosk-scroll-wrapper:hover::-webkit-scrollbar-thumb {
+  background-color: var(
+    --primary-foreground-color
+  ); /* Show the scrollbar thumb on hover */
+}
+.kiosk-scroll-wrapper::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+.kiosk-scroll-wrapper::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 10px;
+}
+
+.kiosk_name_wrapper {
+  /* display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center; */
+  margin-bottom: 10px;
+}
+.kiosk_name_wrapper_shipping {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+.disabled_input_field {
+  caret-color: transparent;
+}
+.disabled_input_field textarea {
+  font-size: 16px;
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+.kiosk_name_wrapper .nft-title {
+  margin-top: 5px;
+}
+.kiosk_sub_title {
+  font-family: 'Rajdhani-semibold';
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #abacb5;
+}
+.kiosk_sub_desc {
+  font-family: 'Rajdhani-regular';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: white;
+}
+.kiosk_sub_desc_box {
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 0px;
+  font-family: 'Rajdhani-regular';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: white;
+  background: #171923;
+}
+.kiosk_item_img {
+  width: 100%;
+  height: 400px;
+  /* border: 1px solid transparent; */
+  margin: 15px 0px;
+}
+.kiosk_margin {
+  margin: -15px 0px;
+}
+.completed_title {
+  text-align: center;
+  color: var(--primary-foreground-color);
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  text-transform: capitalize;
+  font-size: 24px;
+}
+.kiosk_player_name {
+  color: #abacb5;
+  text-align: left;
+}
+
+.main_kiosk_wrapper::-webkit-scrollbar {
+  width: 3px;
+  height: 100px;
+}
+
+.main_kiosk_wrapper::-webkit-scrollbar-button {
+  width: 10px;
+  height: 10px;
+}
+
+.main_kiosk_wrapper::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 6px;
+  height: 100px;
+}
+
+.main_kiosk_wrapper:hover::-webkit-scrollbar-thumb {
+  background-color: var(
+    --primary-foreground-color
+  ); /* Show the scrollbar thumb on hover */
+}
+
+.create-kiosk-item::-webkit-scrollbar {
+  display: block;
+  width: 3px;
+}
+.create-kiosk-item::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.create-kiosk-item::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-right: none;
+  border-left: none;
+  border-radius: 6px;
+}
+
+.create-kiosk-item:hover::-webkit-scrollbar-thumb {
+  background-color: var(
+    --primary-foreground-color
+  ); /* Show the scrollbar thumb on hover */
+}
+.create-kiosk-item::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 50px;
+}
+
+.create-kiosk-item::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 200px;
+}
+.create-kiosk-item-mob::-webkit-scrollbar {
+  display: block;
+  width: 3px;
+}
+.create-kiosk-item-mob::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.create-item-dilog {
+  padding: 0 0 20px 0 !important;
+}
+
+.dilog-container > .main_kiosk_wrapper {
+  overflow-y: unset !important;
+}
+
+.dilog-container {
+  /* overflow-y: auto;
+  overflow-x: hidden; */
+  height: 100%;
+}
+
+.dilog-container-mob {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.dilog-container-mob > form {
+  height: unset !important;
+}
+
+.dilog-container-mob::-webkit-scrollbar {
+  display: block;
+  width: 3px;
+}
+
+.dilog-container-mob::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.dilog-container-mob::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-right: none;
+  border-left: none;
+  border-radius: 6px;
+}
+
+.dilog-container-mob:hover::-webkit-scrollbar-thumb {
+  background-color: var(
+    --primary-foreground-color
+  ); /* Show the scrollbar thumb on hover */
+}
+
+.dilog-container-mob::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 0px;
+}
+
+.dilog-container-mob::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 20px;
+}
+.dilog-container > form {
+  overflow-x: unset;
+  overflow-y: unset;
+}
+
+.dilog-container::-webkit-scrollbar {
+  /* background: #B8B6B5; */
+  width: 3px;
+  height: 50%;
+}
+
+.dilog-container::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 6px;
+}
+
+.dilog-container:hover::-webkit-scrollbar-thumb {
+  background-color: var(
+    --primary-foreground-color
+  ); /* Show the scrollbar thumb on hover */
+}
+.dilog-container::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 50px;
+}
+
+.dilog-container::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 50px;
+}
+
+.create-kiosk-item-mob::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-right: none;
+  border-left: none;
+}
+
+.create-kiosk-item-mob:hover::-webkit-scrollbar-thumb {
+  background-color: var(
+    --primary-foreground-color
+  ); /* Show the scrollbar thumb on hover */
+}
+.create-kiosk-item-mob::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 50px;
+}
+
+.create-kiosk-item-mob::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 50px;
+}
+
+.kiosk_digital_detail {
+  height: 120px !important;
+  margin-bottom: 10px;
+  font-size: 16px !important;
+}
+
+.kiosk-item-mobile {
+  height: 270px !important;
+}
+.margin_fix_btn {
+  margin: 0px !important;
+}
+
+.kiosk-wrapper {
+  background-color: var(--secondary-background-color);
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.kiosk-wrapper.my-settings {
+  padding: 16px 24px;
+  margin: 80px 0px 40px 0px;
+}
+.kiosk-filter-wrapper {
+  background-color: var(--secondary-background-color);
+  border-radius: 20px;
+  padding: 40px 0 20px;
+}
+
+.kiosk-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+
+  background: var(--third-background-color);
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin: 0;
+  line-height: 1.25;
+}
+
+@media only screen and (max-width: 600px) {
+  #kiosk-categories {
+    padding: 0px 10px;
+  }
+  #kiosk-categories .kiosk-title-wrapper {
+    padding: 20px 20px;
+  }
+  .recent-aquisition-header-mobile {
+    padding: 0px !important;
+    justify-content: flex-start;
+  }
+  .recent-aquisition-header-mobile > .kiosk-title-wrapper {
+    width: 57%;
+    padding-right: 0px;
+  }
+  #kiosk-categories .kiosk-item-details-wrapper {
+    height: 63px !important;
+  }
+  .kiosk-title-wrapper > .fi {
+    font-size: 30px !important;
+  }
+  .kiosk-wrapper.my-settings {
+    padding: 0 16px 16px;
+    margin: 70px 0px 30px 0px;
+  }
+  /* #kioskOrder {
+    overflow-y: hidden;
+  } */
+  #kioskOrder .textinput-wrapper {
+    width: 100%;
+  }
+}
+
+.kiosk-title-wrapper > .fi {
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.player-vote-list-container .kiosk-filter-wrapper {
+  background-color: var(--secondary-background-color);
+  border-radius: 20px;
+  padding: 20px 0;
+}
+
+.player-vote-list-container .kiosk-title-wrapper {
+  justify-content: flex-start;
+  font-size: 60px;
+  text-transform: uppercase;
+  background: var(--third-background-color);
+  width: 100%;
+  border-radius: 20px;
+  padding: 20px 30px;
+  line-height: 1.25;
+}
+
+.player-vote-list-container .kiosk-content-wrapper {
+  margin: 30px auto !important;
+  padding-bottom: 20px;
+}
+
+.nft-list-container .blog-title.kiosk-title-wrapper {
+  margin-bottom: 0;
+  line-height: 1.25;
+}
+
+.kiosk-title-wrapper > .blog-title {
+  margin: unset !important;
+  line-height: 1.25;
+}
+
+.kiosk-title-wrapper > .major-filter-wrapper {
+  margin: unset !important;
+}
+
+.kiosk-container {
+  max-width: 1620px;
+  margin: 50px auto;
+  width: 100%;
+  padding: 0px 10px;
+}
+.kiosk-container.player-kiosk.all-items {
+  padding: 0px 0px;
+  margin-top: 0px;
+  max-width: 1220px !important;
+}
+
+.kiosk-container.player-kiosk.all-items .infinite-scroll-component {
+  max-width: 1200px;
+}
+
+.kiosk-container.player-kiosk.all-items .kiosk-wrapper {
+  margin-top: 0px;
+}
+.kiosk-container .kiosk-content {
+  padding: 20px 0;
+}
+
+.kiosk-container div.player-list-wrapper {
+  margin: 0;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 10px 0 10px 20px;
+}
+.kiosk-container div.player-list-wrapper.itemLists.showCase {
+  padding: 0px !important;
+}
+.kiosk-container .circle-carousel {
+  max-width: 1520px;
+}
+
+.kiosk-container li.alice-carousel__stage-item {
+  padding-left: 20px;
+}
+
+.kiosk-container
+  .player-list-wrapper.itemLists.showCase
+  li.alice-carousel__stage-item {
+  padding-left: 0px !important;
+}
+
+.kiosk-container .showmore-btn {
+  margin: auto;
+  max-width: 300px;
+  margin-top: -35px;
+  margin-bottom: 10px;
+
+  font-size: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--primary-foreground-color);
+  text-decoration: underline;
+}
+
+.kiosk-content .no-data {
+  margin: 20px 0 10px 10px;
+}
+
+.kiosk-content .no-data > div {
+  margin: 0 14px;
+  width: 272px;
+}
+
+.kiosk-content .no-data > div .nft_image {
+  width: 272px;
+}
+
+.kiosk-all-items-skeleton {
+  margin: 0 14px;
+}
+
+.kiosk-all-items-skeleton > .nft_image {
+  width: 280px !important;
+}
+
+.kiosk-container .nft-list-grid-mob {
+  width: 100%;
+}
+
+.kiosk-container .nft-list-grid-mob .circle-carousel .alice-carousel {
+  width: 340px;
+}
+
+.nft-list-grid-mob .nft-card.kiosk-item-mobile {
+  width: 150px;
+  border: unset;
+}
+.nft-list-grid-mob .nft-card.kiosk-item-mobile .nft {
+  width: 150px;
+  height: 150px;
+  margin-top: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.nft-list-grid-mob
+  .nft-card.kiosk-item-mobile
+  .nft
+  .nft-image-cover
+  .nft-image {
+  width: 150px;
+  height: 150px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.kiosk-container .nft-list-grid-mob li.alice-carousel__stage-item {
+  width: 170px !important;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.kiosk-container .nft-list-grid-mob .alice-carousel__wrapper {
+  margin-left: -10px;
+}
+
+.kiosk-content.nft-list-grid-mob .no-data {
+  height: unset;
+  margin: auto;
+  padding: 0;
+}
+
+.kiosk-content.nft-list-grid-mob .no-data .nft-card {
+  width: 150px !important;
+  margin: 0 10px;
+}
+
+.kiosk-content.nft-list-grid-mob .unverified-alert {
+  padding-bottom: 20px;
+}
+
+.pay-for-item-container .pay-detail:nth-child(1) {
+  color: var(--primary-text-color);
+}
+
+.pay-for-item-container .textinput-wrapper textarea {
+  font-family: 'Rajdhani-bold';
+}
+
+.pay-for-item-container .MuiLinearProgress-root {
+  width: 292px;
+}
+.pay-for-item-container .css-12h2mku-MuiLinearProgress-root {
+  margin: 10px auto 0px auto;
+}
+.timer_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.pay-for-item-container .country-select label {
+  color: var(--primary-text-color);
+}
+
+.pay-for-item-container .country-select .MuiInputBase-root {
+  color: var(--primary-text-color);
+}
+
+.pay-for-item-container .country-select .MuiInputBase-root svg {
+  color: var(--primary-text-color);
+}
+
+.pay-for-item-container .country-select fieldset {
+  border-color: var(--primary-foreground-color) !important;
+}
+
+.pay-for-item-container .proxy_method_wrapper {
+  border-color: var(--primary-text-color) !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .kiosk-scroll-wrapper {
+    height: calc(100vh - 80px) !important;
+    border-radius: unset !important;
+    /* overflow: auto; */
+  }
+  .kiosk-scroll-wrapper::-webkit-scrollbar-thumb {
+    background-color: unset;
+    border-radius: 6px;
+  }
+  .kiosk-container {
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    width: 100%;
+    padding: 0;
+  }
+  .kiosk-container .showmore-btn-wrapper {
+    display: flex;
+    height: 80px;
+  }
+  .kiosk-container .showmore-btn {
+    margin: auto;
+  }
+  .kiosk-container .showmore-btn-wrapper .spinner-container {
+    margin-top: -10px;
+  }
+  .kiosk-container .kiosk-filter-wrapper {
+    padding: 20px 0 20px;
+  }
+  .kiosk-container .major-filter-wrapper {
+    margin-bottom: 20px;
+  }
+  .kiosk-container .kiosk-filter-wrapper .nft-create-btn {
+    margin-bottom: 0;
+  }
+  .kiosk-wrapper {
+    margin-top: 4vw;
+  }
+  .kiosk-container .kiosk-wrapper .kiosk-title-wrapper {
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 22px;
+  }
+  .kiosk-container
+    .major-filter-wrapper
+    > .status-section
+    > .MuiInputBase-root
+    > div {
+    padding: 12px 20px;
+  }
+  .kiosk-container
+    .kiosk-wrapper
+    .kiosk-title-wrapper
+    .major-filter-wrapper
+    > .status-section
+    > .MuiInputBase-root {
+    width: 135px;
+  }
+  .kiosk-container
+    .kiosk-wrapper
+    .kiosk-title-wrapper
+    .major-filter-wrapper
+    > .status-section
+    > .MuiInputBase-root
+    > div {
+    padding: 5px;
+    padding-left: 10px;
+  }
+  .player-vote-list-container .kiosk-title-wrapper {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .kiosk-scroll-wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--primary-foreground-color) !important;
+    border-radius: 6px;
+  }
+
+  .buy_item_desc::-webkit-scrollbar-thumb {
+    background-color: var(--primary-foreground-color) !important;
+    border-radius: 6px;
+  }
+
+  .main_kiosk_wrapper::-webkit-scrollbar-thumb {
+    background-color: var(--primary-foreground-color) !important;
+    border-radius: 6px;
+  }
+
+  .create-kiosk-item::-webkit-scrollbar-thumb {
+    background-color: var(--primary-foreground-color) !important;
+    border-radius: 6px;
+  }
+
+  .create-kiosk-item-mob::-webkit-scrollbar-thumb {
+    background-color: var(--primary-foreground-color) !important;
+    border-radius: 6px;
+  }
+
+  .dilog-container-mob::-webkit-scrollbar-thumb {
+    background-color: var(--primary-foreground-color) !important;
+    border-radius: 6px;
+  }
+
+  .dilog-container::-webkit-scrollbar-thumb {
+    background-color: var(--primary-foreground-color) !important;
+    border-radius: 6px;
+  }
+
+  .kiosk_title {
+    background: #171923;
+  }
+  .kiosk_name_wrapper .nft-title {
+    margin-bottom: 10px;
+  }
+  .create-item-dilog.modal-content {
+    height: calc(100% - 60px);
+  }
+
+  .kiosk-container .circle-carousel {
+    width: auto;
+  }
+
+  .kiosk-container div.player-list-wrapper {
+    width: 320px;
+    padding: 0;
+    margin: auto;
+  }
+  .kiosk-items .nft-line-ex .nft-column {
+    column-gap: 20px;
+    justify-content: center;
+  }
+
+  .player-kiosk {
+    padding-top: unset !important;
+    padding-bottom: 4vw;
+  }
+
+  .player-kiosk .player-list-pagination {
+    height: unset !important;
+    overflow: hidden !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .kiosk-container
+    .kiosk-wrapper
+    .kiosk-title-wrapper
+    .major-filter-wrapper
+    > .status-section
+    > .MuiInputBase-root {
+    width: 112px;
+  }
+  .kiosk-container
+    .kiosk-wrapper
+    .kiosk-title-wrapper
+    .major-filter-wrapper
+    > .status-section
+    > .MuiInputBase-root
+    > div {
+    padding: 5px;
+    padding-right: 32px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .kiosk-container div.player-list-wrapper {
+    gap: 0;
+    row-gap: 10px;
+  }
+  .kiosk-content.nft-list-grid-mob .no-data .nft-card {
+    margin: 0 4px;
+  }
+  .kiosk-container .nft-list-grid-mob li.alice-carousel__stage-item {
+    width: 160px !important;
+    padding-left: 10px;
+  }
+  .kiosk-container div.player-list-wrapper.itemLists.showCase {
+    padding-left: 5px !important;
+  }
+  .kiosk-container .nft-list-grid-mob .circle-carousel .alice-carousel {
+    width: 320px;
+  }
+  .kiosk-container .nft-list-grid-mob .alice-carousel__wrapper {
+    margin-left: -5px;
+  }
+}
+.create_item_step1_wrapper {
+  padding: 0px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading_new_item {
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+}
+.label_golden {
+  font-size: 20px;
+  text-align: left;
+  color: #f3b127;
+}
+.label_green {
+  font-size: 20px;
+  text-align: left;
+  color: #6bc909;
+}
+.label_blue {
+  font-size: 20px;
+  text-align: left;
+  color: #03b2cb;
+}
+.player-dashboard-container .textinput-wrapper.shop_categories_desc {
+  width: 300px !important;
+  font-family: 'Rajdhani-regular';
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 15px;
+  color: white;
+  height: auto !important;
+}
+.player-dashboard-container .textinput-wrapper.shop_categories_desc_unset {
+  width: unset !important;
+  font-family: 'Rajdhani-regular';
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 15px;
+  color: white;
+  height: auto !important;
+}
+.new_create_item_next_btn {
+  position: absolute;
+  bottom: 20px;
+}
+.player-dashboard-container .new_next_btn {
+  width: 300px !important;
+}
+.wrapper_flex_col_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper_flex_col_center .match-worn-shirt {
+  width: 300px;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
+  -webkit-text-fill-color: #abacb5 !important;
+}
+.css-qiwgdb.Mui-disabled {
+  -webkit-text-fill-color: #abacb5 !important;
+}
+.image_remove_btn_wrapper {
+  position: absolute;
+  top: 10px;
+}
+.image_remove_btn {
+  background: red;
+  color: white;
+}
+.circle-carousel.kiosk {
+  width: 370px !important;
+}
+.circle-carousel.kiosk .alice-carousel {
+  width: 100%;
+}
+.circle-carousel.kiosk .alice-carousel__dots {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 20%;
+  right: 20%;
+}
+.kiosk .alice-carousel__stage-item {
+  width: 370px !important;
+  padding: 0px !important;
+}
+.createnft-fileload-kiosk {
+  min-width: 100% !important;
+  width: 100% !important;
+  height: 400px !important;
+  flex-direction: column !important;
+  position: relative;
+}
+
+.circle-carousel.kiosk .alice-carousel__prev-btn {
+  left: 6px !important;
+}
+
+.circle-carousel.kiosk .alice-carousel__next-btn {
+  right: 9px !important;
+}
+
+.no-kiosk-data {
+  align-items: center;
+  height: 594px;
+  justify-content: center !important;
+  display: flex !important;
+}

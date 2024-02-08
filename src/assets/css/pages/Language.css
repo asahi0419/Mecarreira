@@ -1,0 +1,37 @@
+.language-container {
+  margin-top: 60px;
+  padding: 16px 24px 0;
+  background-color: #171923;
+  min-height: 90vh;
+}
+
+.language-container > .container {
+  width: 280px;
+  margin: auto;
+}
+.language {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #171923;
+  border-radius: 8px;
+  margin: 8px 0px;
+  padding: 11px 0 11px 16px;
+  min-height: 55px;
+}
+
+.language:hover {
+  cursor: pointer;
+}
+
+.language-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.check-icon {
+  color: var(--primary-foreground-color);
+  padding: 3px 12px 4px;
+}

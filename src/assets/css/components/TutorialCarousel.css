@@ -1,0 +1,40 @@
+.tutorial-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 930px;
+}
+
+.tutorial-carousel .alice-carousel__stage-item {
+  width: 100% !important;
+}
+
+.tutorial-carousel .alice-carousel__dots-item:not(.__custom).__active {
+  background: var(--primary-foreground-color);
+  border-radius: 4px;
+  width: 30px;
+}
+
+.tutorial-carousel .alice-carousel__dots-item:not(.__custom):hover {
+  background: var(--primary-foreground-color);
+}
+
+.tutorial-carousel .alice-carousel__next-btn {
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .tutorial-carousel {
+    width: 560px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .tutorial-carousel {
+    width: 295px !important;
+  }
+
+  .tutorial-carousel .alice-carousel {
+    width: 100%;
+  }
+}

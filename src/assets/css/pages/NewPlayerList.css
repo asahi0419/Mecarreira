@@ -1,0 +1,273 @@
+.players-container {
+  max-width: 1620px;
+  margin: 50px auto 0px;
+  width: 100%;
+  padding: 0px 10px;
+}
+
+.players-section-wrapper {
+  margin: 50px 0px 0px;
+}
+
+.players-section-wrapper .section-wrapper {
+  padding: 0px;
+}
+
+.players-section-title {
+  text-transform: uppercase;
+  font-family: 'Rajdhani-bold';
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.players-count-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.players-count-item {
+  width: 30%;
+  min-width: fit-content;
+  background: var(--third-background-color);
+  border-radius: 20px;
+  padding: 35px 45px;
+  text-align: left;
+}
+
+.players-count-title {
+  text-transform: uppercase;
+  font-family: 'Rajdhani-bold';
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.players-count-number {
+  font-family: 'Rajdhani-bold';
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.players-coming-soon-wrapper {
+  margin: 50px 0px 0px;
+  background-color: var(--secondary-background-color);
+  border-radius: 20px;
+}
+
+.players-coming-soon-wrapper .players-section-title {
+  padding: 20px 30px;
+  background-color: var(--third-background-color);
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: 'Rajdhani-bold';
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  line-height: 1.25;
+}
+
+.players-coming-soon-icon {
+  color: #f3b127;
+  font-size: 40px !important;
+  margin-left: 20px;
+}
+
+.players-coming-soon-content {
+  padding: 20px 0px;
+}
+
+.players-coming-soon-content .alice-carousel__stage {
+  text-align: left;
+}
+
+.players-coming-soon-content .alice-carousel__stage-item {
+  padding-left: 20px;
+}
+
+.players-section-wrapper .alice-carousel__stage-item {
+  padding-left: 10px;
+}
+
+.players-global-icon {
+  color: #f3b127;
+  font-size: 40px !important;
+  margin-left: 20px;
+}
+
+.players-record-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.players-record-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.nft-list-container .players-container .row {
+  background: unset;
+}
+
+.players-container .players-section-title > .fi {
+  border-radius: 0;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.nft-list-container .players-container .player-list-wrapper {
+  margin-top: 0;
+  justify-content: center;
+  gap: 20px;
+}
+
+.players-container .circle-carousel {
+  max-width: 1520px;
+}
+
+.players-live-section {
+  margin-bottom: 50px;
+}
+
+.players-live-section .nft-item .image-border {
+  margin-left: 0px;
+}
+
+.players-live-section .nft-item .nft-image-section .nft-image {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+}
+
+.players-live-section .nft-item .image-border::before {
+  background-color: unset;
+}
+
+.players-container .showmore-btn {
+  margin: auto;
+  max-width: 300px;
+  margin-top: -35px;
+  margin-bottom: 10px;
+  
+  font-size: 22px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: var(--primary-foreground-color);
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 640px) {
+  .players-container {
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+  .players-coming-soon-wrapper {
+    margin-top: 20px;
+  }
+  .players-section-wrapper {
+    margin-top: 20px;
+  }
+  .players-count-wrapper {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .players-count-item:nth-child(1) {
+    width: 48%;
+  }
+  .players-count-item:nth-child(2) {
+    width: 45%;
+  }
+  .players-count-item {
+    width: 100%;
+    padding: 30px;
+  }
+  .players-count-title {
+    font-size: 22px;
+  }
+  .players-count-number {
+    font-size: 36px;
+  }
+  .players-coming-soon-wrapper .players-section-title,
+  .players-section-title {
+    font-size: 32px;
+  }
+
+  .players-coming-soon-content .alice-carousel__stage-item {
+    padding-left: 0px;
+  }
+
+  .bestof-country .players-section-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .players-container .players-section-title > .fi {
+    border-radius: 0;
+    margin-left: 0;
+    font-size: 30px;
+  }
+
+  /* .players-container .circle-carousel {
+    width: 100%;
+  } */
+
+  .players-container .circle-carousel .my-card {
+    margin: auto;
+  }
+
+  .bestof-country .players-section-title span:nth-child(1) {
+    text-align: left;
+    /* width: min-content; */
+  }
+  .players-global-icon {
+    font-size: 24px !important;
+    margin-left: 5px;
+  }
+  .players-coming-soon-icon {
+    font-size: 24px !important;
+    margin-left: 5px;
+  }
+  .players-coming-soon-content .nft-item.no-data {
+    height: 413px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  .players-container .showmore-btn-wrapper {
+    display: flex;
+    height: 80px;
+  }
+  .players-container .showmore-btn {
+    margin: auto;
+  }
+  .players-container .showmore-btn-wrapper .spinner-container {
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .players-live-section .players-coming-soon-content {
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (max-width: 421px) {
+  .players-container .circle-carousel {
+    width: auto;
+  }
+}
+
+.players-live-section .user-list-column::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.players-live-section .user-list-column::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 6px;
+}
+
+.players-live-section .user-list-column:hover::-webkit-scrollbar-thumb {
+  background-color: var(--primary-foreground-color) !important;
+}

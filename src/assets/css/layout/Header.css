@@ -1,0 +1,101 @@
+.header {
+  background-color: var(--third-background-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: 1px solid #56596a;
+  position: fixed;
+  width: 100%;
+  z-index: 500;
+  top: 0;
+}
+
+.header h6 {
+  position: static;
+  /* width: 207px; */
+  left: 84px;
+  top: 12px;
+  bottom: 12px;
+  /* Heading 5 */
+  font-family: 'Rajdhani-bold';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* Neutral/White */
+  color: #ffffff;
+  /* Inside auto layout */
+  flex: none;
+  flex-grow: 0;
+  margin: 0px 56px;
+}
+
+.header > .logo,
+.header > .wallet-address {
+  padding-left: calc(100vw - 100%);
+}
+
+.header > .wallet-address .spinner {
+  /* transform: translate(0%, 0%) scale(0.7); */
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 25%;
+}
+
+.header > .wallet-address .spinner .spinner__circle-inner {
+  background-color: var(--third-background-color);
+}
+
+.user-header h6 {
+  width: unset !important;
+  margin: unset !important;
+}
+
+.header-title {
+  margin: unset !important;
+}
+.header > a {
+  height: 100%;
+}
+.header > a > svg {
+  height: 100%;
+  margin: auto 22px;
+}
+
+.header > .logo > a {
+  display: flex;
+}
+
+.header-user-image {  
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header-user-image .image-border {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.header-user-image .image-border .nft-image {
+  width: 40px;
+  height: 40px;
+  background: contain;
+  margin: 3px;
+  background-size: contain;
+}
+
+.header-user-image .header-title:hover {
+  text-decoration: underline;
+}

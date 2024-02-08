@@ -1,0 +1,238 @@
+.trade-card {
+  display: flex;
+  align-items: center;
+  padding: 25px 30px;
+  gap: 20px;
+}
+
+.trade-card .trade-index {  
+  font-size: 28px;
+  width: 40px;
+}
+
+.trade-card .trade-info-wrapper {  
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.trade-card .trade-info-wrapper .trade-user-name {
+  font-size: 24px;
+}
+
+.trade-card .trade-info-wrapper .trade-user-name b {
+  font-size: 28px;
+  text-decoration: underline;
+  color: #f3b127;
+}
+
+.trade-card .trade-info-wrapper .trade-value-group {  
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.trade-card .trade-info-wrapper .trade-value-box {  
+  min-width: 150px;
+  text-align: right;
+}
+
+.trade-card .trade-info-wrapper .trade-value-box p {  
+  font-size: 20px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.trade-card .trade-info-wrapper .trade-value-box div {  
+  font-size: 36px;
+}
+
+.trade-card .trade-info-wrapper .trade-profit {  
+  font-size: 48px;
+  min-width: 180px;
+  text-align: right;
+}
+
+.trade-card-skeleton {
+  display: flex;
+  align-items: center;
+  padding: 25px 30px;
+  gap: 20px;
+}
+
+.trade-card-skeleton .trade-info-wrapper {  
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.trade-card-skeleton .trade-name-wrapper {
+  width: 30%;
+  height: 60px;
+}
+
+.trade-card-skeleton .trade-value-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 60%;
+}
+
+.trade-card-skeleton .trade-value-box {
+  width: 40%;
+  height: 60px;
+}
+.trade-card-skeleton .trade-profit {
+  width: 40%;
+  height: 60px;
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 900px) {
+  .trade-card .trade-info-wrapper .trade-name-wrapper .trade-player-name {
+    font-size: 22px;
+  }
+  .trade-card .trade-info-wrapper .trade-profit {
+    font-size: 36px;
+  }
+  .trade-card .trade-info-wrapper .trade-user-name {
+    font-size: 22px;
+  }
+  .trade-card .trade-info-wrapper .trade-user-name b {
+    font-size: 22px;
+  }
+  .trade-card-skeleton .trade-name-wrapper {
+    width: 30%;
+  }  
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  .trade-card {    
+    padding: 20px;
+    gap: 10px;
+  }
+  .trade-card .trade-index {    
+    font-size: 22px;
+  }
+  .trade-card .trade-info-wrapper .trade-name-wrapper .trade-player-name {
+    font-size: 22px;
+  }
+  .trade-card .trade-info-wrapper .trade-user-name {
+    font-size: 22px;
+  }
+  .trade-card .trade-info-wrapper .trade-user-name b {
+    font-size: 22px;
+  }
+  .trade-card .trade-info-wrapper .trade-value-box {
+    min-width: 80px;
+  }
+  .trade-card .trade-info-wrapper .trade-value-box div {
+    font-size: 22px;
+  }
+  .trade-card .trade-info-wrapper .trade-profit {
+    font-size: 22px;
+    min-width: 80px;
+  }
+    
+  .trade-card-skeleton .trade-value-group {
+    gap: 10px;
+  }
+  .trade-card-skeleton .trade-value-box {
+    width: 50%;
+  }
+  .trade-card-skeleton .trade-profit {
+    width: 0;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .trade-card {    
+    padding: 20px;
+    gap: 10px;
+  }
+  .trade-card .trade-index {    
+    font-size: 22px;
+    width: unset;
+  }
+  .trade-card .trade-info-wrapper {
+    flex-direction: column;
+  }
+  .trade-card .trade-info-wrapper .trade-name-wrapper {
+    display: flex;
+    gap: 5px;
+    width: 90%;
+  }
+  .trade-card .trade-info-wrapper .trade-name-wrapper .trade-player-name {
+    font-size: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 55%;
+    overflow: hidden;
+  }
+  .trade-card .trade-info-wrapper .trade-user-name {
+    font-size: 22px;
+  }
+  .trade-card .trade-info-wrapper .trade-user-name b {
+    font-size: 22px;
+  }
+  .trade-card .trade-info-wrapper .trade-value-group {    
+    gap: 10px;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .trade-card .trade-info-wrapper .trade-value-box {
+    min-width: unset;
+    text-align: left;
+  }
+  .trade-card .trade-info-wrapper .trade-value-box p {
+    font-size: 16px;
+    line-height: 6px;
+    margin-top: 5px;
+  }
+  .trade-card .trade-info-wrapper .trade-value-box div {
+    font-size: 22px;
+  }
+  .trade-card .trade-info-wrapper .trade-profit {
+    font-size: 22px;
+    min-width: unset;
+  }
+    
+  .trade-card-skeleton .trade-name-wrapper {
+    height: 40px;
+  }
+  .trade-card-skeleton .trade-value-group {
+    gap: 10px;
+  }
+  .trade-card-skeleton .trade-value-box {
+    width: 50%;
+    height: 40px;
+  }
+  .trade-card-skeleton .trade-profit {
+    width: 0;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .trade-card {    
+    padding: 10px;
+    gap: 10px;
+  }
+  .trade-card .trade-info-wrapper .trade-name-wrapper .trade-player-name {
+    font-size: 16px;
+  }
+  .trade-card .trade-info-wrapper .trade-user-name {
+    font-size: 16px;
+  }
+  .trade-card .trade-info-wrapper .trade-user-name b {
+    font-size: 16px;
+  }
+  .trade-card .trade-info-wrapper .trade-value-box div {
+    font-size: 18px;
+  }
+  .trade-card .trade-info-wrapper .trade-profit {
+    font-size: 18px;
+  }
+}
